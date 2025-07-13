@@ -1,1 +1,118 @@
-AWSTemplateFormatVersion:
+Parameters:
+  KeyName:
+    Type: AWS::EC2::KeyPair::KeyName
+    Description: Name of an existing EC2 Keypair for SSH access
+  InstanceType:
+    Type: String
+    Default: t2.micro
+    AllowedValues:
+      - t2.micro
+      - t2.small
+      - t2.medium
+    Description: EC2 instance type
+  UserData:
+    Type: String
+    Default: |
+      #!/bin/bash
+      yum update -y
+      yum install -y nginx
+      systemctl start nginx
+Resources:
+  MyVPC:
+    Type: AWS::EC2::VPC
+    Properties:
+      CidrBlock: 10.0.0.0/16
+      EnableDnsSupport: true
+      EnableDnsHostnames: true
+      Tags:
+        - Key: Name
+          Value: MyVPC
+  MySubnet:
+    Type: AWS::EC2::Subnet
+    Properties:
+      VpcId: !Ref MyVPC
+      CidrBlock: 10.0.1.0/24
+      MapPublicIpOnLaunch: true
+      Tags:
+        - Key: Name
+          Value: MySubnet
+  MySecurityGroup:
+    Type: AWS::EC2::SecurityGroup
+    Properties:
+      GroupDescription: Allow SSH and HTTP access
+      VpcId: !Ref MyVPC
+      SecurityGroupIngress:
+        - IpProtocol: tcp
+          FromPort: 22
+          ToPort: 22
+          CidrIp: 0.0.0.0/0
+        - IpProtocol: tcp
+          FromPort: 80
+          ToPort: 80
+          CidrIp: 0.0.0.0/0
+      Tags:
+        - Key: Name
+          Value: MySecurityGroup
+  MyEC2Instance1:
+    Type: AWS::EC2::Instance
+    Properties:
+      InstanceType: !Ref InstanceType
+      KeyName: !Ref KeyName
+      ImageId: ami-0c55b159cbfafe1f0
+      SubnetId: !Ref MySubnet
+      UserData:
+        Fn::Base64: !Ref UserData
+      SecurityGroupIds:
+        - !Ref MySecurityGroup
+      Tags:
+        - Key: Name
+          Value: MyEC2Instance1
+  MyEC2Instance2:
+    Type: AWS::EC2::Instance
+    Properties:
+      InstanceType: !Ref InstanceType
+      KeyName: !Ref KeyName
+      ImageId: ami-0c55b159cbfafe1f0
+      SubnetId: !Ref MySubnet
+      UserData: 
+        Fn::Base64: !Ref UserData
+      SecurityGroupIds:
+        - !Ref MySecurityGroup
+      Tags:
+        - Key: Name
+          Value: MyEC2Instance2
+    DependsOn: MyEC2Instance1
+Outputs:
+  Instance1Id:
+    Description: Instance ID of the first EC2 instance
+    Value: !Ref MyEC2Instance1
+  Instance2Id:
+    Description: Instance ID of the second EC2 instance
+    Value: !Ref MyEC2Instance2
+  VPCId:
+    Description: VPC ID
+    Value: !Ref MyVPC
+  SubnetId:
+    Description: Subnet ID
+    Value: !Ref MySubnet
+  SecurityGroupId:
+    Description: Security Group ID
+    Value: !Ref MySecurityGroup
+  Instance1PublicIP:
+    Description: Public IP of the first EC2 instance
+    Value: !GetAtt MyEC2Instance1.PublicIp
+  Instance2PublicIP:
+    Description: Public IP of the second EC2 instance
+    Value: !GetAtt MyEC2Instance2.PublicIp
+  Instance1PrivateIP:
+    Description: Private IP of the first EC2 instance
+    Value: !GetAtt MyEC2Instance1.PrivateIp
+  Instance2PrivateIP:
+    Description: Private IP of the second EC2 instance
+    Value: !GetAtt MyEC2Instance2.PrivateIp
+  KeyNameOutput:
+    Description: Name of the EC2 KeyPair used for SSH access
+    Value: !Ref KeyName
+  InstanceTypeOutput:
+    Description: EC2 instance type used for the first instance
+    Value: !Ref InstanceType
