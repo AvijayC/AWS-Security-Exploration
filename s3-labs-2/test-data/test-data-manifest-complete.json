@@ -1,0 +1,2884 @@
+{
+    "data": [
+        {
+            "path": "./test-objects/perm01_vpceA-vpceB-noVpce-bucket_gen_user_1_1.txt",
+            "object_key": "test-objects/perm01_vpceA-vpceB-noVpce-bucket_gen_user_1_1.txt",
+            "tags": {
+                "env": "lab",
+                "lab_name": "s3-labs-2",
+                "access_flag_vpce_a": "true",
+                "access_flag_vpce_b": "true",
+                "access_flag_no_vpce": "true",
+                "access_flag_bucket": "true",
+                "object_user_primary": "awssec-gen-user-1",
+                "permutation_id": "perm01",
+                "object_number": "1"
+            }
+        },
+        {
+            "path": "./test-objects/perm01_vpceA-vpceB-noVpce-bucket_gen_user_1_2.txt",
+            "object_key": "test-objects/perm01_vpceA-vpceB-noVpce-bucket_gen_user_1_2.txt",
+            "tags": {
+                "env": "lab",
+                "lab_name": "s3-labs-2",
+                "access_flag_vpce_a": "true",
+                "access_flag_vpce_b": "true",
+                "access_flag_no_vpce": "true",
+                "access_flag_bucket": "true",
+                "object_user_primary": "awssec-gen-user-1",
+                "permutation_id": "perm01",
+                "object_number": "2"
+            }
+        },
+        {
+            "path": "./test-objects/perm01_vpceA-vpceB-noVpce-bucket_gen_user_1_3.txt",
+            "object_key": "test-objects/perm01_vpceA-vpceB-noVpce-bucket_gen_user_1_3.txt",
+            "tags": {
+                "env": "lab",
+                "lab_name": "s3-labs-2",
+                "access_flag_vpce_a": "true",
+                "access_flag_vpce_b": "true",
+                "access_flag_no_vpce": "true",
+                "access_flag_bucket": "true",
+                "object_user_primary": "awssec-gen-user-1",
+                "permutation_id": "perm01",
+                "object_number": "3"
+            }
+        },
+        {
+            "path": "./test-objects/perm01_vpceA-vpceB-noVpce-bucket_gen_lambda_1.txt",
+            "object_key": "test-objects/perm01_vpceA-vpceB-noVpce-bucket_gen_lambda_1.txt",
+            "tags": {
+                "env": "lab",
+                "lab_name": "s3-labs-2",
+                "access_flag_vpce_a": "true",
+                "access_flag_vpce_b": "true",
+                "access_flag_no_vpce": "true",
+                "access_flag_bucket": "true",
+                "object_user_primary": "awssec-gen-lambda",
+                "permutation_id": "perm01",
+                "object_number": "1"
+            }
+        },
+        {
+            "path": "./test-objects/perm01_vpceA-vpceB-noVpce-bucket_gen_lambda_2.txt",
+            "object_key": "test-objects/perm01_vpceA-vpceB-noVpce-bucket_gen_lambda_2.txt",
+            "tags": {
+                "env": "lab",
+                "lab_name": "s3-labs-2",
+                "access_flag_vpce_a": "true",
+                "access_flag_vpce_b": "true",
+                "access_flag_no_vpce": "true",
+                "access_flag_bucket": "true",
+                "object_user_primary": "awssec-gen-lambda",
+                "permutation_id": "perm01",
+                "object_number": "2"
+            }
+        },
+        {
+            "path": "./test-objects/perm01_vpceA-vpceB-noVpce-bucket_gen_lambda_3.txt",
+            "object_key": "test-objects/perm01_vpceA-vpceB-noVpce-bucket_gen_lambda_3.txt",
+            "tags": {
+                "env": "lab",
+                "lab_name": "s3-labs-2",
+                "access_flag_vpce_a": "true",
+                "access_flag_vpce_b": "true",
+                "access_flag_no_vpce": "true",
+                "access_flag_bucket": "true",
+                "object_user_primary": "awssec-gen-lambda",
+                "permutation_id": "perm01",
+                "object_number": "3"
+            }
+        },
+        {
+            "path": "./test-objects/perm01_vpceA-vpceB-noVpce-bucket_b_user_1_1.txt",
+            "object_key": "test-objects/perm01_vpceA-vpceB-noVpce-bucket_b_user_1_1.txt",
+            "tags": {
+                "env": "lab",
+                "lab_name": "s3-labs-2",
+                "access_flag_vpce_a": "true",
+                "access_flag_vpce_b": "true",
+                "access_flag_no_vpce": "true",
+                "access_flag_bucket": "true",
+                "object_user_primary": "awssec-b-user-1",
+                "permutation_id": "perm01",
+                "object_number": "1"
+            }
+        },
+        {
+            "path": "./test-objects/perm01_vpceA-vpceB-noVpce-bucket_b_user_1_2.txt",
+            "object_key": "test-objects/perm01_vpceA-vpceB-noVpce-bucket_b_user_1_2.txt",
+            "tags": {
+                "env": "lab",
+                "lab_name": "s3-labs-2",
+                "access_flag_vpce_a": "true",
+                "access_flag_vpce_b": "true",
+                "access_flag_no_vpce": "true",
+                "access_flag_bucket": "true",
+                "object_user_primary": "awssec-b-user-1",
+                "permutation_id": "perm01",
+                "object_number": "2"
+            }
+        },
+        {
+            "path": "./test-objects/perm01_vpceA-vpceB-noVpce-bucket_b_user_1_3.txt",
+            "object_key": "test-objects/perm01_vpceA-vpceB-noVpce-bucket_b_user_1_3.txt",
+            "tags": {
+                "env": "lab",
+                "lab_name": "s3-labs-2",
+                "access_flag_vpce_a": "true",
+                "access_flag_vpce_b": "true",
+                "access_flag_no_vpce": "true",
+                "access_flag_bucket": "true",
+                "object_user_primary": "awssec-b-user-1",
+                "permutation_id": "perm01",
+                "object_number": "3"
+            }
+        },
+        {
+            "path": "./test-objects/perm01_vpceA-vpceB-noVpce-bucket_b_lambda_1.txt",
+            "object_key": "test-objects/perm01_vpceA-vpceB-noVpce-bucket_b_lambda_1.txt",
+            "tags": {
+                "env": "lab",
+                "lab_name": "s3-labs-2",
+                "access_flag_vpce_a": "true",
+                "access_flag_vpce_b": "true",
+                "access_flag_no_vpce": "true",
+                "access_flag_bucket": "true",
+                "object_user_primary": "awssec-b-lambda",
+                "permutation_id": "perm01",
+                "object_number": "1"
+            }
+        },
+        {
+            "path": "./test-objects/perm01_vpceA-vpceB-noVpce-bucket_b_lambda_2.txt",
+            "object_key": "test-objects/perm01_vpceA-vpceB-noVpce-bucket_b_lambda_2.txt",
+            "tags": {
+                "env": "lab",
+                "lab_name": "s3-labs-2",
+                "access_flag_vpce_a": "true",
+                "access_flag_vpce_b": "true",
+                "access_flag_no_vpce": "true",
+                "access_flag_bucket": "true",
+                "object_user_primary": "awssec-b-lambda",
+                "permutation_id": "perm01",
+                "object_number": "2"
+            }
+        },
+        {
+            "path": "./test-objects/perm01_vpceA-vpceB-noVpce-bucket_b_lambda_3.txt",
+            "object_key": "test-objects/perm01_vpceA-vpceB-noVpce-bucket_b_lambda_3.txt",
+            "tags": {
+                "env": "lab",
+                "lab_name": "s3-labs-2",
+                "access_flag_vpce_a": "true",
+                "access_flag_vpce_b": "true",
+                "access_flag_no_vpce": "true",
+                "access_flag_bucket": "true",
+                "object_user_primary": "awssec-b-lambda",
+                "permutation_id": "perm01",
+                "object_number": "3"
+            }
+        },
+        {
+            "path": "./test-objects/perm02_vpceA-vpceB-noVpce_gen_user_1_1.txt",
+            "object_key": "test-objects/perm02_vpceA-vpceB-noVpce_gen_user_1_1.txt",
+            "tags": {
+                "env": "lab",
+                "lab_name": "s3-labs-2",
+                "access_flag_vpce_a": "true",
+                "access_flag_vpce_b": "true",
+                "access_flag_no_vpce": "true",
+                "access_flag_bucket": "false",
+                "object_user_primary": "awssec-gen-user-1",
+                "permutation_id": "perm02",
+                "object_number": "1"
+            }
+        },
+        {
+            "path": "./test-objects/perm02_vpceA-vpceB-noVpce_gen_user_1_2.txt",
+            "object_key": "test-objects/perm02_vpceA-vpceB-noVpce_gen_user_1_2.txt",
+            "tags": {
+                "env": "lab",
+                "lab_name": "s3-labs-2",
+                "access_flag_vpce_a": "true",
+                "access_flag_vpce_b": "true",
+                "access_flag_no_vpce": "true",
+                "access_flag_bucket": "false",
+                "object_user_primary": "awssec-gen-user-1",
+                "permutation_id": "perm02",
+                "object_number": "2"
+            }
+        },
+        {
+            "path": "./test-objects/perm02_vpceA-vpceB-noVpce_gen_user_1_3.txt",
+            "object_key": "test-objects/perm02_vpceA-vpceB-noVpce_gen_user_1_3.txt",
+            "tags": {
+                "env": "lab",
+                "lab_name": "s3-labs-2",
+                "access_flag_vpce_a": "true",
+                "access_flag_vpce_b": "true",
+                "access_flag_no_vpce": "true",
+                "access_flag_bucket": "false",
+                "object_user_primary": "awssec-gen-user-1",
+                "permutation_id": "perm02",
+                "object_number": "3"
+            }
+        },
+        {
+            "path": "./test-objects/perm02_vpceA-vpceB-noVpce_gen_lambda_1.txt",
+            "object_key": "test-objects/perm02_vpceA-vpceB-noVpce_gen_lambda_1.txt",
+            "tags": {
+                "env": "lab",
+                "lab_name": "s3-labs-2",
+                "access_flag_vpce_a": "true",
+                "access_flag_vpce_b": "true",
+                "access_flag_no_vpce": "true",
+                "access_flag_bucket": "false",
+                "object_user_primary": "awssec-gen-lambda",
+                "permutation_id": "perm02",
+                "object_number": "1"
+            }
+        },
+        {
+            "path": "./test-objects/perm02_vpceA-vpceB-noVpce_gen_lambda_2.txt",
+            "object_key": "test-objects/perm02_vpceA-vpceB-noVpce_gen_lambda_2.txt",
+            "tags": {
+                "env": "lab",
+                "lab_name": "s3-labs-2",
+                "access_flag_vpce_a": "true",
+                "access_flag_vpce_b": "true",
+                "access_flag_no_vpce": "true",
+                "access_flag_bucket": "false",
+                "object_user_primary": "awssec-gen-lambda",
+                "permutation_id": "perm02",
+                "object_number": "2"
+            }
+        },
+        {
+            "path": "./test-objects/perm02_vpceA-vpceB-noVpce_gen_lambda_3.txt",
+            "object_key": "test-objects/perm02_vpceA-vpceB-noVpce_gen_lambda_3.txt",
+            "tags": {
+                "env": "lab",
+                "lab_name": "s3-labs-2",
+                "access_flag_vpce_a": "true",
+                "access_flag_vpce_b": "true",
+                "access_flag_no_vpce": "true",
+                "access_flag_bucket": "false",
+                "object_user_primary": "awssec-gen-lambda",
+                "permutation_id": "perm02",
+                "object_number": "3"
+            }
+        },
+        {
+            "path": "./test-objects/perm02_vpceA-vpceB-noVpce_b_user_1_1.txt",
+            "object_key": "test-objects/perm02_vpceA-vpceB-noVpce_b_user_1_1.txt",
+            "tags": {
+                "env": "lab",
+                "lab_name": "s3-labs-2",
+                "access_flag_vpce_a": "true",
+                "access_flag_vpce_b": "true",
+                "access_flag_no_vpce": "true",
+                "access_flag_bucket": "false",
+                "object_user_primary": "awssec-b-user-1",
+                "permutation_id": "perm02",
+                "object_number": "1"
+            }
+        },
+        {
+            "path": "./test-objects/perm02_vpceA-vpceB-noVpce_b_user_1_2.txt",
+            "object_key": "test-objects/perm02_vpceA-vpceB-noVpce_b_user_1_2.txt",
+            "tags": {
+                "env": "lab",
+                "lab_name": "s3-labs-2",
+                "access_flag_vpce_a": "true",
+                "access_flag_vpce_b": "true",
+                "access_flag_no_vpce": "true",
+                "access_flag_bucket": "false",
+                "object_user_primary": "awssec-b-user-1",
+                "permutation_id": "perm02",
+                "object_number": "2"
+            }
+        },
+        {
+            "path": "./test-objects/perm02_vpceA-vpceB-noVpce_b_user_1_3.txt",
+            "object_key": "test-objects/perm02_vpceA-vpceB-noVpce_b_user_1_3.txt",
+            "tags": {
+                "env": "lab",
+                "lab_name": "s3-labs-2",
+                "access_flag_vpce_a": "true",
+                "access_flag_vpce_b": "true",
+                "access_flag_no_vpce": "true",
+                "access_flag_bucket": "false",
+                "object_user_primary": "awssec-b-user-1",
+                "permutation_id": "perm02",
+                "object_number": "3"
+            }
+        },
+        {
+            "path": "./test-objects/perm02_vpceA-vpceB-noVpce_b_lambda_1.txt",
+            "object_key": "test-objects/perm02_vpceA-vpceB-noVpce_b_lambda_1.txt",
+            "tags": {
+                "env": "lab",
+                "lab_name": "s3-labs-2",
+                "access_flag_vpce_a": "true",
+                "access_flag_vpce_b": "true",
+                "access_flag_no_vpce": "true",
+                "access_flag_bucket": "false",
+                "object_user_primary": "awssec-b-lambda",
+                "permutation_id": "perm02",
+                "object_number": "1"
+            }
+        },
+        {
+            "path": "./test-objects/perm02_vpceA-vpceB-noVpce_b_lambda_2.txt",
+            "object_key": "test-objects/perm02_vpceA-vpceB-noVpce_b_lambda_2.txt",
+            "tags": {
+                "env": "lab",
+                "lab_name": "s3-labs-2",
+                "access_flag_vpce_a": "true",
+                "access_flag_vpce_b": "true",
+                "access_flag_no_vpce": "true",
+                "access_flag_bucket": "false",
+                "object_user_primary": "awssec-b-lambda",
+                "permutation_id": "perm02",
+                "object_number": "2"
+            }
+        },
+        {
+            "path": "./test-objects/perm02_vpceA-vpceB-noVpce_b_lambda_3.txt",
+            "object_key": "test-objects/perm02_vpceA-vpceB-noVpce_b_lambda_3.txt",
+            "tags": {
+                "env": "lab",
+                "lab_name": "s3-labs-2",
+                "access_flag_vpce_a": "true",
+                "access_flag_vpce_b": "true",
+                "access_flag_no_vpce": "true",
+                "access_flag_bucket": "false",
+                "object_user_primary": "awssec-b-lambda",
+                "permutation_id": "perm02",
+                "object_number": "3"
+            }
+        },
+        {
+            "path": "./test-objects/perm03_vpceA-vpceB-bucket_gen_user_1_1.txt",
+            "object_key": "test-objects/perm03_vpceA-vpceB-bucket_gen_user_1_1.txt",
+            "tags": {
+                "env": "lab",
+                "lab_name": "s3-labs-2",
+                "access_flag_vpce_a": "true",
+                "access_flag_vpce_b": "true",
+                "access_flag_no_vpce": "false",
+                "access_flag_bucket": "true",
+                "object_user_primary": "awssec-gen-user-1",
+                "permutation_id": "perm03",
+                "object_number": "1"
+            }
+        },
+        {
+            "path": "./test-objects/perm03_vpceA-vpceB-bucket_gen_user_1_2.txt",
+            "object_key": "test-objects/perm03_vpceA-vpceB-bucket_gen_user_1_2.txt",
+            "tags": {
+                "env": "lab",
+                "lab_name": "s3-labs-2",
+                "access_flag_vpce_a": "true",
+                "access_flag_vpce_b": "true",
+                "access_flag_no_vpce": "false",
+                "access_flag_bucket": "true",
+                "object_user_primary": "awssec-gen-user-1",
+                "permutation_id": "perm03",
+                "object_number": "2"
+            }
+        },
+        {
+            "path": "./test-objects/perm03_vpceA-vpceB-bucket_gen_user_1_3.txt",
+            "object_key": "test-objects/perm03_vpceA-vpceB-bucket_gen_user_1_3.txt",
+            "tags": {
+                "env": "lab",
+                "lab_name": "s3-labs-2",
+                "access_flag_vpce_a": "true",
+                "access_flag_vpce_b": "true",
+                "access_flag_no_vpce": "false",
+                "access_flag_bucket": "true",
+                "object_user_primary": "awssec-gen-user-1",
+                "permutation_id": "perm03",
+                "object_number": "3"
+            }
+        },
+        {
+            "path": "./test-objects/perm03_vpceA-vpceB-bucket_gen_lambda_1.txt",
+            "object_key": "test-objects/perm03_vpceA-vpceB-bucket_gen_lambda_1.txt",
+            "tags": {
+                "env": "lab",
+                "lab_name": "s3-labs-2",
+                "access_flag_vpce_a": "true",
+                "access_flag_vpce_b": "true",
+                "access_flag_no_vpce": "false",
+                "access_flag_bucket": "true",
+                "object_user_primary": "awssec-gen-lambda",
+                "permutation_id": "perm03",
+                "object_number": "1"
+            }
+        },
+        {
+            "path": "./test-objects/perm03_vpceA-vpceB-bucket_gen_lambda_2.txt",
+            "object_key": "test-objects/perm03_vpceA-vpceB-bucket_gen_lambda_2.txt",
+            "tags": {
+                "env": "lab",
+                "lab_name": "s3-labs-2",
+                "access_flag_vpce_a": "true",
+                "access_flag_vpce_b": "true",
+                "access_flag_no_vpce": "false",
+                "access_flag_bucket": "true",
+                "object_user_primary": "awssec-gen-lambda",
+                "permutation_id": "perm03",
+                "object_number": "2"
+            }
+        },
+        {
+            "path": "./test-objects/perm03_vpceA-vpceB-bucket_gen_lambda_3.txt",
+            "object_key": "test-objects/perm03_vpceA-vpceB-bucket_gen_lambda_3.txt",
+            "tags": {
+                "env": "lab",
+                "lab_name": "s3-labs-2",
+                "access_flag_vpce_a": "true",
+                "access_flag_vpce_b": "true",
+                "access_flag_no_vpce": "false",
+                "access_flag_bucket": "true",
+                "object_user_primary": "awssec-gen-lambda",
+                "permutation_id": "perm03",
+                "object_number": "3"
+            }
+        },
+        {
+            "path": "./test-objects/perm03_vpceA-vpceB-bucket_b_user_1_1.txt",
+            "object_key": "test-objects/perm03_vpceA-vpceB-bucket_b_user_1_1.txt",
+            "tags": {
+                "env": "lab",
+                "lab_name": "s3-labs-2",
+                "access_flag_vpce_a": "true",
+                "access_flag_vpce_b": "true",
+                "access_flag_no_vpce": "false",
+                "access_flag_bucket": "true",
+                "object_user_primary": "awssec-b-user-1",
+                "permutation_id": "perm03",
+                "object_number": "1"
+            }
+        },
+        {
+            "path": "./test-objects/perm03_vpceA-vpceB-bucket_b_user_1_2.txt",
+            "object_key": "test-objects/perm03_vpceA-vpceB-bucket_b_user_1_2.txt",
+            "tags": {
+                "env": "lab",
+                "lab_name": "s3-labs-2",
+                "access_flag_vpce_a": "true",
+                "access_flag_vpce_b": "true",
+                "access_flag_no_vpce": "false",
+                "access_flag_bucket": "true",
+                "object_user_primary": "awssec-b-user-1",
+                "permutation_id": "perm03",
+                "object_number": "2"
+            }
+        },
+        {
+            "path": "./test-objects/perm03_vpceA-vpceB-bucket_b_user_1_3.txt",
+            "object_key": "test-objects/perm03_vpceA-vpceB-bucket_b_user_1_3.txt",
+            "tags": {
+                "env": "lab",
+                "lab_name": "s3-labs-2",
+                "access_flag_vpce_a": "true",
+                "access_flag_vpce_b": "true",
+                "access_flag_no_vpce": "false",
+                "access_flag_bucket": "true",
+                "object_user_primary": "awssec-b-user-1",
+                "permutation_id": "perm03",
+                "object_number": "3"
+            }
+        },
+        {
+            "path": "./test-objects/perm03_vpceA-vpceB-bucket_b_lambda_1.txt",
+            "object_key": "test-objects/perm03_vpceA-vpceB-bucket_b_lambda_1.txt",
+            "tags": {
+                "env": "lab",
+                "lab_name": "s3-labs-2",
+                "access_flag_vpce_a": "true",
+                "access_flag_vpce_b": "true",
+                "access_flag_no_vpce": "false",
+                "access_flag_bucket": "true",
+                "object_user_primary": "awssec-b-lambda",
+                "permutation_id": "perm03",
+                "object_number": "1"
+            }
+        },
+        {
+            "path": "./test-objects/perm03_vpceA-vpceB-bucket_b_lambda_2.txt",
+            "object_key": "test-objects/perm03_vpceA-vpceB-bucket_b_lambda_2.txt",
+            "tags": {
+                "env": "lab",
+                "lab_name": "s3-labs-2",
+                "access_flag_vpce_a": "true",
+                "access_flag_vpce_b": "true",
+                "access_flag_no_vpce": "false",
+                "access_flag_bucket": "true",
+                "object_user_primary": "awssec-b-lambda",
+                "permutation_id": "perm03",
+                "object_number": "2"
+            }
+        },
+        {
+            "path": "./test-objects/perm03_vpceA-vpceB-bucket_b_lambda_3.txt",
+            "object_key": "test-objects/perm03_vpceA-vpceB-bucket_b_lambda_3.txt",
+            "tags": {
+                "env": "lab",
+                "lab_name": "s3-labs-2",
+                "access_flag_vpce_a": "true",
+                "access_flag_vpce_b": "true",
+                "access_flag_no_vpce": "false",
+                "access_flag_bucket": "true",
+                "object_user_primary": "awssec-b-lambda",
+                "permutation_id": "perm03",
+                "object_number": "3"
+            }
+        },
+        {
+            "path": "./test-objects/perm04_vpceA-vpceB_gen_user_1_1.txt",
+            "object_key": "test-objects/perm04_vpceA-vpceB_gen_user_1_1.txt",
+            "tags": {
+                "env": "lab",
+                "lab_name": "s3-labs-2",
+                "access_flag_vpce_a": "true",
+                "access_flag_vpce_b": "true",
+                "access_flag_no_vpce": "false",
+                "access_flag_bucket": "false",
+                "object_user_primary": "awssec-gen-user-1",
+                "permutation_id": "perm04",
+                "object_number": "1"
+            }
+        },
+        {
+            "path": "./test-objects/perm04_vpceA-vpceB_gen_user_1_2.txt",
+            "object_key": "test-objects/perm04_vpceA-vpceB_gen_user_1_2.txt",
+            "tags": {
+                "env": "lab",
+                "lab_name": "s3-labs-2",
+                "access_flag_vpce_a": "true",
+                "access_flag_vpce_b": "true",
+                "access_flag_no_vpce": "false",
+                "access_flag_bucket": "false",
+                "object_user_primary": "awssec-gen-user-1",
+                "permutation_id": "perm04",
+                "object_number": "2"
+            }
+        },
+        {
+            "path": "./test-objects/perm04_vpceA-vpceB_gen_user_1_3.txt",
+            "object_key": "test-objects/perm04_vpceA-vpceB_gen_user_1_3.txt",
+            "tags": {
+                "env": "lab",
+                "lab_name": "s3-labs-2",
+                "access_flag_vpce_a": "true",
+                "access_flag_vpce_b": "true",
+                "access_flag_no_vpce": "false",
+                "access_flag_bucket": "false",
+                "object_user_primary": "awssec-gen-user-1",
+                "permutation_id": "perm04",
+                "object_number": "3"
+            }
+        },
+        {
+            "path": "./test-objects/perm04_vpceA-vpceB_gen_lambda_1.txt",
+            "object_key": "test-objects/perm04_vpceA-vpceB_gen_lambda_1.txt",
+            "tags": {
+                "env": "lab",
+                "lab_name": "s3-labs-2",
+                "access_flag_vpce_a": "true",
+                "access_flag_vpce_b": "true",
+                "access_flag_no_vpce": "false",
+                "access_flag_bucket": "false",
+                "object_user_primary": "awssec-gen-lambda",
+                "permutation_id": "perm04",
+                "object_number": "1"
+            }
+        },
+        {
+            "path": "./test-objects/perm04_vpceA-vpceB_gen_lambda_2.txt",
+            "object_key": "test-objects/perm04_vpceA-vpceB_gen_lambda_2.txt",
+            "tags": {
+                "env": "lab",
+                "lab_name": "s3-labs-2",
+                "access_flag_vpce_a": "true",
+                "access_flag_vpce_b": "true",
+                "access_flag_no_vpce": "false",
+                "access_flag_bucket": "false",
+                "object_user_primary": "awssec-gen-lambda",
+                "permutation_id": "perm04",
+                "object_number": "2"
+            }
+        },
+        {
+            "path": "./test-objects/perm04_vpceA-vpceB_gen_lambda_3.txt",
+            "object_key": "test-objects/perm04_vpceA-vpceB_gen_lambda_3.txt",
+            "tags": {
+                "env": "lab",
+                "lab_name": "s3-labs-2",
+                "access_flag_vpce_a": "true",
+                "access_flag_vpce_b": "true",
+                "access_flag_no_vpce": "false",
+                "access_flag_bucket": "false",
+                "object_user_primary": "awssec-gen-lambda",
+                "permutation_id": "perm04",
+                "object_number": "3"
+            }
+        },
+        {
+            "path": "./test-objects/perm04_vpceA-vpceB_b_user_1_1.txt",
+            "object_key": "test-objects/perm04_vpceA-vpceB_b_user_1_1.txt",
+            "tags": {
+                "env": "lab",
+                "lab_name": "s3-labs-2",
+                "access_flag_vpce_a": "true",
+                "access_flag_vpce_b": "true",
+                "access_flag_no_vpce": "false",
+                "access_flag_bucket": "false",
+                "object_user_primary": "awssec-b-user-1",
+                "permutation_id": "perm04",
+                "object_number": "1"
+            }
+        },
+        {
+            "path": "./test-objects/perm04_vpceA-vpceB_b_user_1_2.txt",
+            "object_key": "test-objects/perm04_vpceA-vpceB_b_user_1_2.txt",
+            "tags": {
+                "env": "lab",
+                "lab_name": "s3-labs-2",
+                "access_flag_vpce_a": "true",
+                "access_flag_vpce_b": "true",
+                "access_flag_no_vpce": "false",
+                "access_flag_bucket": "false",
+                "object_user_primary": "awssec-b-user-1",
+                "permutation_id": "perm04",
+                "object_number": "2"
+            }
+        },
+        {
+            "path": "./test-objects/perm04_vpceA-vpceB_b_user_1_3.txt",
+            "object_key": "test-objects/perm04_vpceA-vpceB_b_user_1_3.txt",
+            "tags": {
+                "env": "lab",
+                "lab_name": "s3-labs-2",
+                "access_flag_vpce_a": "true",
+                "access_flag_vpce_b": "true",
+                "access_flag_no_vpce": "false",
+                "access_flag_bucket": "false",
+                "object_user_primary": "awssec-b-user-1",
+                "permutation_id": "perm04",
+                "object_number": "3"
+            }
+        },
+        {
+            "path": "./test-objects/perm04_vpceA-vpceB_b_lambda_1.txt",
+            "object_key": "test-objects/perm04_vpceA-vpceB_b_lambda_1.txt",
+            "tags": {
+                "env": "lab",
+                "lab_name": "s3-labs-2",
+                "access_flag_vpce_a": "true",
+                "access_flag_vpce_b": "true",
+                "access_flag_no_vpce": "false",
+                "access_flag_bucket": "false",
+                "object_user_primary": "awssec-b-lambda",
+                "permutation_id": "perm04",
+                "object_number": "1"
+            }
+        },
+        {
+            "path": "./test-objects/perm04_vpceA-vpceB_b_lambda_2.txt",
+            "object_key": "test-objects/perm04_vpceA-vpceB_b_lambda_2.txt",
+            "tags": {
+                "env": "lab",
+                "lab_name": "s3-labs-2",
+                "access_flag_vpce_a": "true",
+                "access_flag_vpce_b": "true",
+                "access_flag_no_vpce": "false",
+                "access_flag_bucket": "false",
+                "object_user_primary": "awssec-b-lambda",
+                "permutation_id": "perm04",
+                "object_number": "2"
+            }
+        },
+        {
+            "path": "./test-objects/perm04_vpceA-vpceB_b_lambda_3.txt",
+            "object_key": "test-objects/perm04_vpceA-vpceB_b_lambda_3.txt",
+            "tags": {
+                "env": "lab",
+                "lab_name": "s3-labs-2",
+                "access_flag_vpce_a": "true",
+                "access_flag_vpce_b": "true",
+                "access_flag_no_vpce": "false",
+                "access_flag_bucket": "false",
+                "object_user_primary": "awssec-b-lambda",
+                "permutation_id": "perm04",
+                "object_number": "3"
+            }
+        },
+        {
+            "path": "./test-objects/perm05_vpceA-noVpce-bucket_gen_user_1_1.txt",
+            "object_key": "test-objects/perm05_vpceA-noVpce-bucket_gen_user_1_1.txt",
+            "tags": {
+                "env": "lab",
+                "lab_name": "s3-labs-2",
+                "access_flag_vpce_a": "true",
+                "access_flag_vpce_b": "false",
+                "access_flag_no_vpce": "true",
+                "access_flag_bucket": "true",
+                "object_user_primary": "awssec-gen-user-1",
+                "permutation_id": "perm05",
+                "object_number": "1"
+            }
+        },
+        {
+            "path": "./test-objects/perm05_vpceA-noVpce-bucket_gen_user_1_2.txt",
+            "object_key": "test-objects/perm05_vpceA-noVpce-bucket_gen_user_1_2.txt",
+            "tags": {
+                "env": "lab",
+                "lab_name": "s3-labs-2",
+                "access_flag_vpce_a": "true",
+                "access_flag_vpce_b": "false",
+                "access_flag_no_vpce": "true",
+                "access_flag_bucket": "true",
+                "object_user_primary": "awssec-gen-user-1",
+                "permutation_id": "perm05",
+                "object_number": "2"
+            }
+        },
+        {
+            "path": "./test-objects/perm05_vpceA-noVpce-bucket_gen_user_1_3.txt",
+            "object_key": "test-objects/perm05_vpceA-noVpce-bucket_gen_user_1_3.txt",
+            "tags": {
+                "env": "lab",
+                "lab_name": "s3-labs-2",
+                "access_flag_vpce_a": "true",
+                "access_flag_vpce_b": "false",
+                "access_flag_no_vpce": "true",
+                "access_flag_bucket": "true",
+                "object_user_primary": "awssec-gen-user-1",
+                "permutation_id": "perm05",
+                "object_number": "3"
+            }
+        },
+        {
+            "path": "./test-objects/perm05_vpceA-noVpce-bucket_gen_lambda_1.txt",
+            "object_key": "test-objects/perm05_vpceA-noVpce-bucket_gen_lambda_1.txt",
+            "tags": {
+                "env": "lab",
+                "lab_name": "s3-labs-2",
+                "access_flag_vpce_a": "true",
+                "access_flag_vpce_b": "false",
+                "access_flag_no_vpce": "true",
+                "access_flag_bucket": "true",
+                "object_user_primary": "awssec-gen-lambda",
+                "permutation_id": "perm05",
+                "object_number": "1"
+            }
+        },
+        {
+            "path": "./test-objects/perm05_vpceA-noVpce-bucket_gen_lambda_2.txt",
+            "object_key": "test-objects/perm05_vpceA-noVpce-bucket_gen_lambda_2.txt",
+            "tags": {
+                "env": "lab",
+                "lab_name": "s3-labs-2",
+                "access_flag_vpce_a": "true",
+                "access_flag_vpce_b": "false",
+                "access_flag_no_vpce": "true",
+                "access_flag_bucket": "true",
+                "object_user_primary": "awssec-gen-lambda",
+                "permutation_id": "perm05",
+                "object_number": "2"
+            }
+        },
+        {
+            "path": "./test-objects/perm05_vpceA-noVpce-bucket_gen_lambda_3.txt",
+            "object_key": "test-objects/perm05_vpceA-noVpce-bucket_gen_lambda_3.txt",
+            "tags": {
+                "env": "lab",
+                "lab_name": "s3-labs-2",
+                "access_flag_vpce_a": "true",
+                "access_flag_vpce_b": "false",
+                "access_flag_no_vpce": "true",
+                "access_flag_bucket": "true",
+                "object_user_primary": "awssec-gen-lambda",
+                "permutation_id": "perm05",
+                "object_number": "3"
+            }
+        },
+        {
+            "path": "./test-objects/perm05_vpceA-noVpce-bucket_b_user_1_1.txt",
+            "object_key": "test-objects/perm05_vpceA-noVpce-bucket_b_user_1_1.txt",
+            "tags": {
+                "env": "lab",
+                "lab_name": "s3-labs-2",
+                "access_flag_vpce_a": "true",
+                "access_flag_vpce_b": "false",
+                "access_flag_no_vpce": "true",
+                "access_flag_bucket": "true",
+                "object_user_primary": "awssec-b-user-1",
+                "permutation_id": "perm05",
+                "object_number": "1"
+            }
+        },
+        {
+            "path": "./test-objects/perm05_vpceA-noVpce-bucket_b_user_1_2.txt",
+            "object_key": "test-objects/perm05_vpceA-noVpce-bucket_b_user_1_2.txt",
+            "tags": {
+                "env": "lab",
+                "lab_name": "s3-labs-2",
+                "access_flag_vpce_a": "true",
+                "access_flag_vpce_b": "false",
+                "access_flag_no_vpce": "true",
+                "access_flag_bucket": "true",
+                "object_user_primary": "awssec-b-user-1",
+                "permutation_id": "perm05",
+                "object_number": "2"
+            }
+        },
+        {
+            "path": "./test-objects/perm05_vpceA-noVpce-bucket_b_user_1_3.txt",
+            "object_key": "test-objects/perm05_vpceA-noVpce-bucket_b_user_1_3.txt",
+            "tags": {
+                "env": "lab",
+                "lab_name": "s3-labs-2",
+                "access_flag_vpce_a": "true",
+                "access_flag_vpce_b": "false",
+                "access_flag_no_vpce": "true",
+                "access_flag_bucket": "true",
+                "object_user_primary": "awssec-b-user-1",
+                "permutation_id": "perm05",
+                "object_number": "3"
+            }
+        },
+        {
+            "path": "./test-objects/perm05_vpceA-noVpce-bucket_b_lambda_1.txt",
+            "object_key": "test-objects/perm05_vpceA-noVpce-bucket_b_lambda_1.txt",
+            "tags": {
+                "env": "lab",
+                "lab_name": "s3-labs-2",
+                "access_flag_vpce_a": "true",
+                "access_flag_vpce_b": "false",
+                "access_flag_no_vpce": "true",
+                "access_flag_bucket": "true",
+                "object_user_primary": "awssec-b-lambda",
+                "permutation_id": "perm05",
+                "object_number": "1"
+            }
+        },
+        {
+            "path": "./test-objects/perm05_vpceA-noVpce-bucket_b_lambda_2.txt",
+            "object_key": "test-objects/perm05_vpceA-noVpce-bucket_b_lambda_2.txt",
+            "tags": {
+                "env": "lab",
+                "lab_name": "s3-labs-2",
+                "access_flag_vpce_a": "true",
+                "access_flag_vpce_b": "false",
+                "access_flag_no_vpce": "true",
+                "access_flag_bucket": "true",
+                "object_user_primary": "awssec-b-lambda",
+                "permutation_id": "perm05",
+                "object_number": "2"
+            }
+        },
+        {
+            "path": "./test-objects/perm05_vpceA-noVpce-bucket_b_lambda_3.txt",
+            "object_key": "test-objects/perm05_vpceA-noVpce-bucket_b_lambda_3.txt",
+            "tags": {
+                "env": "lab",
+                "lab_name": "s3-labs-2",
+                "access_flag_vpce_a": "true",
+                "access_flag_vpce_b": "false",
+                "access_flag_no_vpce": "true",
+                "access_flag_bucket": "true",
+                "object_user_primary": "awssec-b-lambda",
+                "permutation_id": "perm05",
+                "object_number": "3"
+            }
+        },
+        {
+            "path": "./test-objects/perm06_vpceA-noVpce_gen_user_1_1.txt",
+            "object_key": "test-objects/perm06_vpceA-noVpce_gen_user_1_1.txt",
+            "tags": {
+                "env": "lab",
+                "lab_name": "s3-labs-2",
+                "access_flag_vpce_a": "true",
+                "access_flag_vpce_b": "false",
+                "access_flag_no_vpce": "true",
+                "access_flag_bucket": "false",
+                "object_user_primary": "awssec-gen-user-1",
+                "permutation_id": "perm06",
+                "object_number": "1"
+            }
+        },
+        {
+            "path": "./test-objects/perm06_vpceA-noVpce_gen_user_1_2.txt",
+            "object_key": "test-objects/perm06_vpceA-noVpce_gen_user_1_2.txt",
+            "tags": {
+                "env": "lab",
+                "lab_name": "s3-labs-2",
+                "access_flag_vpce_a": "true",
+                "access_flag_vpce_b": "false",
+                "access_flag_no_vpce": "true",
+                "access_flag_bucket": "false",
+                "object_user_primary": "awssec-gen-user-1",
+                "permutation_id": "perm06",
+                "object_number": "2"
+            }
+        },
+        {
+            "path": "./test-objects/perm06_vpceA-noVpce_gen_user_1_3.txt",
+            "object_key": "test-objects/perm06_vpceA-noVpce_gen_user_1_3.txt",
+            "tags": {
+                "env": "lab",
+                "lab_name": "s3-labs-2",
+                "access_flag_vpce_a": "true",
+                "access_flag_vpce_b": "false",
+                "access_flag_no_vpce": "true",
+                "access_flag_bucket": "false",
+                "object_user_primary": "awssec-gen-user-1",
+                "permutation_id": "perm06",
+                "object_number": "3"
+            }
+        },
+        {
+            "path": "./test-objects/perm06_vpceA-noVpce_gen_lambda_1.txt",
+            "object_key": "test-objects/perm06_vpceA-noVpce_gen_lambda_1.txt",
+            "tags": {
+                "env": "lab",
+                "lab_name": "s3-labs-2",
+                "access_flag_vpce_a": "true",
+                "access_flag_vpce_b": "false",
+                "access_flag_no_vpce": "true",
+                "access_flag_bucket": "false",
+                "object_user_primary": "awssec-gen-lambda",
+                "permutation_id": "perm06",
+                "object_number": "1"
+            }
+        },
+        {
+            "path": "./test-objects/perm06_vpceA-noVpce_gen_lambda_2.txt",
+            "object_key": "test-objects/perm06_vpceA-noVpce_gen_lambda_2.txt",
+            "tags": {
+                "env": "lab",
+                "lab_name": "s3-labs-2",
+                "access_flag_vpce_a": "true",
+                "access_flag_vpce_b": "false",
+                "access_flag_no_vpce": "true",
+                "access_flag_bucket": "false",
+                "object_user_primary": "awssec-gen-lambda",
+                "permutation_id": "perm06",
+                "object_number": "2"
+            }
+        },
+        {
+            "path": "./test-objects/perm06_vpceA-noVpce_gen_lambda_3.txt",
+            "object_key": "test-objects/perm06_vpceA-noVpce_gen_lambda_3.txt",
+            "tags": {
+                "env": "lab",
+                "lab_name": "s3-labs-2",
+                "access_flag_vpce_a": "true",
+                "access_flag_vpce_b": "false",
+                "access_flag_no_vpce": "true",
+                "access_flag_bucket": "false",
+                "object_user_primary": "awssec-gen-lambda",
+                "permutation_id": "perm06",
+                "object_number": "3"
+            }
+        },
+        {
+            "path": "./test-objects/perm06_vpceA-noVpce_b_user_1_1.txt",
+            "object_key": "test-objects/perm06_vpceA-noVpce_b_user_1_1.txt",
+            "tags": {
+                "env": "lab",
+                "lab_name": "s3-labs-2",
+                "access_flag_vpce_a": "true",
+                "access_flag_vpce_b": "false",
+                "access_flag_no_vpce": "true",
+                "access_flag_bucket": "false",
+                "object_user_primary": "awssec-b-user-1",
+                "permutation_id": "perm06",
+                "object_number": "1"
+            }
+        },
+        {
+            "path": "./test-objects/perm06_vpceA-noVpce_b_user_1_2.txt",
+            "object_key": "test-objects/perm06_vpceA-noVpce_b_user_1_2.txt",
+            "tags": {
+                "env": "lab",
+                "lab_name": "s3-labs-2",
+                "access_flag_vpce_a": "true",
+                "access_flag_vpce_b": "false",
+                "access_flag_no_vpce": "true",
+                "access_flag_bucket": "false",
+                "object_user_primary": "awssec-b-user-1",
+                "permutation_id": "perm06",
+                "object_number": "2"
+            }
+        },
+        {
+            "path": "./test-objects/perm06_vpceA-noVpce_b_user_1_3.txt",
+            "object_key": "test-objects/perm06_vpceA-noVpce_b_user_1_3.txt",
+            "tags": {
+                "env": "lab",
+                "lab_name": "s3-labs-2",
+                "access_flag_vpce_a": "true",
+                "access_flag_vpce_b": "false",
+                "access_flag_no_vpce": "true",
+                "access_flag_bucket": "false",
+                "object_user_primary": "awssec-b-user-1",
+                "permutation_id": "perm06",
+                "object_number": "3"
+            }
+        },
+        {
+            "path": "./test-objects/perm06_vpceA-noVpce_b_lambda_1.txt",
+            "object_key": "test-objects/perm06_vpceA-noVpce_b_lambda_1.txt",
+            "tags": {
+                "env": "lab",
+                "lab_name": "s3-labs-2",
+                "access_flag_vpce_a": "true",
+                "access_flag_vpce_b": "false",
+                "access_flag_no_vpce": "true",
+                "access_flag_bucket": "false",
+                "object_user_primary": "awssec-b-lambda",
+                "permutation_id": "perm06",
+                "object_number": "1"
+            }
+        },
+        {
+            "path": "./test-objects/perm06_vpceA-noVpce_b_lambda_2.txt",
+            "object_key": "test-objects/perm06_vpceA-noVpce_b_lambda_2.txt",
+            "tags": {
+                "env": "lab",
+                "lab_name": "s3-labs-2",
+                "access_flag_vpce_a": "true",
+                "access_flag_vpce_b": "false",
+                "access_flag_no_vpce": "true",
+                "access_flag_bucket": "false",
+                "object_user_primary": "awssec-b-lambda",
+                "permutation_id": "perm06",
+                "object_number": "2"
+            }
+        },
+        {
+            "path": "./test-objects/perm06_vpceA-noVpce_b_lambda_3.txt",
+            "object_key": "test-objects/perm06_vpceA-noVpce_b_lambda_3.txt",
+            "tags": {
+                "env": "lab",
+                "lab_name": "s3-labs-2",
+                "access_flag_vpce_a": "true",
+                "access_flag_vpce_b": "false",
+                "access_flag_no_vpce": "true",
+                "access_flag_bucket": "false",
+                "object_user_primary": "awssec-b-lambda",
+                "permutation_id": "perm06",
+                "object_number": "3"
+            }
+        },
+        {
+            "path": "./test-objects/perm07_vpceA-bucket_gen_user_1_1.txt",
+            "object_key": "test-objects/perm07_vpceA-bucket_gen_user_1_1.txt",
+            "tags": {
+                "env": "lab",
+                "lab_name": "s3-labs-2",
+                "access_flag_vpce_a": "true",
+                "access_flag_vpce_b": "false",
+                "access_flag_no_vpce": "false",
+                "access_flag_bucket": "true",
+                "object_user_primary": "awssec-gen-user-1",
+                "permutation_id": "perm07",
+                "object_number": "1"
+            }
+        },
+        {
+            "path": "./test-objects/perm07_vpceA-bucket_gen_user_1_2.txt",
+            "object_key": "test-objects/perm07_vpceA-bucket_gen_user_1_2.txt",
+            "tags": {
+                "env": "lab",
+                "lab_name": "s3-labs-2",
+                "access_flag_vpce_a": "true",
+                "access_flag_vpce_b": "false",
+                "access_flag_no_vpce": "false",
+                "access_flag_bucket": "true",
+                "object_user_primary": "awssec-gen-user-1",
+                "permutation_id": "perm07",
+                "object_number": "2"
+            }
+        },
+        {
+            "path": "./test-objects/perm07_vpceA-bucket_gen_user_1_3.txt",
+            "object_key": "test-objects/perm07_vpceA-bucket_gen_user_1_3.txt",
+            "tags": {
+                "env": "lab",
+                "lab_name": "s3-labs-2",
+                "access_flag_vpce_a": "true",
+                "access_flag_vpce_b": "false",
+                "access_flag_no_vpce": "false",
+                "access_flag_bucket": "true",
+                "object_user_primary": "awssec-gen-user-1",
+                "permutation_id": "perm07",
+                "object_number": "3"
+            }
+        },
+        {
+            "path": "./test-objects/perm07_vpceA-bucket_gen_lambda_1.txt",
+            "object_key": "test-objects/perm07_vpceA-bucket_gen_lambda_1.txt",
+            "tags": {
+                "env": "lab",
+                "lab_name": "s3-labs-2",
+                "access_flag_vpce_a": "true",
+                "access_flag_vpce_b": "false",
+                "access_flag_no_vpce": "false",
+                "access_flag_bucket": "true",
+                "object_user_primary": "awssec-gen-lambda",
+                "permutation_id": "perm07",
+                "object_number": "1"
+            }
+        },
+        {
+            "path": "./test-objects/perm07_vpceA-bucket_gen_lambda_2.txt",
+            "object_key": "test-objects/perm07_vpceA-bucket_gen_lambda_2.txt",
+            "tags": {
+                "env": "lab",
+                "lab_name": "s3-labs-2",
+                "access_flag_vpce_a": "true",
+                "access_flag_vpce_b": "false",
+                "access_flag_no_vpce": "false",
+                "access_flag_bucket": "true",
+                "object_user_primary": "awssec-gen-lambda",
+                "permutation_id": "perm07",
+                "object_number": "2"
+            }
+        },
+        {
+            "path": "./test-objects/perm07_vpceA-bucket_gen_lambda_3.txt",
+            "object_key": "test-objects/perm07_vpceA-bucket_gen_lambda_3.txt",
+            "tags": {
+                "env": "lab",
+                "lab_name": "s3-labs-2",
+                "access_flag_vpce_a": "true",
+                "access_flag_vpce_b": "false",
+                "access_flag_no_vpce": "false",
+                "access_flag_bucket": "true",
+                "object_user_primary": "awssec-gen-lambda",
+                "permutation_id": "perm07",
+                "object_number": "3"
+            }
+        },
+        {
+            "path": "./test-objects/perm07_vpceA-bucket_b_user_1_1.txt",
+            "object_key": "test-objects/perm07_vpceA-bucket_b_user_1_1.txt",
+            "tags": {
+                "env": "lab",
+                "lab_name": "s3-labs-2",
+                "access_flag_vpce_a": "true",
+                "access_flag_vpce_b": "false",
+                "access_flag_no_vpce": "false",
+                "access_flag_bucket": "true",
+                "object_user_primary": "awssec-b-user-1",
+                "permutation_id": "perm07",
+                "object_number": "1"
+            }
+        },
+        {
+            "path": "./test-objects/perm07_vpceA-bucket_b_user_1_2.txt",
+            "object_key": "test-objects/perm07_vpceA-bucket_b_user_1_2.txt",
+            "tags": {
+                "env": "lab",
+                "lab_name": "s3-labs-2",
+                "access_flag_vpce_a": "true",
+                "access_flag_vpce_b": "false",
+                "access_flag_no_vpce": "false",
+                "access_flag_bucket": "true",
+                "object_user_primary": "awssec-b-user-1",
+                "permutation_id": "perm07",
+                "object_number": "2"
+            }
+        },
+        {
+            "path": "./test-objects/perm07_vpceA-bucket_b_user_1_3.txt",
+            "object_key": "test-objects/perm07_vpceA-bucket_b_user_1_3.txt",
+            "tags": {
+                "env": "lab",
+                "lab_name": "s3-labs-2",
+                "access_flag_vpce_a": "true",
+                "access_flag_vpce_b": "false",
+                "access_flag_no_vpce": "false",
+                "access_flag_bucket": "true",
+                "object_user_primary": "awssec-b-user-1",
+                "permutation_id": "perm07",
+                "object_number": "3"
+            }
+        },
+        {
+            "path": "./test-objects/perm07_vpceA-bucket_b_lambda_1.txt",
+            "object_key": "test-objects/perm07_vpceA-bucket_b_lambda_1.txt",
+            "tags": {
+                "env": "lab",
+                "lab_name": "s3-labs-2",
+                "access_flag_vpce_a": "true",
+                "access_flag_vpce_b": "false",
+                "access_flag_no_vpce": "false",
+                "access_flag_bucket": "true",
+                "object_user_primary": "awssec-b-lambda",
+                "permutation_id": "perm07",
+                "object_number": "1"
+            }
+        },
+        {
+            "path": "./test-objects/perm07_vpceA-bucket_b_lambda_2.txt",
+            "object_key": "test-objects/perm07_vpceA-bucket_b_lambda_2.txt",
+            "tags": {
+                "env": "lab",
+                "lab_name": "s3-labs-2",
+                "access_flag_vpce_a": "true",
+                "access_flag_vpce_b": "false",
+                "access_flag_no_vpce": "false",
+                "access_flag_bucket": "true",
+                "object_user_primary": "awssec-b-lambda",
+                "permutation_id": "perm07",
+                "object_number": "2"
+            }
+        },
+        {
+            "path": "./test-objects/perm07_vpceA-bucket_b_lambda_3.txt",
+            "object_key": "test-objects/perm07_vpceA-bucket_b_lambda_3.txt",
+            "tags": {
+                "env": "lab",
+                "lab_name": "s3-labs-2",
+                "access_flag_vpce_a": "true",
+                "access_flag_vpce_b": "false",
+                "access_flag_no_vpce": "false",
+                "access_flag_bucket": "true",
+                "object_user_primary": "awssec-b-lambda",
+                "permutation_id": "perm07",
+                "object_number": "3"
+            }
+        },
+        {
+            "path": "./test-objects/perm08_vpceA_gen_user_1_1.txt",
+            "object_key": "test-objects/perm08_vpceA_gen_user_1_1.txt",
+            "tags": {
+                "env": "lab",
+                "lab_name": "s3-labs-2",
+                "access_flag_vpce_a": "true",
+                "access_flag_vpce_b": "false",
+                "access_flag_no_vpce": "false",
+                "access_flag_bucket": "false",
+                "object_user_primary": "awssec-gen-user-1",
+                "permutation_id": "perm08",
+                "object_number": "1"
+            }
+        },
+        {
+            "path": "./test-objects/perm08_vpceA_gen_user_1_2.txt",
+            "object_key": "test-objects/perm08_vpceA_gen_user_1_2.txt",
+            "tags": {
+                "env": "lab",
+                "lab_name": "s3-labs-2",
+                "access_flag_vpce_a": "true",
+                "access_flag_vpce_b": "false",
+                "access_flag_no_vpce": "false",
+                "access_flag_bucket": "false",
+                "object_user_primary": "awssec-gen-user-1",
+                "permutation_id": "perm08",
+                "object_number": "2"
+            }
+        },
+        {
+            "path": "./test-objects/perm08_vpceA_gen_user_1_3.txt",
+            "object_key": "test-objects/perm08_vpceA_gen_user_1_3.txt",
+            "tags": {
+                "env": "lab",
+                "lab_name": "s3-labs-2",
+                "access_flag_vpce_a": "true",
+                "access_flag_vpce_b": "false",
+                "access_flag_no_vpce": "false",
+                "access_flag_bucket": "false",
+                "object_user_primary": "awssec-gen-user-1",
+                "permutation_id": "perm08",
+                "object_number": "3"
+            }
+        },
+        {
+            "path": "./test-objects/perm08_vpceA_gen_lambda_1.txt",
+            "object_key": "test-objects/perm08_vpceA_gen_lambda_1.txt",
+            "tags": {
+                "env": "lab",
+                "lab_name": "s3-labs-2",
+                "access_flag_vpce_a": "true",
+                "access_flag_vpce_b": "false",
+                "access_flag_no_vpce": "false",
+                "access_flag_bucket": "false",
+                "object_user_primary": "awssec-gen-lambda",
+                "permutation_id": "perm08",
+                "object_number": "1"
+            }
+        },
+        {
+            "path": "./test-objects/perm08_vpceA_gen_lambda_2.txt",
+            "object_key": "test-objects/perm08_vpceA_gen_lambda_2.txt",
+            "tags": {
+                "env": "lab",
+                "lab_name": "s3-labs-2",
+                "access_flag_vpce_a": "true",
+                "access_flag_vpce_b": "false",
+                "access_flag_no_vpce": "false",
+                "access_flag_bucket": "false",
+                "object_user_primary": "awssec-gen-lambda",
+                "permutation_id": "perm08",
+                "object_number": "2"
+            }
+        },
+        {
+            "path": "./test-objects/perm08_vpceA_gen_lambda_3.txt",
+            "object_key": "test-objects/perm08_vpceA_gen_lambda_3.txt",
+            "tags": {
+                "env": "lab",
+                "lab_name": "s3-labs-2",
+                "access_flag_vpce_a": "true",
+                "access_flag_vpce_b": "false",
+                "access_flag_no_vpce": "false",
+                "access_flag_bucket": "false",
+                "object_user_primary": "awssec-gen-lambda",
+                "permutation_id": "perm08",
+                "object_number": "3"
+            }
+        },
+        {
+            "path": "./test-objects/perm08_vpceA_b_user_1_1.txt",
+            "object_key": "test-objects/perm08_vpceA_b_user_1_1.txt",
+            "tags": {
+                "env": "lab",
+                "lab_name": "s3-labs-2",
+                "access_flag_vpce_a": "true",
+                "access_flag_vpce_b": "false",
+                "access_flag_no_vpce": "false",
+                "access_flag_bucket": "false",
+                "object_user_primary": "awssec-b-user-1",
+                "permutation_id": "perm08",
+                "object_number": "1"
+            }
+        },
+        {
+            "path": "./test-objects/perm08_vpceA_b_user_1_2.txt",
+            "object_key": "test-objects/perm08_vpceA_b_user_1_2.txt",
+            "tags": {
+                "env": "lab",
+                "lab_name": "s3-labs-2",
+                "access_flag_vpce_a": "true",
+                "access_flag_vpce_b": "false",
+                "access_flag_no_vpce": "false",
+                "access_flag_bucket": "false",
+                "object_user_primary": "awssec-b-user-1",
+                "permutation_id": "perm08",
+                "object_number": "2"
+            }
+        },
+        {
+            "path": "./test-objects/perm08_vpceA_b_user_1_3.txt",
+            "object_key": "test-objects/perm08_vpceA_b_user_1_3.txt",
+            "tags": {
+                "env": "lab",
+                "lab_name": "s3-labs-2",
+                "access_flag_vpce_a": "true",
+                "access_flag_vpce_b": "false",
+                "access_flag_no_vpce": "false",
+                "access_flag_bucket": "false",
+                "object_user_primary": "awssec-b-user-1",
+                "permutation_id": "perm08",
+                "object_number": "3"
+            }
+        },
+        {
+            "path": "./test-objects/perm08_vpceA_b_lambda_1.txt",
+            "object_key": "test-objects/perm08_vpceA_b_lambda_1.txt",
+            "tags": {
+                "env": "lab",
+                "lab_name": "s3-labs-2",
+                "access_flag_vpce_a": "true",
+                "access_flag_vpce_b": "false",
+                "access_flag_no_vpce": "false",
+                "access_flag_bucket": "false",
+                "object_user_primary": "awssec-b-lambda",
+                "permutation_id": "perm08",
+                "object_number": "1"
+            }
+        },
+        {
+            "path": "./test-objects/perm08_vpceA_b_lambda_2.txt",
+            "object_key": "test-objects/perm08_vpceA_b_lambda_2.txt",
+            "tags": {
+                "env": "lab",
+                "lab_name": "s3-labs-2",
+                "access_flag_vpce_a": "true",
+                "access_flag_vpce_b": "false",
+                "access_flag_no_vpce": "false",
+                "access_flag_bucket": "false",
+                "object_user_primary": "awssec-b-lambda",
+                "permutation_id": "perm08",
+                "object_number": "2"
+            }
+        },
+        {
+            "path": "./test-objects/perm08_vpceA_b_lambda_3.txt",
+            "object_key": "test-objects/perm08_vpceA_b_lambda_3.txt",
+            "tags": {
+                "env": "lab",
+                "lab_name": "s3-labs-2",
+                "access_flag_vpce_a": "true",
+                "access_flag_vpce_b": "false",
+                "access_flag_no_vpce": "false",
+                "access_flag_bucket": "false",
+                "object_user_primary": "awssec-b-lambda",
+                "permutation_id": "perm08",
+                "object_number": "3"
+            }
+        },
+        {
+            "path": "./test-objects/perm09_vpceB-noVpce-bucket_gen_user_1_1.txt",
+            "object_key": "test-objects/perm09_vpceB-noVpce-bucket_gen_user_1_1.txt",
+            "tags": {
+                "env": "lab",
+                "lab_name": "s3-labs-2",
+                "access_flag_vpce_a": "false",
+                "access_flag_vpce_b": "true",
+                "access_flag_no_vpce": "true",
+                "access_flag_bucket": "true",
+                "object_user_primary": "awssec-gen-user-1",
+                "permutation_id": "perm09",
+                "object_number": "1"
+            }
+        },
+        {
+            "path": "./test-objects/perm09_vpceB-noVpce-bucket_gen_user_1_2.txt",
+            "object_key": "test-objects/perm09_vpceB-noVpce-bucket_gen_user_1_2.txt",
+            "tags": {
+                "env": "lab",
+                "lab_name": "s3-labs-2",
+                "access_flag_vpce_a": "false",
+                "access_flag_vpce_b": "true",
+                "access_flag_no_vpce": "true",
+                "access_flag_bucket": "true",
+                "object_user_primary": "awssec-gen-user-1",
+                "permutation_id": "perm09",
+                "object_number": "2"
+            }
+        },
+        {
+            "path": "./test-objects/perm09_vpceB-noVpce-bucket_gen_user_1_3.txt",
+            "object_key": "test-objects/perm09_vpceB-noVpce-bucket_gen_user_1_3.txt",
+            "tags": {
+                "env": "lab",
+                "lab_name": "s3-labs-2",
+                "access_flag_vpce_a": "false",
+                "access_flag_vpce_b": "true",
+                "access_flag_no_vpce": "true",
+                "access_flag_bucket": "true",
+                "object_user_primary": "awssec-gen-user-1",
+                "permutation_id": "perm09",
+                "object_number": "3"
+            }
+        },
+        {
+            "path": "./test-objects/perm09_vpceB-noVpce-bucket_gen_lambda_1.txt",
+            "object_key": "test-objects/perm09_vpceB-noVpce-bucket_gen_lambda_1.txt",
+            "tags": {
+                "env": "lab",
+                "lab_name": "s3-labs-2",
+                "access_flag_vpce_a": "false",
+                "access_flag_vpce_b": "true",
+                "access_flag_no_vpce": "true",
+                "access_flag_bucket": "true",
+                "object_user_primary": "awssec-gen-lambda",
+                "permutation_id": "perm09",
+                "object_number": "1"
+            }
+        },
+        {
+            "path": "./test-objects/perm09_vpceB-noVpce-bucket_gen_lambda_2.txt",
+            "object_key": "test-objects/perm09_vpceB-noVpce-bucket_gen_lambda_2.txt",
+            "tags": {
+                "env": "lab",
+                "lab_name": "s3-labs-2",
+                "access_flag_vpce_a": "false",
+                "access_flag_vpce_b": "true",
+                "access_flag_no_vpce": "true",
+                "access_flag_bucket": "true",
+                "object_user_primary": "awssec-gen-lambda",
+                "permutation_id": "perm09",
+                "object_number": "2"
+            }
+        },
+        {
+            "path": "./test-objects/perm09_vpceB-noVpce-bucket_gen_lambda_3.txt",
+            "object_key": "test-objects/perm09_vpceB-noVpce-bucket_gen_lambda_3.txt",
+            "tags": {
+                "env": "lab",
+                "lab_name": "s3-labs-2",
+                "access_flag_vpce_a": "false",
+                "access_flag_vpce_b": "true",
+                "access_flag_no_vpce": "true",
+                "access_flag_bucket": "true",
+                "object_user_primary": "awssec-gen-lambda",
+                "permutation_id": "perm09",
+                "object_number": "3"
+            }
+        },
+        {
+            "path": "./test-objects/perm09_vpceB-noVpce-bucket_b_user_1_1.txt",
+            "object_key": "test-objects/perm09_vpceB-noVpce-bucket_b_user_1_1.txt",
+            "tags": {
+                "env": "lab",
+                "lab_name": "s3-labs-2",
+                "access_flag_vpce_a": "false",
+                "access_flag_vpce_b": "true",
+                "access_flag_no_vpce": "true",
+                "access_flag_bucket": "true",
+                "object_user_primary": "awssec-b-user-1",
+                "permutation_id": "perm09",
+                "object_number": "1"
+            }
+        },
+        {
+            "path": "./test-objects/perm09_vpceB-noVpce-bucket_b_user_1_2.txt",
+            "object_key": "test-objects/perm09_vpceB-noVpce-bucket_b_user_1_2.txt",
+            "tags": {
+                "env": "lab",
+                "lab_name": "s3-labs-2",
+                "access_flag_vpce_a": "false",
+                "access_flag_vpce_b": "true",
+                "access_flag_no_vpce": "true",
+                "access_flag_bucket": "true",
+                "object_user_primary": "awssec-b-user-1",
+                "permutation_id": "perm09",
+                "object_number": "2"
+            }
+        },
+        {
+            "path": "./test-objects/perm09_vpceB-noVpce-bucket_b_user_1_3.txt",
+            "object_key": "test-objects/perm09_vpceB-noVpce-bucket_b_user_1_3.txt",
+            "tags": {
+                "env": "lab",
+                "lab_name": "s3-labs-2",
+                "access_flag_vpce_a": "false",
+                "access_flag_vpce_b": "true",
+                "access_flag_no_vpce": "true",
+                "access_flag_bucket": "true",
+                "object_user_primary": "awssec-b-user-1",
+                "permutation_id": "perm09",
+                "object_number": "3"
+            }
+        },
+        {
+            "path": "./test-objects/perm09_vpceB-noVpce-bucket_b_lambda_1.txt",
+            "object_key": "test-objects/perm09_vpceB-noVpce-bucket_b_lambda_1.txt",
+            "tags": {
+                "env": "lab",
+                "lab_name": "s3-labs-2",
+                "access_flag_vpce_a": "false",
+                "access_flag_vpce_b": "true",
+                "access_flag_no_vpce": "true",
+                "access_flag_bucket": "true",
+                "object_user_primary": "awssec-b-lambda",
+                "permutation_id": "perm09",
+                "object_number": "1"
+            }
+        },
+        {
+            "path": "./test-objects/perm09_vpceB-noVpce-bucket_b_lambda_2.txt",
+            "object_key": "test-objects/perm09_vpceB-noVpce-bucket_b_lambda_2.txt",
+            "tags": {
+                "env": "lab",
+                "lab_name": "s3-labs-2",
+                "access_flag_vpce_a": "false",
+                "access_flag_vpce_b": "true",
+                "access_flag_no_vpce": "true",
+                "access_flag_bucket": "true",
+                "object_user_primary": "awssec-b-lambda",
+                "permutation_id": "perm09",
+                "object_number": "2"
+            }
+        },
+        {
+            "path": "./test-objects/perm09_vpceB-noVpce-bucket_b_lambda_3.txt",
+            "object_key": "test-objects/perm09_vpceB-noVpce-bucket_b_lambda_3.txt",
+            "tags": {
+                "env": "lab",
+                "lab_name": "s3-labs-2",
+                "access_flag_vpce_a": "false",
+                "access_flag_vpce_b": "true",
+                "access_flag_no_vpce": "true",
+                "access_flag_bucket": "true",
+                "object_user_primary": "awssec-b-lambda",
+                "permutation_id": "perm09",
+                "object_number": "3"
+            }
+        },
+        {
+            "path": "./test-objects/perm10_vpceB-noVpce_gen_user_1_1.txt",
+            "object_key": "test-objects/perm10_vpceB-noVpce_gen_user_1_1.txt",
+            "tags": {
+                "env": "lab",
+                "lab_name": "s3-labs-2",
+                "access_flag_vpce_a": "false",
+                "access_flag_vpce_b": "true",
+                "access_flag_no_vpce": "true",
+                "access_flag_bucket": "false",
+                "object_user_primary": "awssec-gen-user-1",
+                "permutation_id": "perm10",
+                "object_number": "1"
+            }
+        },
+        {
+            "path": "./test-objects/perm10_vpceB-noVpce_gen_user_1_2.txt",
+            "object_key": "test-objects/perm10_vpceB-noVpce_gen_user_1_2.txt",
+            "tags": {
+                "env": "lab",
+                "lab_name": "s3-labs-2",
+                "access_flag_vpce_a": "false",
+                "access_flag_vpce_b": "true",
+                "access_flag_no_vpce": "true",
+                "access_flag_bucket": "false",
+                "object_user_primary": "awssec-gen-user-1",
+                "permutation_id": "perm10",
+                "object_number": "2"
+            }
+        },
+        {
+            "path": "./test-objects/perm10_vpceB-noVpce_gen_user_1_3.txt",
+            "object_key": "test-objects/perm10_vpceB-noVpce_gen_user_1_3.txt",
+            "tags": {
+                "env": "lab",
+                "lab_name": "s3-labs-2",
+                "access_flag_vpce_a": "false",
+                "access_flag_vpce_b": "true",
+                "access_flag_no_vpce": "true",
+                "access_flag_bucket": "false",
+                "object_user_primary": "awssec-gen-user-1",
+                "permutation_id": "perm10",
+                "object_number": "3"
+            }
+        },
+        {
+            "path": "./test-objects/perm10_vpceB-noVpce_gen_lambda_1.txt",
+            "object_key": "test-objects/perm10_vpceB-noVpce_gen_lambda_1.txt",
+            "tags": {
+                "env": "lab",
+                "lab_name": "s3-labs-2",
+                "access_flag_vpce_a": "false",
+                "access_flag_vpce_b": "true",
+                "access_flag_no_vpce": "true",
+                "access_flag_bucket": "false",
+                "object_user_primary": "awssec-gen-lambda",
+                "permutation_id": "perm10",
+                "object_number": "1"
+            }
+        },
+        {
+            "path": "./test-objects/perm10_vpceB-noVpce_gen_lambda_2.txt",
+            "object_key": "test-objects/perm10_vpceB-noVpce_gen_lambda_2.txt",
+            "tags": {
+                "env": "lab",
+                "lab_name": "s3-labs-2",
+                "access_flag_vpce_a": "false",
+                "access_flag_vpce_b": "true",
+                "access_flag_no_vpce": "true",
+                "access_flag_bucket": "false",
+                "object_user_primary": "awssec-gen-lambda",
+                "permutation_id": "perm10",
+                "object_number": "2"
+            }
+        },
+        {
+            "path": "./test-objects/perm10_vpceB-noVpce_gen_lambda_3.txt",
+            "object_key": "test-objects/perm10_vpceB-noVpce_gen_lambda_3.txt",
+            "tags": {
+                "env": "lab",
+                "lab_name": "s3-labs-2",
+                "access_flag_vpce_a": "false",
+                "access_flag_vpce_b": "true",
+                "access_flag_no_vpce": "true",
+                "access_flag_bucket": "false",
+                "object_user_primary": "awssec-gen-lambda",
+                "permutation_id": "perm10",
+                "object_number": "3"
+            }
+        },
+        {
+            "path": "./test-objects/perm10_vpceB-noVpce_b_user_1_1.txt",
+            "object_key": "test-objects/perm10_vpceB-noVpce_b_user_1_1.txt",
+            "tags": {
+                "env": "lab",
+                "lab_name": "s3-labs-2",
+                "access_flag_vpce_a": "false",
+                "access_flag_vpce_b": "true",
+                "access_flag_no_vpce": "true",
+                "access_flag_bucket": "false",
+                "object_user_primary": "awssec-b-user-1",
+                "permutation_id": "perm10",
+                "object_number": "1"
+            }
+        },
+        {
+            "path": "./test-objects/perm10_vpceB-noVpce_b_user_1_2.txt",
+            "object_key": "test-objects/perm10_vpceB-noVpce_b_user_1_2.txt",
+            "tags": {
+                "env": "lab",
+                "lab_name": "s3-labs-2",
+                "access_flag_vpce_a": "false",
+                "access_flag_vpce_b": "true",
+                "access_flag_no_vpce": "true",
+                "access_flag_bucket": "false",
+                "object_user_primary": "awssec-b-user-1",
+                "permutation_id": "perm10",
+                "object_number": "2"
+            }
+        },
+        {
+            "path": "./test-objects/perm10_vpceB-noVpce_b_user_1_3.txt",
+            "object_key": "test-objects/perm10_vpceB-noVpce_b_user_1_3.txt",
+            "tags": {
+                "env": "lab",
+                "lab_name": "s3-labs-2",
+                "access_flag_vpce_a": "false",
+                "access_flag_vpce_b": "true",
+                "access_flag_no_vpce": "true",
+                "access_flag_bucket": "false",
+                "object_user_primary": "awssec-b-user-1",
+                "permutation_id": "perm10",
+                "object_number": "3"
+            }
+        },
+        {
+            "path": "./test-objects/perm10_vpceB-noVpce_b_lambda_1.txt",
+            "object_key": "test-objects/perm10_vpceB-noVpce_b_lambda_1.txt",
+            "tags": {
+                "env": "lab",
+                "lab_name": "s3-labs-2",
+                "access_flag_vpce_a": "false",
+                "access_flag_vpce_b": "true",
+                "access_flag_no_vpce": "true",
+                "access_flag_bucket": "false",
+                "object_user_primary": "awssec-b-lambda",
+                "permutation_id": "perm10",
+                "object_number": "1"
+            }
+        },
+        {
+            "path": "./test-objects/perm10_vpceB-noVpce_b_lambda_2.txt",
+            "object_key": "test-objects/perm10_vpceB-noVpce_b_lambda_2.txt",
+            "tags": {
+                "env": "lab",
+                "lab_name": "s3-labs-2",
+                "access_flag_vpce_a": "false",
+                "access_flag_vpce_b": "true",
+                "access_flag_no_vpce": "true",
+                "access_flag_bucket": "false",
+                "object_user_primary": "awssec-b-lambda",
+                "permutation_id": "perm10",
+                "object_number": "2"
+            }
+        },
+        {
+            "path": "./test-objects/perm10_vpceB-noVpce_b_lambda_3.txt",
+            "object_key": "test-objects/perm10_vpceB-noVpce_b_lambda_3.txt",
+            "tags": {
+                "env": "lab",
+                "lab_name": "s3-labs-2",
+                "access_flag_vpce_a": "false",
+                "access_flag_vpce_b": "true",
+                "access_flag_no_vpce": "true",
+                "access_flag_bucket": "false",
+                "object_user_primary": "awssec-b-lambda",
+                "permutation_id": "perm10",
+                "object_number": "3"
+            }
+        },
+        {
+            "path": "./test-objects/perm11_vpceB-bucket_gen_user_1_1.txt",
+            "object_key": "test-objects/perm11_vpceB-bucket_gen_user_1_1.txt",
+            "tags": {
+                "env": "lab",
+                "lab_name": "s3-labs-2",
+                "access_flag_vpce_a": "false",
+                "access_flag_vpce_b": "true",
+                "access_flag_no_vpce": "false",
+                "access_flag_bucket": "true",
+                "object_user_primary": "awssec-gen-user-1",
+                "permutation_id": "perm11",
+                "object_number": "1"
+            }
+        },
+        {
+            "path": "./test-objects/perm11_vpceB-bucket_gen_user_1_2.txt",
+            "object_key": "test-objects/perm11_vpceB-bucket_gen_user_1_2.txt",
+            "tags": {
+                "env": "lab",
+                "lab_name": "s3-labs-2",
+                "access_flag_vpce_a": "false",
+                "access_flag_vpce_b": "true",
+                "access_flag_no_vpce": "false",
+                "access_flag_bucket": "true",
+                "object_user_primary": "awssec-gen-user-1",
+                "permutation_id": "perm11",
+                "object_number": "2"
+            }
+        },
+        {
+            "path": "./test-objects/perm11_vpceB-bucket_gen_user_1_3.txt",
+            "object_key": "test-objects/perm11_vpceB-bucket_gen_user_1_3.txt",
+            "tags": {
+                "env": "lab",
+                "lab_name": "s3-labs-2",
+                "access_flag_vpce_a": "false",
+                "access_flag_vpce_b": "true",
+                "access_flag_no_vpce": "false",
+                "access_flag_bucket": "true",
+                "object_user_primary": "awssec-gen-user-1",
+                "permutation_id": "perm11",
+                "object_number": "3"
+            }
+        },
+        {
+            "path": "./test-objects/perm11_vpceB-bucket_gen_lambda_1.txt",
+            "object_key": "test-objects/perm11_vpceB-bucket_gen_lambda_1.txt",
+            "tags": {
+                "env": "lab",
+                "lab_name": "s3-labs-2",
+                "access_flag_vpce_a": "false",
+                "access_flag_vpce_b": "true",
+                "access_flag_no_vpce": "false",
+                "access_flag_bucket": "true",
+                "object_user_primary": "awssec-gen-lambda",
+                "permutation_id": "perm11",
+                "object_number": "1"
+            }
+        },
+        {
+            "path": "./test-objects/perm11_vpceB-bucket_gen_lambda_2.txt",
+            "object_key": "test-objects/perm11_vpceB-bucket_gen_lambda_2.txt",
+            "tags": {
+                "env": "lab",
+                "lab_name": "s3-labs-2",
+                "access_flag_vpce_a": "false",
+                "access_flag_vpce_b": "true",
+                "access_flag_no_vpce": "false",
+                "access_flag_bucket": "true",
+                "object_user_primary": "awssec-gen-lambda",
+                "permutation_id": "perm11",
+                "object_number": "2"
+            }
+        },
+        {
+            "path": "./test-objects/perm11_vpceB-bucket_gen_lambda_3.txt",
+            "object_key": "test-objects/perm11_vpceB-bucket_gen_lambda_3.txt",
+            "tags": {
+                "env": "lab",
+                "lab_name": "s3-labs-2",
+                "access_flag_vpce_a": "false",
+                "access_flag_vpce_b": "true",
+                "access_flag_no_vpce": "false",
+                "access_flag_bucket": "true",
+                "object_user_primary": "awssec-gen-lambda",
+                "permutation_id": "perm11",
+                "object_number": "3"
+            }
+        },
+        {
+            "path": "./test-objects/perm11_vpceB-bucket_b_user_1_1.txt",
+            "object_key": "test-objects/perm11_vpceB-bucket_b_user_1_1.txt",
+            "tags": {
+                "env": "lab",
+                "lab_name": "s3-labs-2",
+                "access_flag_vpce_a": "false",
+                "access_flag_vpce_b": "true",
+                "access_flag_no_vpce": "false",
+                "access_flag_bucket": "true",
+                "object_user_primary": "awssec-b-user-1",
+                "permutation_id": "perm11",
+                "object_number": "1"
+            }
+        },
+        {
+            "path": "./test-objects/perm11_vpceB-bucket_b_user_1_2.txt",
+            "object_key": "test-objects/perm11_vpceB-bucket_b_user_1_2.txt",
+            "tags": {
+                "env": "lab",
+                "lab_name": "s3-labs-2",
+                "access_flag_vpce_a": "false",
+                "access_flag_vpce_b": "true",
+                "access_flag_no_vpce": "false",
+                "access_flag_bucket": "true",
+                "object_user_primary": "awssec-b-user-1",
+                "permutation_id": "perm11",
+                "object_number": "2"
+            }
+        },
+        {
+            "path": "./test-objects/perm11_vpceB-bucket_b_user_1_3.txt",
+            "object_key": "test-objects/perm11_vpceB-bucket_b_user_1_3.txt",
+            "tags": {
+                "env": "lab",
+                "lab_name": "s3-labs-2",
+                "access_flag_vpce_a": "false",
+                "access_flag_vpce_b": "true",
+                "access_flag_no_vpce": "false",
+                "access_flag_bucket": "true",
+                "object_user_primary": "awssec-b-user-1",
+                "permutation_id": "perm11",
+                "object_number": "3"
+            }
+        },
+        {
+            "path": "./test-objects/perm11_vpceB-bucket_b_lambda_1.txt",
+            "object_key": "test-objects/perm11_vpceB-bucket_b_lambda_1.txt",
+            "tags": {
+                "env": "lab",
+                "lab_name": "s3-labs-2",
+                "access_flag_vpce_a": "false",
+                "access_flag_vpce_b": "true",
+                "access_flag_no_vpce": "false",
+                "access_flag_bucket": "true",
+                "object_user_primary": "awssec-b-lambda",
+                "permutation_id": "perm11",
+                "object_number": "1"
+            }
+        },
+        {
+            "path": "./test-objects/perm11_vpceB-bucket_b_lambda_2.txt",
+            "object_key": "test-objects/perm11_vpceB-bucket_b_lambda_2.txt",
+            "tags": {
+                "env": "lab",
+                "lab_name": "s3-labs-2",
+                "access_flag_vpce_a": "false",
+                "access_flag_vpce_b": "true",
+                "access_flag_no_vpce": "false",
+                "access_flag_bucket": "true",
+                "object_user_primary": "awssec-b-lambda",
+                "permutation_id": "perm11",
+                "object_number": "2"
+            }
+        },
+        {
+            "path": "./test-objects/perm11_vpceB-bucket_b_lambda_3.txt",
+            "object_key": "test-objects/perm11_vpceB-bucket_b_lambda_3.txt",
+            "tags": {
+                "env": "lab",
+                "lab_name": "s3-labs-2",
+                "access_flag_vpce_a": "false",
+                "access_flag_vpce_b": "true",
+                "access_flag_no_vpce": "false",
+                "access_flag_bucket": "true",
+                "object_user_primary": "awssec-b-lambda",
+                "permutation_id": "perm11",
+                "object_number": "3"
+            }
+        },
+        {
+            "path": "./test-objects/perm12_vpceB_gen_user_1_1.txt",
+            "object_key": "test-objects/perm12_vpceB_gen_user_1_1.txt",
+            "tags": {
+                "env": "lab",
+                "lab_name": "s3-labs-2",
+                "access_flag_vpce_a": "false",
+                "access_flag_vpce_b": "true",
+                "access_flag_no_vpce": "false",
+                "access_flag_bucket": "false",
+                "object_user_primary": "awssec-gen-user-1",
+                "permutation_id": "perm12",
+                "object_number": "1"
+            }
+        },
+        {
+            "path": "./test-objects/perm12_vpceB_gen_user_1_2.txt",
+            "object_key": "test-objects/perm12_vpceB_gen_user_1_2.txt",
+            "tags": {
+                "env": "lab",
+                "lab_name": "s3-labs-2",
+                "access_flag_vpce_a": "false",
+                "access_flag_vpce_b": "true",
+                "access_flag_no_vpce": "false",
+                "access_flag_bucket": "false",
+                "object_user_primary": "awssec-gen-user-1",
+                "permutation_id": "perm12",
+                "object_number": "2"
+            }
+        },
+        {
+            "path": "./test-objects/perm12_vpceB_gen_user_1_3.txt",
+            "object_key": "test-objects/perm12_vpceB_gen_user_1_3.txt",
+            "tags": {
+                "env": "lab",
+                "lab_name": "s3-labs-2",
+                "access_flag_vpce_a": "false",
+                "access_flag_vpce_b": "true",
+                "access_flag_no_vpce": "false",
+                "access_flag_bucket": "false",
+                "object_user_primary": "awssec-gen-user-1",
+                "permutation_id": "perm12",
+                "object_number": "3"
+            }
+        },
+        {
+            "path": "./test-objects/perm12_vpceB_gen_lambda_1.txt",
+            "object_key": "test-objects/perm12_vpceB_gen_lambda_1.txt",
+            "tags": {
+                "env": "lab",
+                "lab_name": "s3-labs-2",
+                "access_flag_vpce_a": "false",
+                "access_flag_vpce_b": "true",
+                "access_flag_no_vpce": "false",
+                "access_flag_bucket": "false",
+                "object_user_primary": "awssec-gen-lambda",
+                "permutation_id": "perm12",
+                "object_number": "1"
+            }
+        },
+        {
+            "path": "./test-objects/perm12_vpceB_gen_lambda_2.txt",
+            "object_key": "test-objects/perm12_vpceB_gen_lambda_2.txt",
+            "tags": {
+                "env": "lab",
+                "lab_name": "s3-labs-2",
+                "access_flag_vpce_a": "false",
+                "access_flag_vpce_b": "true",
+                "access_flag_no_vpce": "false",
+                "access_flag_bucket": "false",
+                "object_user_primary": "awssec-gen-lambda",
+                "permutation_id": "perm12",
+                "object_number": "2"
+            }
+        },
+        {
+            "path": "./test-objects/perm12_vpceB_gen_lambda_3.txt",
+            "object_key": "test-objects/perm12_vpceB_gen_lambda_3.txt",
+            "tags": {
+                "env": "lab",
+                "lab_name": "s3-labs-2",
+                "access_flag_vpce_a": "false",
+                "access_flag_vpce_b": "true",
+                "access_flag_no_vpce": "false",
+                "access_flag_bucket": "false",
+                "object_user_primary": "awssec-gen-lambda",
+                "permutation_id": "perm12",
+                "object_number": "3"
+            }
+        },
+        {
+            "path": "./test-objects/perm12_vpceB_b_user_1_1.txt",
+            "object_key": "test-objects/perm12_vpceB_b_user_1_1.txt",
+            "tags": {
+                "env": "lab",
+                "lab_name": "s3-labs-2",
+                "access_flag_vpce_a": "false",
+                "access_flag_vpce_b": "true",
+                "access_flag_no_vpce": "false",
+                "access_flag_bucket": "false",
+                "object_user_primary": "awssec-b-user-1",
+                "permutation_id": "perm12",
+                "object_number": "1"
+            }
+        },
+        {
+            "path": "./test-objects/perm12_vpceB_b_user_1_2.txt",
+            "object_key": "test-objects/perm12_vpceB_b_user_1_2.txt",
+            "tags": {
+                "env": "lab",
+                "lab_name": "s3-labs-2",
+                "access_flag_vpce_a": "false",
+                "access_flag_vpce_b": "true",
+                "access_flag_no_vpce": "false",
+                "access_flag_bucket": "false",
+                "object_user_primary": "awssec-b-user-1",
+                "permutation_id": "perm12",
+                "object_number": "2"
+            }
+        },
+        {
+            "path": "./test-objects/perm12_vpceB_b_user_1_3.txt",
+            "object_key": "test-objects/perm12_vpceB_b_user_1_3.txt",
+            "tags": {
+                "env": "lab",
+                "lab_name": "s3-labs-2",
+                "access_flag_vpce_a": "false",
+                "access_flag_vpce_b": "true",
+                "access_flag_no_vpce": "false",
+                "access_flag_bucket": "false",
+                "object_user_primary": "awssec-b-user-1",
+                "permutation_id": "perm12",
+                "object_number": "3"
+            }
+        },
+        {
+            "path": "./test-objects/perm12_vpceB_b_lambda_1.txt",
+            "object_key": "test-objects/perm12_vpceB_b_lambda_1.txt",
+            "tags": {
+                "env": "lab",
+                "lab_name": "s3-labs-2",
+                "access_flag_vpce_a": "false",
+                "access_flag_vpce_b": "true",
+                "access_flag_no_vpce": "false",
+                "access_flag_bucket": "false",
+                "object_user_primary": "awssec-b-lambda",
+                "permutation_id": "perm12",
+                "object_number": "1"
+            }
+        },
+        {
+            "path": "./test-objects/perm12_vpceB_b_lambda_2.txt",
+            "object_key": "test-objects/perm12_vpceB_b_lambda_2.txt",
+            "tags": {
+                "env": "lab",
+                "lab_name": "s3-labs-2",
+                "access_flag_vpce_a": "false",
+                "access_flag_vpce_b": "true",
+                "access_flag_no_vpce": "false",
+                "access_flag_bucket": "false",
+                "object_user_primary": "awssec-b-lambda",
+                "permutation_id": "perm12",
+                "object_number": "2"
+            }
+        },
+        {
+            "path": "./test-objects/perm12_vpceB_b_lambda_3.txt",
+            "object_key": "test-objects/perm12_vpceB_b_lambda_3.txt",
+            "tags": {
+                "env": "lab",
+                "lab_name": "s3-labs-2",
+                "access_flag_vpce_a": "false",
+                "access_flag_vpce_b": "true",
+                "access_flag_no_vpce": "false",
+                "access_flag_bucket": "false",
+                "object_user_primary": "awssec-b-lambda",
+                "permutation_id": "perm12",
+                "object_number": "3"
+            }
+        },
+        {
+            "path": "./test-objects/perm13_noVpce-bucket_gen_user_1_1.txt",
+            "object_key": "test-objects/perm13_noVpce-bucket_gen_user_1_1.txt",
+            "tags": {
+                "env": "lab",
+                "lab_name": "s3-labs-2",
+                "access_flag_vpce_a": "false",
+                "access_flag_vpce_b": "false",
+                "access_flag_no_vpce": "true",
+                "access_flag_bucket": "true",
+                "object_user_primary": "awssec-gen-user-1",
+                "permutation_id": "perm13",
+                "object_number": "1"
+            }
+        },
+        {
+            "path": "./test-objects/perm13_noVpce-bucket_gen_user_1_2.txt",
+            "object_key": "test-objects/perm13_noVpce-bucket_gen_user_1_2.txt",
+            "tags": {
+                "env": "lab",
+                "lab_name": "s3-labs-2",
+                "access_flag_vpce_a": "false",
+                "access_flag_vpce_b": "false",
+                "access_flag_no_vpce": "true",
+                "access_flag_bucket": "true",
+                "object_user_primary": "awssec-gen-user-1",
+                "permutation_id": "perm13",
+                "object_number": "2"
+            }
+        },
+        {
+            "path": "./test-objects/perm13_noVpce-bucket_gen_user_1_3.txt",
+            "object_key": "test-objects/perm13_noVpce-bucket_gen_user_1_3.txt",
+            "tags": {
+                "env": "lab",
+                "lab_name": "s3-labs-2",
+                "access_flag_vpce_a": "false",
+                "access_flag_vpce_b": "false",
+                "access_flag_no_vpce": "true",
+                "access_flag_bucket": "true",
+                "object_user_primary": "awssec-gen-user-1",
+                "permutation_id": "perm13",
+                "object_number": "3"
+            }
+        },
+        {
+            "path": "./test-objects/perm13_noVpce-bucket_gen_lambda_1.txt",
+            "object_key": "test-objects/perm13_noVpce-bucket_gen_lambda_1.txt",
+            "tags": {
+                "env": "lab",
+                "lab_name": "s3-labs-2",
+                "access_flag_vpce_a": "false",
+                "access_flag_vpce_b": "false",
+                "access_flag_no_vpce": "true",
+                "access_flag_bucket": "true",
+                "object_user_primary": "awssec-gen-lambda",
+                "permutation_id": "perm13",
+                "object_number": "1"
+            }
+        },
+        {
+            "path": "./test-objects/perm13_noVpce-bucket_gen_lambda_2.txt",
+            "object_key": "test-objects/perm13_noVpce-bucket_gen_lambda_2.txt",
+            "tags": {
+                "env": "lab",
+                "lab_name": "s3-labs-2",
+                "access_flag_vpce_a": "false",
+                "access_flag_vpce_b": "false",
+                "access_flag_no_vpce": "true",
+                "access_flag_bucket": "true",
+                "object_user_primary": "awssec-gen-lambda",
+                "permutation_id": "perm13",
+                "object_number": "2"
+            }
+        },
+        {
+            "path": "./test-objects/perm13_noVpce-bucket_gen_lambda_3.txt",
+            "object_key": "test-objects/perm13_noVpce-bucket_gen_lambda_3.txt",
+            "tags": {
+                "env": "lab",
+                "lab_name": "s3-labs-2",
+                "access_flag_vpce_a": "false",
+                "access_flag_vpce_b": "false",
+                "access_flag_no_vpce": "true",
+                "access_flag_bucket": "true",
+                "object_user_primary": "awssec-gen-lambda",
+                "permutation_id": "perm13",
+                "object_number": "3"
+            }
+        },
+        {
+            "path": "./test-objects/perm13_noVpce-bucket_b_user_1_1.txt",
+            "object_key": "test-objects/perm13_noVpce-bucket_b_user_1_1.txt",
+            "tags": {
+                "env": "lab",
+                "lab_name": "s3-labs-2",
+                "access_flag_vpce_a": "false",
+                "access_flag_vpce_b": "false",
+                "access_flag_no_vpce": "true",
+                "access_flag_bucket": "true",
+                "object_user_primary": "awssec-b-user-1",
+                "permutation_id": "perm13",
+                "object_number": "1"
+            }
+        },
+        {
+            "path": "./test-objects/perm13_noVpce-bucket_b_user_1_2.txt",
+            "object_key": "test-objects/perm13_noVpce-bucket_b_user_1_2.txt",
+            "tags": {
+                "env": "lab",
+                "lab_name": "s3-labs-2",
+                "access_flag_vpce_a": "false",
+                "access_flag_vpce_b": "false",
+                "access_flag_no_vpce": "true",
+                "access_flag_bucket": "true",
+                "object_user_primary": "awssec-b-user-1",
+                "permutation_id": "perm13",
+                "object_number": "2"
+            }
+        },
+        {
+            "path": "./test-objects/perm13_noVpce-bucket_b_user_1_3.txt",
+            "object_key": "test-objects/perm13_noVpce-bucket_b_user_1_3.txt",
+            "tags": {
+                "env": "lab",
+                "lab_name": "s3-labs-2",
+                "access_flag_vpce_a": "false",
+                "access_flag_vpce_b": "false",
+                "access_flag_no_vpce": "true",
+                "access_flag_bucket": "true",
+                "object_user_primary": "awssec-b-user-1",
+                "permutation_id": "perm13",
+                "object_number": "3"
+            }
+        },
+        {
+            "path": "./test-objects/perm13_noVpce-bucket_b_lambda_1.txt",
+            "object_key": "test-objects/perm13_noVpce-bucket_b_lambda_1.txt",
+            "tags": {
+                "env": "lab",
+                "lab_name": "s3-labs-2",
+                "access_flag_vpce_a": "false",
+                "access_flag_vpce_b": "false",
+                "access_flag_no_vpce": "true",
+                "access_flag_bucket": "true",
+                "object_user_primary": "awssec-b-lambda",
+                "permutation_id": "perm13",
+                "object_number": "1"
+            }
+        },
+        {
+            "path": "./test-objects/perm13_noVpce-bucket_b_lambda_2.txt",
+            "object_key": "test-objects/perm13_noVpce-bucket_b_lambda_2.txt",
+            "tags": {
+                "env": "lab",
+                "lab_name": "s3-labs-2",
+                "access_flag_vpce_a": "false",
+                "access_flag_vpce_b": "false",
+                "access_flag_no_vpce": "true",
+                "access_flag_bucket": "true",
+                "object_user_primary": "awssec-b-lambda",
+                "permutation_id": "perm13",
+                "object_number": "2"
+            }
+        },
+        {
+            "path": "./test-objects/perm13_noVpce-bucket_b_lambda_3.txt",
+            "object_key": "test-objects/perm13_noVpce-bucket_b_lambda_3.txt",
+            "tags": {
+                "env": "lab",
+                "lab_name": "s3-labs-2",
+                "access_flag_vpce_a": "false",
+                "access_flag_vpce_b": "false",
+                "access_flag_no_vpce": "true",
+                "access_flag_bucket": "true",
+                "object_user_primary": "awssec-b-lambda",
+                "permutation_id": "perm13",
+                "object_number": "3"
+            }
+        },
+        {
+            "path": "./test-objects/perm14_noVpce_gen_user_1_1.txt",
+            "object_key": "test-objects/perm14_noVpce_gen_user_1_1.txt",
+            "tags": {
+                "env": "lab",
+                "lab_name": "s3-labs-2",
+                "access_flag_vpce_a": "false",
+                "access_flag_vpce_b": "false",
+                "access_flag_no_vpce": "true",
+                "access_flag_bucket": "false",
+                "object_user_primary": "awssec-gen-user-1",
+                "permutation_id": "perm14",
+                "object_number": "1"
+            }
+        },
+        {
+            "path": "./test-objects/perm14_noVpce_gen_user_1_2.txt",
+            "object_key": "test-objects/perm14_noVpce_gen_user_1_2.txt",
+            "tags": {
+                "env": "lab",
+                "lab_name": "s3-labs-2",
+                "access_flag_vpce_a": "false",
+                "access_flag_vpce_b": "false",
+                "access_flag_no_vpce": "true",
+                "access_flag_bucket": "false",
+                "object_user_primary": "awssec-gen-user-1",
+                "permutation_id": "perm14",
+                "object_number": "2"
+            }
+        },
+        {
+            "path": "./test-objects/perm14_noVpce_gen_user_1_3.txt",
+            "object_key": "test-objects/perm14_noVpce_gen_user_1_3.txt",
+            "tags": {
+                "env": "lab",
+                "lab_name": "s3-labs-2",
+                "access_flag_vpce_a": "false",
+                "access_flag_vpce_b": "false",
+                "access_flag_no_vpce": "true",
+                "access_flag_bucket": "false",
+                "object_user_primary": "awssec-gen-user-1",
+                "permutation_id": "perm14",
+                "object_number": "3"
+            }
+        },
+        {
+            "path": "./test-objects/perm14_noVpce_gen_lambda_1.txt",
+            "object_key": "test-objects/perm14_noVpce_gen_lambda_1.txt",
+            "tags": {
+                "env": "lab",
+                "lab_name": "s3-labs-2",
+                "access_flag_vpce_a": "false",
+                "access_flag_vpce_b": "false",
+                "access_flag_no_vpce": "true",
+                "access_flag_bucket": "false",
+                "object_user_primary": "awssec-gen-lambda",
+                "permutation_id": "perm14",
+                "object_number": "1"
+            }
+        },
+        {
+            "path": "./test-objects/perm14_noVpce_gen_lambda_2.txt",
+            "object_key": "test-objects/perm14_noVpce_gen_lambda_2.txt",
+            "tags": {
+                "env": "lab",
+                "lab_name": "s3-labs-2",
+                "access_flag_vpce_a": "false",
+                "access_flag_vpce_b": "false",
+                "access_flag_no_vpce": "true",
+                "access_flag_bucket": "false",
+                "object_user_primary": "awssec-gen-lambda",
+                "permutation_id": "perm14",
+                "object_number": "2"
+            }
+        },
+        {
+            "path": "./test-objects/perm14_noVpce_gen_lambda_3.txt",
+            "object_key": "test-objects/perm14_noVpce_gen_lambda_3.txt",
+            "tags": {
+                "env": "lab",
+                "lab_name": "s3-labs-2",
+                "access_flag_vpce_a": "false",
+                "access_flag_vpce_b": "false",
+                "access_flag_no_vpce": "true",
+                "access_flag_bucket": "false",
+                "object_user_primary": "awssec-gen-lambda",
+                "permutation_id": "perm14",
+                "object_number": "3"
+            }
+        },
+        {
+            "path": "./test-objects/perm14_noVpce_b_user_1_1.txt",
+            "object_key": "test-objects/perm14_noVpce_b_user_1_1.txt",
+            "tags": {
+                "env": "lab",
+                "lab_name": "s3-labs-2",
+                "access_flag_vpce_a": "false",
+                "access_flag_vpce_b": "false",
+                "access_flag_no_vpce": "true",
+                "access_flag_bucket": "false",
+                "object_user_primary": "awssec-b-user-1",
+                "permutation_id": "perm14",
+                "object_number": "1"
+            }
+        },
+        {
+            "path": "./test-objects/perm14_noVpce_b_user_1_2.txt",
+            "object_key": "test-objects/perm14_noVpce_b_user_1_2.txt",
+            "tags": {
+                "env": "lab",
+                "lab_name": "s3-labs-2",
+                "access_flag_vpce_a": "false",
+                "access_flag_vpce_b": "false",
+                "access_flag_no_vpce": "true",
+                "access_flag_bucket": "false",
+                "object_user_primary": "awssec-b-user-1",
+                "permutation_id": "perm14",
+                "object_number": "2"
+            }
+        },
+        {
+            "path": "./test-objects/perm14_noVpce_b_user_1_3.txt",
+            "object_key": "test-objects/perm14_noVpce_b_user_1_3.txt",
+            "tags": {
+                "env": "lab",
+                "lab_name": "s3-labs-2",
+                "access_flag_vpce_a": "false",
+                "access_flag_vpce_b": "false",
+                "access_flag_no_vpce": "true",
+                "access_flag_bucket": "false",
+                "object_user_primary": "awssec-b-user-1",
+                "permutation_id": "perm14",
+                "object_number": "3"
+            }
+        },
+        {
+            "path": "./test-objects/perm14_noVpce_b_lambda_1.txt",
+            "object_key": "test-objects/perm14_noVpce_b_lambda_1.txt",
+            "tags": {
+                "env": "lab",
+                "lab_name": "s3-labs-2",
+                "access_flag_vpce_a": "false",
+                "access_flag_vpce_b": "false",
+                "access_flag_no_vpce": "true",
+                "access_flag_bucket": "false",
+                "object_user_primary": "awssec-b-lambda",
+                "permutation_id": "perm14",
+                "object_number": "1"
+            }
+        },
+        {
+            "path": "./test-objects/perm14_noVpce_b_lambda_2.txt",
+            "object_key": "test-objects/perm14_noVpce_b_lambda_2.txt",
+            "tags": {
+                "env": "lab",
+                "lab_name": "s3-labs-2",
+                "access_flag_vpce_a": "false",
+                "access_flag_vpce_b": "false",
+                "access_flag_no_vpce": "true",
+                "access_flag_bucket": "false",
+                "object_user_primary": "awssec-b-lambda",
+                "permutation_id": "perm14",
+                "object_number": "2"
+            }
+        },
+        {
+            "path": "./test-objects/perm14_noVpce_b_lambda_3.txt",
+            "object_key": "test-objects/perm14_noVpce_b_lambda_3.txt",
+            "tags": {
+                "env": "lab",
+                "lab_name": "s3-labs-2",
+                "access_flag_vpce_a": "false",
+                "access_flag_vpce_b": "false",
+                "access_flag_no_vpce": "true",
+                "access_flag_bucket": "false",
+                "object_user_primary": "awssec-b-lambda",
+                "permutation_id": "perm14",
+                "object_number": "3"
+            }
+        },
+        {
+            "path": "./test-objects/perm15_bucket_gen_user_1_1.txt",
+            "object_key": "test-objects/perm15_bucket_gen_user_1_1.txt",
+            "tags": {
+                "env": "lab",
+                "lab_name": "s3-labs-2",
+                "access_flag_vpce_a": "false",
+                "access_flag_vpce_b": "false",
+                "access_flag_no_vpce": "false",
+                "access_flag_bucket": "true",
+                "object_user_primary": "awssec-gen-user-1",
+                "permutation_id": "perm15",
+                "object_number": "1"
+            }
+        },
+        {
+            "path": "./test-objects/perm15_bucket_gen_user_1_2.txt",
+            "object_key": "test-objects/perm15_bucket_gen_user_1_2.txt",
+            "tags": {
+                "env": "lab",
+                "lab_name": "s3-labs-2",
+                "access_flag_vpce_a": "false",
+                "access_flag_vpce_b": "false",
+                "access_flag_no_vpce": "false",
+                "access_flag_bucket": "true",
+                "object_user_primary": "awssec-gen-user-1",
+                "permutation_id": "perm15",
+                "object_number": "2"
+            }
+        },
+        {
+            "path": "./test-objects/perm15_bucket_gen_user_1_3.txt",
+            "object_key": "test-objects/perm15_bucket_gen_user_1_3.txt",
+            "tags": {
+                "env": "lab",
+                "lab_name": "s3-labs-2",
+                "access_flag_vpce_a": "false",
+                "access_flag_vpce_b": "false",
+                "access_flag_no_vpce": "false",
+                "access_flag_bucket": "true",
+                "object_user_primary": "awssec-gen-user-1",
+                "permutation_id": "perm15",
+                "object_number": "3"
+            }
+        },
+        {
+            "path": "./test-objects/perm15_bucket_gen_lambda_1.txt",
+            "object_key": "test-objects/perm15_bucket_gen_lambda_1.txt",
+            "tags": {
+                "env": "lab",
+                "lab_name": "s3-labs-2",
+                "access_flag_vpce_a": "false",
+                "access_flag_vpce_b": "false",
+                "access_flag_no_vpce": "false",
+                "access_flag_bucket": "true",
+                "object_user_primary": "awssec-gen-lambda",
+                "permutation_id": "perm15",
+                "object_number": "1"
+            }
+        },
+        {
+            "path": "./test-objects/perm15_bucket_gen_lambda_2.txt",
+            "object_key": "test-objects/perm15_bucket_gen_lambda_2.txt",
+            "tags": {
+                "env": "lab",
+                "lab_name": "s3-labs-2",
+                "access_flag_vpce_a": "false",
+                "access_flag_vpce_b": "false",
+                "access_flag_no_vpce": "false",
+                "access_flag_bucket": "true",
+                "object_user_primary": "awssec-gen-lambda",
+                "permutation_id": "perm15",
+                "object_number": "2"
+            }
+        },
+        {
+            "path": "./test-objects/perm15_bucket_gen_lambda_3.txt",
+            "object_key": "test-objects/perm15_bucket_gen_lambda_3.txt",
+            "tags": {
+                "env": "lab",
+                "lab_name": "s3-labs-2",
+                "access_flag_vpce_a": "false",
+                "access_flag_vpce_b": "false",
+                "access_flag_no_vpce": "false",
+                "access_flag_bucket": "true",
+                "object_user_primary": "awssec-gen-lambda",
+                "permutation_id": "perm15",
+                "object_number": "3"
+            }
+        },
+        {
+            "path": "./test-objects/perm15_bucket_b_user_1_1.txt",
+            "object_key": "test-objects/perm15_bucket_b_user_1_1.txt",
+            "tags": {
+                "env": "lab",
+                "lab_name": "s3-labs-2",
+                "access_flag_vpce_a": "false",
+                "access_flag_vpce_b": "false",
+                "access_flag_no_vpce": "false",
+                "access_flag_bucket": "true",
+                "object_user_primary": "awssec-b-user-1",
+                "permutation_id": "perm15",
+                "object_number": "1"
+            }
+        },
+        {
+            "path": "./test-objects/perm15_bucket_b_user_1_2.txt",
+            "object_key": "test-objects/perm15_bucket_b_user_1_2.txt",
+            "tags": {
+                "env": "lab",
+                "lab_name": "s3-labs-2",
+                "access_flag_vpce_a": "false",
+                "access_flag_vpce_b": "false",
+                "access_flag_no_vpce": "false",
+                "access_flag_bucket": "true",
+                "object_user_primary": "awssec-b-user-1",
+                "permutation_id": "perm15",
+                "object_number": "2"
+            }
+        },
+        {
+            "path": "./test-objects/perm15_bucket_b_user_1_3.txt",
+            "object_key": "test-objects/perm15_bucket_b_user_1_3.txt",
+            "tags": {
+                "env": "lab",
+                "lab_name": "s3-labs-2",
+                "access_flag_vpce_a": "false",
+                "access_flag_vpce_b": "false",
+                "access_flag_no_vpce": "false",
+                "access_flag_bucket": "true",
+                "object_user_primary": "awssec-b-user-1",
+                "permutation_id": "perm15",
+                "object_number": "3"
+            }
+        },
+        {
+            "path": "./test-objects/perm15_bucket_b_lambda_1.txt",
+            "object_key": "test-objects/perm15_bucket_b_lambda_1.txt",
+            "tags": {
+                "env": "lab",
+                "lab_name": "s3-labs-2",
+                "access_flag_vpce_a": "false",
+                "access_flag_vpce_b": "false",
+                "access_flag_no_vpce": "false",
+                "access_flag_bucket": "true",
+                "object_user_primary": "awssec-b-lambda",
+                "permutation_id": "perm15",
+                "object_number": "1"
+            }
+        },
+        {
+            "path": "./test-objects/perm15_bucket_b_lambda_2.txt",
+            "object_key": "test-objects/perm15_bucket_b_lambda_2.txt",
+            "tags": {
+                "env": "lab",
+                "lab_name": "s3-labs-2",
+                "access_flag_vpce_a": "false",
+                "access_flag_vpce_b": "false",
+                "access_flag_no_vpce": "false",
+                "access_flag_bucket": "true",
+                "object_user_primary": "awssec-b-lambda",
+                "permutation_id": "perm15",
+                "object_number": "2"
+            }
+        },
+        {
+            "path": "./test-objects/perm15_bucket_b_lambda_3.txt",
+            "object_key": "test-objects/perm15_bucket_b_lambda_3.txt",
+            "tags": {
+                "env": "lab",
+                "lab_name": "s3-labs-2",
+                "access_flag_vpce_a": "false",
+                "access_flag_vpce_b": "false",
+                "access_flag_no_vpce": "false",
+                "access_flag_bucket": "true",
+                "object_user_primary": "awssec-b-lambda",
+                "permutation_id": "perm15",
+                "object_number": "3"
+            }
+        },
+        {
+            "path": "./test-objects/perm16_no-access_gen_user_1_1.txt",
+            "object_key": "test-objects/perm16_no-access_gen_user_1_1.txt",
+            "tags": {
+                "env": "lab",
+                "lab_name": "s3-labs-2",
+                "access_flag_vpce_a": "false",
+                "access_flag_vpce_b": "false",
+                "access_flag_no_vpce": "false",
+                "access_flag_bucket": "false",
+                "object_user_primary": "awssec-gen-user-1",
+                "permutation_id": "perm16",
+                "object_number": "1"
+            }
+        },
+        {
+            "path": "./test-objects/perm16_no-access_gen_user_1_2.txt",
+            "object_key": "test-objects/perm16_no-access_gen_user_1_2.txt",
+            "tags": {
+                "env": "lab",
+                "lab_name": "s3-labs-2",
+                "access_flag_vpce_a": "false",
+                "access_flag_vpce_b": "false",
+                "access_flag_no_vpce": "false",
+                "access_flag_bucket": "false",
+                "object_user_primary": "awssec-gen-user-1",
+                "permutation_id": "perm16",
+                "object_number": "2"
+            }
+        },
+        {
+            "path": "./test-objects/perm16_no-access_gen_user_1_3.txt",
+            "object_key": "test-objects/perm16_no-access_gen_user_1_3.txt",
+            "tags": {
+                "env": "lab",
+                "lab_name": "s3-labs-2",
+                "access_flag_vpce_a": "false",
+                "access_flag_vpce_b": "false",
+                "access_flag_no_vpce": "false",
+                "access_flag_bucket": "false",
+                "object_user_primary": "awssec-gen-user-1",
+                "permutation_id": "perm16",
+                "object_number": "3"
+            }
+        },
+        {
+            "path": "./test-objects/perm16_no-access_gen_lambda_1.txt",
+            "object_key": "test-objects/perm16_no-access_gen_lambda_1.txt",
+            "tags": {
+                "env": "lab",
+                "lab_name": "s3-labs-2",
+                "access_flag_vpce_a": "false",
+                "access_flag_vpce_b": "false",
+                "access_flag_no_vpce": "false",
+                "access_flag_bucket": "false",
+                "object_user_primary": "awssec-gen-lambda",
+                "permutation_id": "perm16",
+                "object_number": "1"
+            }
+        },
+        {
+            "path": "./test-objects/perm16_no-access_gen_lambda_2.txt",
+            "object_key": "test-objects/perm16_no-access_gen_lambda_2.txt",
+            "tags": {
+                "env": "lab",
+                "lab_name": "s3-labs-2",
+                "access_flag_vpce_a": "false",
+                "access_flag_vpce_b": "false",
+                "access_flag_no_vpce": "false",
+                "access_flag_bucket": "false",
+                "object_user_primary": "awssec-gen-lambda",
+                "permutation_id": "perm16",
+                "object_number": "2"
+            }
+        },
+        {
+            "path": "./test-objects/perm16_no-access_gen_lambda_3.txt",
+            "object_key": "test-objects/perm16_no-access_gen_lambda_3.txt",
+            "tags": {
+                "env": "lab",
+                "lab_name": "s3-labs-2",
+                "access_flag_vpce_a": "false",
+                "access_flag_vpce_b": "false",
+                "access_flag_no_vpce": "false",
+                "access_flag_bucket": "false",
+                "object_user_primary": "awssec-gen-lambda",
+                "permutation_id": "perm16",
+                "object_number": "3"
+            }
+        },
+        {
+            "path": "./test-objects/perm16_no-access_b_user_1_1.txt",
+            "object_key": "test-objects/perm16_no-access_b_user_1_1.txt",
+            "tags": {
+                "env": "lab",
+                "lab_name": "s3-labs-2",
+                "access_flag_vpce_a": "false",
+                "access_flag_vpce_b": "false",
+                "access_flag_no_vpce": "false",
+                "access_flag_bucket": "false",
+                "object_user_primary": "awssec-b-user-1",
+                "permutation_id": "perm16",
+                "object_number": "1"
+            }
+        },
+        {
+            "path": "./test-objects/perm16_no-access_b_user_1_2.txt",
+            "object_key": "test-objects/perm16_no-access_b_user_1_2.txt",
+            "tags": {
+                "env": "lab",
+                "lab_name": "s3-labs-2",
+                "access_flag_vpce_a": "false",
+                "access_flag_vpce_b": "false",
+                "access_flag_no_vpce": "false",
+                "access_flag_bucket": "false",
+                "object_user_primary": "awssec-b-user-1",
+                "permutation_id": "perm16",
+                "object_number": "2"
+            }
+        },
+        {
+            "path": "./test-objects/perm16_no-access_b_user_1_3.txt",
+            "object_key": "test-objects/perm16_no-access_b_user_1_3.txt",
+            "tags": {
+                "env": "lab",
+                "lab_name": "s3-labs-2",
+                "access_flag_vpce_a": "false",
+                "access_flag_vpce_b": "false",
+                "access_flag_no_vpce": "false",
+                "access_flag_bucket": "false",
+                "object_user_primary": "awssec-b-user-1",
+                "permutation_id": "perm16",
+                "object_number": "3"
+            }
+        },
+        {
+            "path": "./test-objects/perm16_no-access_b_lambda_1.txt",
+            "object_key": "test-objects/perm16_no-access_b_lambda_1.txt",
+            "tags": {
+                "env": "lab",
+                "lab_name": "s3-labs-2",
+                "access_flag_vpce_a": "false",
+                "access_flag_vpce_b": "false",
+                "access_flag_no_vpce": "false",
+                "access_flag_bucket": "false",
+                "object_user_primary": "awssec-b-lambda",
+                "permutation_id": "perm16",
+                "object_number": "1"
+            }
+        },
+        {
+            "path": "./test-objects/perm16_no-access_b_lambda_2.txt",
+            "object_key": "test-objects/perm16_no-access_b_lambda_2.txt",
+            "tags": {
+                "env": "lab",
+                "lab_name": "s3-labs-2",
+                "access_flag_vpce_a": "false",
+                "access_flag_vpce_b": "false",
+                "access_flag_no_vpce": "false",
+                "access_flag_bucket": "false",
+                "object_user_primary": "awssec-b-lambda",
+                "permutation_id": "perm16",
+                "object_number": "2"
+            }
+        },
+        {
+            "path": "./test-objects/perm16_no-access_b_lambda_3.txt",
+            "object_key": "test-objects/perm16_no-access_b_lambda_3.txt",
+            "tags": {
+                "env": "lab",
+                "lab_name": "s3-labs-2",
+                "access_flag_vpce_a": "false",
+                "access_flag_vpce_b": "false",
+                "access_flag_no_vpce": "false",
+                "access_flag_bucket": "false",
+                "object_user_primary": "awssec-b-lambda",
+                "permutation_id": "perm16",
+                "object_number": "3"
+            }
+        }
+    ]
+}

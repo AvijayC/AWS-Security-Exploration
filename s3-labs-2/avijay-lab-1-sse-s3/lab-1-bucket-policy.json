@@ -1,0 +1,83 @@
+{
+    "Version": "2012-10-17",
+    "Statement": [
+        {
+            "Sid": "S3LabsLab1BucketPolicyBucketActionsAdmin",
+            "Effect": "Allow",
+            "Principal": {
+                "AWS": "arn:aws:iam::957401190575:user/iamadmin"
+            },
+            "Action": [
+                "s3:ListBucket",
+                "s3:GetBucketLocation",
+                "s3:GetBucketPolicy",
+                "s3:GetBucketAcl",
+                "s3:PutBucketPolicy",
+                "s3:PutBucketAcl",
+                "s3:DeleteBucketPolicy",
+                "s3:DeleteBucket",
+                "s3:PutBucketTagging",
+                "s3:GetBucketTagging",
+                "s3:PutBucketVersioning",
+                "s3:GetBucketVersioning",
+                "s3:PutLifecycleConfiguration",
+                "s3:GetLifecycleConfiguration",
+                "s3:PutBucketLogging",
+                "s3:GetBucketLogging",
+                "s3:PutBucketNotification",
+                "s3:GetBucketNotification",
+                "s3:PutBucketWebsite",
+                "s3:GetBucketWebsite",
+                "s3:PutReplicationConfiguration",
+                "s3:GetReplicationConfiguration",
+                "s3:PutBucketCORS",
+                "s3:GetBucketCORS",
+                "s3:PutBucketRequestPayment",
+                "s3:GetBucketRequestPayment",
+                "s3:PutBucketOwnershipControls",
+                "s3:GetBucketOwnershipControls"
+            ],
+            "Resource": [
+                "arn:aws:s3:::avijay-lab-1-sse-s3"
+            ]
+        },
+        {
+            "Sid": "S3LabsLab1BucketPolicyBucketActions",
+            "Effect": "Allow",
+            "Principal": {
+                "AWS": "arn:aws:iam::957401190575:root"
+            },
+            "Resource": [
+                "arn:aws:s3:::avijay-lab-1-sse-s3"
+            ],
+            "Action": [
+                "s3:ListBucket",
+                "s3:GetBucketLocation",
+                "s3:GetBucketPolicy",
+                "s3:GetBucketAcl"
+            ],
+            "Condition": {
+                "StringNotEquals": {
+                    "aws:userid": "anonymous"
+                }
+            }
+        },
+        {
+            "Sid": "S3LabsLab1BucketPolicyObjectActions",
+            "Effect": "Deny",
+            "Principal": "*",
+            "Resource": [
+                "arn:aws:s3:::avijay-lab-1-sse-s3/*"
+            ],
+            "Action": [
+                "s3:GetObject",
+                "s3:GetObjectAcl"
+            ],
+            "Condition": {
+                "StringEquals": {
+                    "s3:ExistingObjectTag/access_flag_bucket": "false"
+                }
+            }
+        }
+    ]
+}

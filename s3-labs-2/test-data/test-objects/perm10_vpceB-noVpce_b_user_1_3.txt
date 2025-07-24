@@ -1,0 +1,15 @@
+Test Object Information
+======================
+Generated: 2025-07-23T15:39:52.791976
+Filename: perm10_vpceB-noVpce_b_user_1_3.txt
+User: awssec-b-user-1
+Permutation ID: perm10
+Object Number: 3
+
+Access Flags:
+- VPCE A: false
+- VPCE B: true
+- No VPCE: true
+- Bucket: false
+
+This is test data for S3 access control testing.

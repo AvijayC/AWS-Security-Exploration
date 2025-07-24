@@ -1,0 +1,17 @@
+{
+    "data": [
+        {
+            "path": "./sample-data.txt",
+            "object_key": "sample-data.txt",
+            "tags": {
+                "env": "lab",
+                "lab_name": "s3-labs-2",
+                "access_flag_vpce_a": "true",
+                "access_flag_vpce_b": "false",
+                "access_flag_no_vpce": "true",
+                "access_flag_bucket": "true",
+                "object_user_primary": "awssec-gen-user-1"
+            }
+        }
+    ]
+}

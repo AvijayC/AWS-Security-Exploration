@@ -1,0 +1,42 @@
+{
+    "Version": "2012-10-17",
+    "Statement": [
+        {
+            "Sid": "S3LabsLab1IdentityPolicyBucketActions",
+            "Effect": "Allow",
+            "Action": [
+                "s3:ListBucket",
+                "s3:GetBucketLocation",
+                "s3:GetBucketPolicy",
+                "s3:GetBucketAcl"
+            ],
+            "Resource": [
+                "arn:aws:s3:::avijay-lab-1-sse-s3"
+            ],
+            "Condition": {
+                "StringEquals": {
+                    "s3:ExistingObjectTag/object_user_primary": "awssec-gen-user-1"
+                }
+            }
+        },
+        {
+            "Sid": "S3LabsLab1IdentityPolicyObjectActionsDeny",
+            "Effect": "Deny",
+            "Action": [
+            "s3:PutObject",
+            "s3:DeleteObject",
+            "s3:PutObjectAcl",
+            "s3:DeleteObjectVersion",
+            "s3:PutObjectVersionAcl"
+            ],
+            "Resource": [
+                "arn:aws:s3:::avijay-lab-1-sse-s3/*"
+            ],
+            "Condition": {
+                "StringEquals": {
+                    "s3:ExistingObjectTag/object_user_primary": "awssec-gen-user-1"
+                }
+            }
+        }
+    ]
+}

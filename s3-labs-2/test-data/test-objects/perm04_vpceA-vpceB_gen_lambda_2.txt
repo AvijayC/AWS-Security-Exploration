@@ -1,0 +1,15 @@
+Test Object Information
+======================
+Generated: 2025-07-23T15:39:52.785302
+Filename: perm04_vpceA-vpceB_gen_lambda_2.txt
+User: awssec-gen-lambda
+Permutation ID: perm04
+Object Number: 2
+
+Access Flags:
+- VPCE A: true
+- VPCE B: true
+- No VPCE: false
+- Bucket: false
+
+This is test data for S3 access control testing.

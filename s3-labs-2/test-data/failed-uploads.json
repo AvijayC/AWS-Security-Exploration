@@ -1,0 +1,770 @@
+[
+  {
+    "object_key": "test-objects/perm01_vpceA-vpceB-noVpce-bucket_b_user_1_1.txt",
+    "error": "Unexpected error uploading test-objects/perm01_vpceA-vpceB-noVpce-bucket_b_user_1_1.txt: Parameter validation failed:\nInvalid type for parameter Tagging, value: {'TagSet': [{'Key': 'env', 'Value': 'lab'}, {'Key': 'lab_name', 'Value': 's3-labs-2'}, {'Key': 'access_flag_vpce_a', 'Value': 'true'}, {'Key': 'access_flag_vpce_b', 'Value': 'true'}, {'Key': 'access_flag_no_vpce', 'Value': 'true'}, {'Key': 'access_flag_bucket', 'Value': 'true'}, {'Key': 'object_user_primary', 'Value': 'awssec-b-user-1'}, {'Key': 'permutation_id', 'Value': 'perm01'}, {'Key': 'object_number', 'Value': '1'}]}, type: <class 'dict'>, valid types: <class 'str'>"
+  },
+  {
+    "object_key": "test-objects/perm02_vpceA-vpceB-noVpce_b_user_1_3.txt",
+    "error": "Unexpected error uploading test-objects/perm02_vpceA-vpceB-noVpce_b_user_1_3.txt: Parameter validation failed:\nInvalid type for parameter Tagging, value: {'TagSet': [{'Key': 'env', 'Value': 'lab'}, {'Key': 'lab_name', 'Value': 's3-labs-2'}, {'Key': 'access_flag_vpce_a', 'Value': 'true'}, {'Key': 'access_flag_vpce_b', 'Value': 'true'}, {'Key': 'access_flag_no_vpce', 'Value': 'true'}, {'Key': 'access_flag_bucket', 'Value': 'false'}, {'Key': 'object_user_primary', 'Value': 'awssec-b-user-1'}, {'Key': 'permutation_id', 'Value': 'perm02'}, {'Key': 'object_number', 'Value': '3'}]}, type: <class 'dict'>, valid types: <class 'str'>"
+  },
+  {
+    "object_key": "test-objects/perm02_vpceA-vpceB-noVpce_b_lambda_3.txt",
+    "error": "Unexpected error uploading test-objects/perm02_vpceA-vpceB-noVpce_b_lambda_3.txt: Parameter validation failed:\nInvalid type for parameter Tagging, value: {'TagSet': [{'Key': 'env', 'Value': 'lab'}, {'Key': 'lab_name', 'Value': 's3-labs-2'}, {'Key': 'access_flag_vpce_a', 'Value': 'true'}, {'Key': 'access_flag_vpce_b', 'Value': 'true'}, {'Key': 'access_flag_no_vpce', 'Value': 'true'}, {'Key': 'access_flag_bucket', 'Value': 'false'}, {'Key': 'object_user_primary', 'Value': 'awssec-b-lambda'}, {'Key': 'permutation_id', 'Value': 'perm02'}, {'Key': 'object_number', 'Value': '3'}]}, type: <class 'dict'>, valid types: <class 'str'>"
+  },
+  {
+    "object_key": "test-objects/perm01_vpceA-vpceB-noVpce-bucket_gen_lambda_1.txt",
+    "error": "Unexpected error uploading test-objects/perm01_vpceA-vpceB-noVpce-bucket_gen_lambda_1.txt: Parameter validation failed:\nInvalid type for parameter Tagging, value: {'TagSet': [{'Key': 'env', 'Value': 'lab'}, {'Key': 'lab_name', 'Value': 's3-labs-2'}, {'Key': 'access_flag_vpce_a', 'Value': 'true'}, {'Key': 'access_flag_vpce_b', 'Value': 'true'}, {'Key': 'access_flag_no_vpce', 'Value': 'true'}, {'Key': 'access_flag_bucket', 'Value': 'true'}, {'Key': 'object_user_primary', 'Value': 'awssec-gen-lambda'}, {'Key': 'permutation_id', 'Value': 'perm01'}, {'Key': 'object_number', 'Value': '1'}]}, type: <class 'dict'>, valid types: <class 'str'>"
+  },
+  {
+    "object_key": "test-objects/perm01_vpceA-vpceB-noVpce-bucket_b_lambda_3.txt",
+    "error": "Unexpected error uploading test-objects/perm01_vpceA-vpceB-noVpce-bucket_b_lambda_3.txt: Parameter validation failed:\nInvalid type for parameter Tagging, value: {'TagSet': [{'Key': 'env', 'Value': 'lab'}, {'Key': 'lab_name', 'Value': 's3-labs-2'}, {'Key': 'access_flag_vpce_a', 'Value': 'true'}, {'Key': 'access_flag_vpce_b', 'Value': 'true'}, {'Key': 'access_flag_no_vpce', 'Value': 'true'}, {'Key': 'access_flag_bucket', 'Value': 'true'}, {'Key': 'object_user_primary', 'Value': 'awssec-b-lambda'}, {'Key': 'permutation_id', 'Value': 'perm01'}, {'Key': 'object_number', 'Value': '3'}]}, type: <class 'dict'>, valid types: <class 'str'>"
+  },
+  {
+    "object_key": "test-objects/perm01_vpceA-vpceB-noVpce-bucket_gen_user_1_1.txt",
+    "error": "Unexpected error uploading test-objects/perm01_vpceA-vpceB-noVpce-bucket_gen_user_1_1.txt: Parameter validation failed:\nInvalid type for parameter Tagging, value: {'TagSet': [{'Key': 'env', 'Value': 'lab'}, {'Key': 'lab_name', 'Value': 's3-labs-2'}, {'Key': 'access_flag_vpce_a', 'Value': 'true'}, {'Key': 'access_flag_vpce_b', 'Value': 'true'}, {'Key': 'access_flag_no_vpce', 'Value': 'true'}, {'Key': 'access_flag_bucket', 'Value': 'true'}, {'Key': 'object_user_primary', 'Value': 'awssec-gen-user-1'}, {'Key': 'permutation_id', 'Value': 'perm01'}, {'Key': 'object_number', 'Value': '1'}]}, type: <class 'dict'>, valid types: <class 'str'>"
+  },
+  {
+    "object_key": "test-objects/perm02_vpceA-vpceB-noVpce_gen_lambda_1.txt",
+    "error": "Unexpected error uploading test-objects/perm02_vpceA-vpceB-noVpce_gen_lambda_1.txt: Parameter validation failed:\nInvalid type for parameter Tagging, value: {'TagSet': [{'Key': 'env', 'Value': 'lab'}, {'Key': 'lab_name', 'Value': 's3-labs-2'}, {'Key': 'access_flag_vpce_a', 'Value': 'true'}, {'Key': 'access_flag_vpce_b', 'Value': 'true'}, {'Key': 'access_flag_no_vpce', 'Value': 'true'}, {'Key': 'access_flag_bucket', 'Value': 'false'}, {'Key': 'object_user_primary', 'Value': 'awssec-gen-lambda'}, {'Key': 'permutation_id', 'Value': 'perm02'}, {'Key': 'object_number', 'Value': '1'}]}, type: <class 'dict'>, valid types: <class 'str'>"
+  },
+  {
+    "object_key": "test-objects/perm01_vpceA-vpceB-noVpce-bucket_b_user_1_3.txt",
+    "error": "Unexpected error uploading test-objects/perm01_vpceA-vpceB-noVpce-bucket_b_user_1_3.txt: Parameter validation failed:\nInvalid type for parameter Tagging, value: {'TagSet': [{'Key': 'env', 'Value': 'lab'}, {'Key': 'lab_name', 'Value': 's3-labs-2'}, {'Key': 'access_flag_vpce_a', 'Value': 'true'}, {'Key': 'access_flag_vpce_b', 'Value': 'true'}, {'Key': 'access_flag_no_vpce', 'Value': 'true'}, {'Key': 'access_flag_bucket', 'Value': 'true'}, {'Key': 'object_user_primary', 'Value': 'awssec-b-user-1'}, {'Key': 'permutation_id', 'Value': 'perm01'}, {'Key': 'object_number', 'Value': '3'}]}, type: <class 'dict'>, valid types: <class 'str'>"
+  },
+  {
+    "object_key": "test-objects/perm02_vpceA-vpceB-noVpce_gen_lambda_2.txt",
+    "error": "Unexpected error uploading test-objects/perm02_vpceA-vpceB-noVpce_gen_lambda_2.txt: Parameter validation failed:\nInvalid type for parameter Tagging, value: {'TagSet': [{'Key': 'env', 'Value': 'lab'}, {'Key': 'lab_name', 'Value': 's3-labs-2'}, {'Key': 'access_flag_vpce_a', 'Value': 'true'}, {'Key': 'access_flag_vpce_b', 'Value': 'true'}, {'Key': 'access_flag_no_vpce', 'Value': 'true'}, {'Key': 'access_flag_bucket', 'Value': 'false'}, {'Key': 'object_user_primary', 'Value': 'awssec-gen-lambda'}, {'Key': 'permutation_id', 'Value': 'perm02'}, {'Key': 'object_number', 'Value': '2'}]}, type: <class 'dict'>, valid types: <class 'str'>"
+  },
+  {
+    "object_key": "test-objects/perm01_vpceA-vpceB-noVpce-bucket_b_lambda_2.txt",
+    "error": "Unexpected error uploading test-objects/perm01_vpceA-vpceB-noVpce-bucket_b_lambda_2.txt: Parameter validation failed:\nInvalid type for parameter Tagging, value: {'TagSet': [{'Key': 'env', 'Value': 'lab'}, {'Key': 'lab_name', 'Value': 's3-labs-2'}, {'Key': 'access_flag_vpce_a', 'Value': 'true'}, {'Key': 'access_flag_vpce_b', 'Value': 'true'}, {'Key': 'access_flag_no_vpce', 'Value': 'true'}, {'Key': 'access_flag_bucket', 'Value': 'true'}, {'Key': 'object_user_primary', 'Value': 'awssec-b-lambda'}, {'Key': 'permutation_id', 'Value': 'perm01'}, {'Key': 'object_number', 'Value': '2'}]}, type: <class 'dict'>, valid types: <class 'str'>"
+  },
+  {
+    "object_key": "test-objects/perm01_vpceA-vpceB-noVpce-bucket_gen_user_1_3.txt",
+    "error": "Unexpected error uploading test-objects/perm01_vpceA-vpceB-noVpce-bucket_gen_user_1_3.txt: Parameter validation failed:\nInvalid type for parameter Tagging, value: {'TagSet': [{'Key': 'env', 'Value': 'lab'}, {'Key': 'lab_name', 'Value': 's3-labs-2'}, {'Key': 'access_flag_vpce_a', 'Value': 'true'}, {'Key': 'access_flag_vpce_b', 'Value': 'true'}, {'Key': 'access_flag_no_vpce', 'Value': 'true'}, {'Key': 'access_flag_bucket', 'Value': 'true'}, {'Key': 'object_user_primary', 'Value': 'awssec-gen-user-1'}, {'Key': 'permutation_id', 'Value': 'perm01'}, {'Key': 'object_number', 'Value': '3'}]}, type: <class 'dict'>, valid types: <class 'str'>"
+  },
+  {
+    "object_key": "test-objects/perm01_vpceA-vpceB-noVpce-bucket_gen_user_1_2.txt",
+    "error": "Unexpected error uploading test-objects/perm01_vpceA-vpceB-noVpce-bucket_gen_user_1_2.txt: Parameter validation failed:\nInvalid type for parameter Tagging, value: {'TagSet': [{'Key': 'env', 'Value': 'lab'}, {'Key': 'lab_name', 'Value': 's3-labs-2'}, {'Key': 'access_flag_vpce_a', 'Value': 'true'}, {'Key': 'access_flag_vpce_b', 'Value': 'true'}, {'Key': 'access_flag_no_vpce', 'Value': 'true'}, {'Key': 'access_flag_bucket', 'Value': 'true'}, {'Key': 'object_user_primary', 'Value': 'awssec-gen-user-1'}, {'Key': 'permutation_id', 'Value': 'perm01'}, {'Key': 'object_number', 'Value': '2'}]}, type: <class 'dict'>, valid types: <class 'str'>"
+  },
+  {
+    "object_key": "test-objects/perm01_vpceA-vpceB-noVpce-bucket_gen_lambda_3.txt",
+    "error": "Unexpected error uploading test-objects/perm01_vpceA-vpceB-noVpce-bucket_gen_lambda_3.txt: Parameter validation failed:\nInvalid type for parameter Tagging, value: {'TagSet': [{'Key': 'env', 'Value': 'lab'}, {'Key': 'lab_name', 'Value': 's3-labs-2'}, {'Key': 'access_flag_vpce_a', 'Value': 'true'}, {'Key': 'access_flag_vpce_b', 'Value': 'true'}, {'Key': 'access_flag_no_vpce', 'Value': 'true'}, {'Key': 'access_flag_bucket', 'Value': 'true'}, {'Key': 'object_user_primary', 'Value': 'awssec-gen-lambda'}, {'Key': 'permutation_id', 'Value': 'perm01'}, {'Key': 'object_number', 'Value': '3'}]}, type: <class 'dict'>, valid types: <class 'str'>"
+  },
+  {
+    "object_key": "test-objects/perm02_vpceA-vpceB-noVpce_b_user_1_2.txt",
+    "error": "Unexpected error uploading test-objects/perm02_vpceA-vpceB-noVpce_b_user_1_2.txt: Parameter validation failed:\nInvalid type for parameter Tagging, value: {'TagSet': [{'Key': 'env', 'Value': 'lab'}, {'Key': 'lab_name', 'Value': 's3-labs-2'}, {'Key': 'access_flag_vpce_a', 'Value': 'true'}, {'Key': 'access_flag_vpce_b', 'Value': 'true'}, {'Key': 'access_flag_no_vpce', 'Value': 'true'}, {'Key': 'access_flag_bucket', 'Value': 'false'}, {'Key': 'object_user_primary', 'Value': 'awssec-b-user-1'}, {'Key': 'permutation_id', 'Value': 'perm02'}, {'Key': 'object_number', 'Value': '2'}]}, type: <class 'dict'>, valid types: <class 'str'>"
+  },
+  {
+    "object_key": "test-objects/perm01_vpceA-vpceB-noVpce-bucket_b_lambda_1.txt",
+    "error": "Unexpected error uploading test-objects/perm01_vpceA-vpceB-noVpce-bucket_b_lambda_1.txt: Parameter validation failed:\nInvalid type for parameter Tagging, value: {'TagSet': [{'Key': 'env', 'Value': 'lab'}, {'Key': 'lab_name', 'Value': 's3-labs-2'}, {'Key': 'access_flag_vpce_a', 'Value': 'true'}, {'Key': 'access_flag_vpce_b', 'Value': 'true'}, {'Key': 'access_flag_no_vpce', 'Value': 'true'}, {'Key': 'access_flag_bucket', 'Value': 'true'}, {'Key': 'object_user_primary', 'Value': 'awssec-b-lambda'}, {'Key': 'permutation_id', 'Value': 'perm01'}, {'Key': 'object_number', 'Value': '1'}]}, type: <class 'dict'>, valid types: <class 'str'>"
+  },
+  {
+    "object_key": "test-objects/perm02_vpceA-vpceB-noVpce_gen_user_1_2.txt",
+    "error": "Unexpected error uploading test-objects/perm02_vpceA-vpceB-noVpce_gen_user_1_2.txt: Parameter validation failed:\nInvalid type for parameter Tagging, value: {'TagSet': [{'Key': 'env', 'Value': 'lab'}, {'Key': 'lab_name', 'Value': 's3-labs-2'}, {'Key': 'access_flag_vpce_a', 'Value': 'true'}, {'Key': 'access_flag_vpce_b', 'Value': 'true'}, {'Key': 'access_flag_no_vpce', 'Value': 'true'}, {'Key': 'access_flag_bucket', 'Value': 'false'}, {'Key': 'object_user_primary', 'Value': 'awssec-gen-user-1'}, {'Key': 'permutation_id', 'Value': 'perm02'}, {'Key': 'object_number', 'Value': '2'}]}, type: <class 'dict'>, valid types: <class 'str'>"
+  },
+  {
+    "object_key": "test-objects/perm01_vpceA-vpceB-noVpce-bucket_b_user_1_2.txt",
+    "error": "Unexpected error uploading test-objects/perm01_vpceA-vpceB-noVpce-bucket_b_user_1_2.txt: Parameter validation failed:\nInvalid type for parameter Tagging, value: {'TagSet': [{'Key': 'env', 'Value': 'lab'}, {'Key': 'lab_name', 'Value': 's3-labs-2'}, {'Key': 'access_flag_vpce_a', 'Value': 'true'}, {'Key': 'access_flag_vpce_b', 'Value': 'true'}, {'Key': 'access_flag_no_vpce', 'Value': 'true'}, {'Key': 'access_flag_bucket', 'Value': 'true'}, {'Key': 'object_user_primary', 'Value': 'awssec-b-user-1'}, {'Key': 'permutation_id', 'Value': 'perm01'}, {'Key': 'object_number', 'Value': '2'}]}, type: <class 'dict'>, valid types: <class 'str'>"
+  },
+  {
+    "object_key": "test-objects/perm02_vpceA-vpceB-noVpce_b_user_1_1.txt",
+    "error": "Unexpected error uploading test-objects/perm02_vpceA-vpceB-noVpce_b_user_1_1.txt: Parameter validation failed:\nInvalid type for parameter Tagging, value: {'TagSet': [{'Key': 'env', 'Value': 'lab'}, {'Key': 'lab_name', 'Value': 's3-labs-2'}, {'Key': 'access_flag_vpce_a', 'Value': 'true'}, {'Key': 'access_flag_vpce_b', 'Value': 'true'}, {'Key': 'access_flag_no_vpce', 'Value': 'true'}, {'Key': 'access_flag_bucket', 'Value': 'false'}, {'Key': 'object_user_primary', 'Value': 'awssec-b-user-1'}, {'Key': 'permutation_id', 'Value': 'perm02'}, {'Key': 'object_number', 'Value': '1'}]}, type: <class 'dict'>, valid types: <class 'str'>"
+  },
+  {
+    "object_key": "test-objects/perm02_vpceA-vpceB-noVpce_gen_user_1_1.txt",
+    "error": "Unexpected error uploading test-objects/perm02_vpceA-vpceB-noVpce_gen_user_1_1.txt: Parameter validation failed:\nInvalid type for parameter Tagging, value: {'TagSet': [{'Key': 'env', 'Value': 'lab'}, {'Key': 'lab_name', 'Value': 's3-labs-2'}, {'Key': 'access_flag_vpce_a', 'Value': 'true'}, {'Key': 'access_flag_vpce_b', 'Value': 'true'}, {'Key': 'access_flag_no_vpce', 'Value': 'true'}, {'Key': 'access_flag_bucket', 'Value': 'false'}, {'Key': 'object_user_primary', 'Value': 'awssec-gen-user-1'}, {'Key': 'permutation_id', 'Value': 'perm02'}, {'Key': 'object_number', 'Value': '1'}]}, type: <class 'dict'>, valid types: <class 'str'>"
+  },
+  {
+    "object_key": "test-objects/perm01_vpceA-vpceB-noVpce-bucket_gen_lambda_2.txt",
+    "error": "Unexpected error uploading test-objects/perm01_vpceA-vpceB-noVpce-bucket_gen_lambda_2.txt: Parameter validation failed:\nInvalid type for parameter Tagging, value: {'TagSet': [{'Key': 'env', 'Value': 'lab'}, {'Key': 'lab_name', 'Value': 's3-labs-2'}, {'Key': 'access_flag_vpce_a', 'Value': 'true'}, {'Key': 'access_flag_vpce_b', 'Value': 'true'}, {'Key': 'access_flag_no_vpce', 'Value': 'true'}, {'Key': 'access_flag_bucket', 'Value': 'true'}, {'Key': 'object_user_primary', 'Value': 'awssec-gen-lambda'}, {'Key': 'permutation_id', 'Value': 'perm01'}, {'Key': 'object_number', 'Value': '2'}]}, type: <class 'dict'>, valid types: <class 'str'>"
+  },
+  {
+    "object_key": "test-objects/perm02_vpceA-vpceB-noVpce_gen_lambda_3.txt",
+    "error": "Unexpected error uploading test-objects/perm02_vpceA-vpceB-noVpce_gen_lambda_3.txt: Parameter validation failed:\nInvalid type for parameter Tagging, value: {'TagSet': [{'Key': 'env', 'Value': 'lab'}, {'Key': 'lab_name', 'Value': 's3-labs-2'}, {'Key': 'access_flag_vpce_a', 'Value': 'true'}, {'Key': 'access_flag_vpce_b', 'Value': 'true'}, {'Key': 'access_flag_no_vpce', 'Value': 'true'}, {'Key': 'access_flag_bucket', 'Value': 'false'}, {'Key': 'object_user_primary', 'Value': 'awssec-gen-lambda'}, {'Key': 'permutation_id', 'Value': 'perm02'}, {'Key': 'object_number', 'Value': '3'}]}, type: <class 'dict'>, valid types: <class 'str'>"
+  },
+  {
+    "object_key": "test-objects/perm02_vpceA-vpceB-noVpce_b_lambda_1.txt",
+    "error": "Unexpected error uploading test-objects/perm02_vpceA-vpceB-noVpce_b_lambda_1.txt: Parameter validation failed:\nInvalid type for parameter Tagging, value: {'TagSet': [{'Key': 'env', 'Value': 'lab'}, {'Key': 'lab_name', 'Value': 's3-labs-2'}, {'Key': 'access_flag_vpce_a', 'Value': 'true'}, {'Key': 'access_flag_vpce_b', 'Value': 'true'}, {'Key': 'access_flag_no_vpce', 'Value': 'true'}, {'Key': 'access_flag_bucket', 'Value': 'false'}, {'Key': 'object_user_primary', 'Value': 'awssec-b-lambda'}, {'Key': 'permutation_id', 'Value': 'perm02'}, {'Key': 'object_number', 'Value': '1'}]}, type: <class 'dict'>, valid types: <class 'str'>"
+  },
+  {
+    "object_key": "test-objects/perm02_vpceA-vpceB-noVpce_gen_user_1_3.txt",
+    "error": "Unexpected error uploading test-objects/perm02_vpceA-vpceB-noVpce_gen_user_1_3.txt: Parameter validation failed:\nInvalid type for parameter Tagging, value: {'TagSet': [{'Key': 'env', 'Value': 'lab'}, {'Key': 'lab_name', 'Value': 's3-labs-2'}, {'Key': 'access_flag_vpce_a', 'Value': 'true'}, {'Key': 'access_flag_vpce_b', 'Value': 'true'}, {'Key': 'access_flag_no_vpce', 'Value': 'true'}, {'Key': 'access_flag_bucket', 'Value': 'false'}, {'Key': 'object_user_primary', 'Value': 'awssec-gen-user-1'}, {'Key': 'permutation_id', 'Value': 'perm02'}, {'Key': 'object_number', 'Value': '3'}]}, type: <class 'dict'>, valid types: <class 'str'>"
+  },
+  {
+    "object_key": "test-objects/perm03_vpceA-vpceB-bucket_gen_user_1_1.txt",
+    "error": "Unexpected error uploading test-objects/perm03_vpceA-vpceB-bucket_gen_user_1_1.txt: Parameter validation failed:\nInvalid type for parameter Tagging, value: {'TagSet': [{'Key': 'env', 'Value': 'lab'}, {'Key': 'lab_name', 'Value': 's3-labs-2'}, {'Key': 'access_flag_vpce_a', 'Value': 'true'}, {'Key': 'access_flag_vpce_b', 'Value': 'true'}, {'Key': 'access_flag_no_vpce', 'Value': 'false'}, {'Key': 'access_flag_bucket', 'Value': 'true'}, {'Key': 'object_user_primary', 'Value': 'awssec-gen-user-1'}, {'Key': 'permutation_id', 'Value': 'perm03'}, {'Key': 'object_number', 'Value': '1'}]}, type: <class 'dict'>, valid types: <class 'str'>"
+  },
+  {
+    "object_key": "test-objects/perm03_vpceA-vpceB-bucket_gen_user_1_2.txt",
+    "error": "Unexpected error uploading test-objects/perm03_vpceA-vpceB-bucket_gen_user_1_2.txt: Parameter validation failed:\nInvalid type for parameter Tagging, value: {'TagSet': [{'Key': 'env', 'Value': 'lab'}, {'Key': 'lab_name', 'Value': 's3-labs-2'}, {'Key': 'access_flag_vpce_a', 'Value': 'true'}, {'Key': 'access_flag_vpce_b', 'Value': 'true'}, {'Key': 'access_flag_no_vpce', 'Value': 'false'}, {'Key': 'access_flag_bucket', 'Value': 'true'}, {'Key': 'object_user_primary', 'Value': 'awssec-gen-user-1'}, {'Key': 'permutation_id', 'Value': 'perm03'}, {'Key': 'object_number', 'Value': '2'}]}, type: <class 'dict'>, valid types: <class 'str'>"
+  },
+  {
+    "object_key": "test-objects/perm03_vpceA-vpceB-bucket_b_user_1_1.txt",
+    "error": "Unexpected error uploading test-objects/perm03_vpceA-vpceB-bucket_b_user_1_1.txt: Parameter validation failed:\nInvalid type for parameter Tagging, value: {'TagSet': [{'Key': 'env', 'Value': 'lab'}, {'Key': 'lab_name', 'Value': 's3-labs-2'}, {'Key': 'access_flag_vpce_a', 'Value': 'true'}, {'Key': 'access_flag_vpce_b', 'Value': 'true'}, {'Key': 'access_flag_no_vpce', 'Value': 'false'}, {'Key': 'access_flag_bucket', 'Value': 'true'}, {'Key': 'object_user_primary', 'Value': 'awssec-b-user-1'}, {'Key': 'permutation_id', 'Value': 'perm03'}, {'Key': 'object_number', 'Value': '1'}]}, type: <class 'dict'>, valid types: <class 'str'>"
+  },
+  {
+    "object_key": "test-objects/perm03_vpceA-vpceB-bucket_gen_lambda_2.txt",
+    "error": "Unexpected error uploading test-objects/perm03_vpceA-vpceB-bucket_gen_lambda_2.txt: Parameter validation failed:\nInvalid type for parameter Tagging, value: {'TagSet': [{'Key': 'env', 'Value': 'lab'}, {'Key': 'lab_name', 'Value': 's3-labs-2'}, {'Key': 'access_flag_vpce_a', 'Value': 'true'}, {'Key': 'access_flag_vpce_b', 'Value': 'true'}, {'Key': 'access_flag_no_vpce', 'Value': 'false'}, {'Key': 'access_flag_bucket', 'Value': 'true'}, {'Key': 'object_user_primary', 'Value': 'awssec-gen-lambda'}, {'Key': 'permutation_id', 'Value': 'perm03'}, {'Key': 'object_number', 'Value': '2'}]}, type: <class 'dict'>, valid types: <class 'str'>"
+  },
+  {
+    "object_key": "test-objects/perm03_vpceA-vpceB-bucket_b_user_1_3.txt",
+    "error": "Unexpected error uploading test-objects/perm03_vpceA-vpceB-bucket_b_user_1_3.txt: Parameter validation failed:\nInvalid type for parameter Tagging, value: {'TagSet': [{'Key': 'env', 'Value': 'lab'}, {'Key': 'lab_name', 'Value': 's3-labs-2'}, {'Key': 'access_flag_vpce_a', 'Value': 'true'}, {'Key': 'access_flag_vpce_b', 'Value': 'true'}, {'Key': 'access_flag_no_vpce', 'Value': 'false'}, {'Key': 'access_flag_bucket', 'Value': 'true'}, {'Key': 'object_user_primary', 'Value': 'awssec-b-user-1'}, {'Key': 'permutation_id', 'Value': 'perm03'}, {'Key': 'object_number', 'Value': '3'}]}, type: <class 'dict'>, valid types: <class 'str'>"
+  },
+  {
+    "object_key": "test-objects/perm03_vpceA-vpceB-bucket_b_lambda_2.txt",
+    "error": "Unexpected error uploading test-objects/perm03_vpceA-vpceB-bucket_b_lambda_2.txt: Parameter validation failed:\nInvalid type for parameter Tagging, value: {'TagSet': [{'Key': 'env', 'Value': 'lab'}, {'Key': 'lab_name', 'Value': 's3-labs-2'}, {'Key': 'access_flag_vpce_a', 'Value': 'true'}, {'Key': 'access_flag_vpce_b', 'Value': 'true'}, {'Key': 'access_flag_no_vpce', 'Value': 'false'}, {'Key': 'access_flag_bucket', 'Value': 'true'}, {'Key': 'object_user_primary', 'Value': 'awssec-b-lambda'}, {'Key': 'permutation_id', 'Value': 'perm03'}, {'Key': 'object_number', 'Value': '2'}]}, type: <class 'dict'>, valid types: <class 'str'>"
+  },
+  {
+    "object_key": "test-objects/perm02_vpceA-vpceB-noVpce_b_lambda_2.txt",
+    "error": "Unexpected error uploading test-objects/perm02_vpceA-vpceB-noVpce_b_lambda_2.txt: Parameter validation failed:\nInvalid type for parameter Tagging, value: {'TagSet': [{'Key': 'env', 'Value': 'lab'}, {'Key': 'lab_name', 'Value': 's3-labs-2'}, {'Key': 'access_flag_vpce_a', 'Value': 'true'}, {'Key': 'access_flag_vpce_b', 'Value': 'true'}, {'Key': 'access_flag_no_vpce', 'Value': 'true'}, {'Key': 'access_flag_bucket', 'Value': 'false'}, {'Key': 'object_user_primary', 'Value': 'awssec-b-lambda'}, {'Key': 'permutation_id', 'Value': 'perm02'}, {'Key': 'object_number', 'Value': '2'}]}, type: <class 'dict'>, valid types: <class 'str'>"
+  },
+  {
+    "object_key": "test-objects/perm04_vpceA-vpceB_gen_lambda_1.txt",
+    "error": "Unexpected error uploading test-objects/perm04_vpceA-vpceB_gen_lambda_1.txt: Parameter validation failed:\nInvalid type for parameter Tagging, value: {'TagSet': [{'Key': 'env', 'Value': 'lab'}, {'Key': 'lab_name', 'Value': 's3-labs-2'}, {'Key': 'access_flag_vpce_a', 'Value': 'true'}, {'Key': 'access_flag_vpce_b', 'Value': 'true'}, {'Key': 'access_flag_no_vpce', 'Value': 'false'}, {'Key': 'access_flag_bucket', 'Value': 'false'}, {'Key': 'object_user_primary', 'Value': 'awssec-gen-lambda'}, {'Key': 'permutation_id', 'Value': 'perm04'}, {'Key': 'object_number', 'Value': '1'}]}, type: <class 'dict'>, valid types: <class 'str'>"
+  },
+  {
+    "object_key": "test-objects/perm04_vpceA-vpceB_gen_user_1_1.txt",
+    "error": "Unexpected error uploading test-objects/perm04_vpceA-vpceB_gen_user_1_1.txt: Parameter validation failed:\nInvalid type for parameter Tagging, value: {'TagSet': [{'Key': 'env', 'Value': 'lab'}, {'Key': 'lab_name', 'Value': 's3-labs-2'}, {'Key': 'access_flag_vpce_a', 'Value': 'true'}, {'Key': 'access_flag_vpce_b', 'Value': 'true'}, {'Key': 'access_flag_no_vpce', 'Value': 'false'}, {'Key': 'access_flag_bucket', 'Value': 'false'}, {'Key': 'object_user_primary', 'Value': 'awssec-gen-user-1'}, {'Key': 'permutation_id', 'Value': 'perm04'}, {'Key': 'object_number', 'Value': '1'}]}, type: <class 'dict'>, valid types: <class 'str'>"
+  },
+  {
+    "object_key": "test-objects/perm04_vpceA-vpceB_gen_user_1_3.txt",
+    "error": "Unexpected error uploading test-objects/perm04_vpceA-vpceB_gen_user_1_3.txt: Parameter validation failed:\nInvalid type for parameter Tagging, value: {'TagSet': [{'Key': 'env', 'Value': 'lab'}, {'Key': 'lab_name', 'Value': 's3-labs-2'}, {'Key': 'access_flag_vpce_a', 'Value': 'true'}, {'Key': 'access_flag_vpce_b', 'Value': 'true'}, {'Key': 'access_flag_no_vpce', 'Value': 'false'}, {'Key': 'access_flag_bucket', 'Value': 'false'}, {'Key': 'object_user_primary', 'Value': 'awssec-gen-user-1'}, {'Key': 'permutation_id', 'Value': 'perm04'}, {'Key': 'object_number', 'Value': '3'}]}, type: <class 'dict'>, valid types: <class 'str'>"
+  },
+  {
+    "object_key": "test-objects/perm03_vpceA-vpceB-bucket_b_lambda_3.txt",
+    "error": "Unexpected error uploading test-objects/perm03_vpceA-vpceB-bucket_b_lambda_3.txt: Parameter validation failed:\nInvalid type for parameter Tagging, value: {'TagSet': [{'Key': 'env', 'Value': 'lab'}, {'Key': 'lab_name', 'Value': 's3-labs-2'}, {'Key': 'access_flag_vpce_a', 'Value': 'true'}, {'Key': 'access_flag_vpce_b', 'Value': 'true'}, {'Key': 'access_flag_no_vpce', 'Value': 'false'}, {'Key': 'access_flag_bucket', 'Value': 'true'}, {'Key': 'object_user_primary', 'Value': 'awssec-b-lambda'}, {'Key': 'permutation_id', 'Value': 'perm03'}, {'Key': 'object_number', 'Value': '3'}]}, type: <class 'dict'>, valid types: <class 'str'>"
+  },
+  {
+    "object_key": "test-objects/perm03_vpceA-vpceB-bucket_gen_user_1_3.txt",
+    "error": "Unexpected error uploading test-objects/perm03_vpceA-vpceB-bucket_gen_user_1_3.txt: Parameter validation failed:\nInvalid type for parameter Tagging, value: {'TagSet': [{'Key': 'env', 'Value': 'lab'}, {'Key': 'lab_name', 'Value': 's3-labs-2'}, {'Key': 'access_flag_vpce_a', 'Value': 'true'}, {'Key': 'access_flag_vpce_b', 'Value': 'true'}, {'Key': 'access_flag_no_vpce', 'Value': 'false'}, {'Key': 'access_flag_bucket', 'Value': 'true'}, {'Key': 'object_user_primary', 'Value': 'awssec-gen-user-1'}, {'Key': 'permutation_id', 'Value': 'perm03'}, {'Key': 'object_number', 'Value': '3'}]}, type: <class 'dict'>, valid types: <class 'str'>"
+  },
+  {
+    "object_key": "test-objects/perm03_vpceA-vpceB-bucket_b_user_1_2.txt",
+    "error": "Unexpected error uploading test-objects/perm03_vpceA-vpceB-bucket_b_user_1_2.txt: Parameter validation failed:\nInvalid type for parameter Tagging, value: {'TagSet': [{'Key': 'env', 'Value': 'lab'}, {'Key': 'lab_name', 'Value': 's3-labs-2'}, {'Key': 'access_flag_vpce_a', 'Value': 'true'}, {'Key': 'access_flag_vpce_b', 'Value': 'true'}, {'Key': 'access_flag_no_vpce', 'Value': 'false'}, {'Key': 'access_flag_bucket', 'Value': 'true'}, {'Key': 'object_user_primary', 'Value': 'awssec-b-user-1'}, {'Key': 'permutation_id', 'Value': 'perm03'}, {'Key': 'object_number', 'Value': '2'}]}, type: <class 'dict'>, valid types: <class 'str'>"
+  },
+  {
+    "object_key": "test-objects/perm04_vpceA-vpceB_gen_lambda_2.txt",
+    "error": "Unexpected error uploading test-objects/perm04_vpceA-vpceB_gen_lambda_2.txt: Parameter validation failed:\nInvalid type for parameter Tagging, value: {'TagSet': [{'Key': 'env', 'Value': 'lab'}, {'Key': 'lab_name', 'Value': 's3-labs-2'}, {'Key': 'access_flag_vpce_a', 'Value': 'true'}, {'Key': 'access_flag_vpce_b', 'Value': 'true'}, {'Key': 'access_flag_no_vpce', 'Value': 'false'}, {'Key': 'access_flag_bucket', 'Value': 'false'}, {'Key': 'object_user_primary', 'Value': 'awssec-gen-lambda'}, {'Key': 'permutation_id', 'Value': 'perm04'}, {'Key': 'object_number', 'Value': '2'}]}, type: <class 'dict'>, valid types: <class 'str'>"
+  },
+  {
+    "object_key": "test-objects/perm03_vpceA-vpceB-bucket_gen_lambda_3.txt",
+    "error": "Unexpected error uploading test-objects/perm03_vpceA-vpceB-bucket_gen_lambda_3.txt: Parameter validation failed:\nInvalid type for parameter Tagging, value: {'TagSet': [{'Key': 'env', 'Value': 'lab'}, {'Key': 'lab_name', 'Value': 's3-labs-2'}, {'Key': 'access_flag_vpce_a', 'Value': 'true'}, {'Key': 'access_flag_vpce_b', 'Value': 'true'}, {'Key': 'access_flag_no_vpce', 'Value': 'false'}, {'Key': 'access_flag_bucket', 'Value': 'true'}, {'Key': 'object_user_primary', 'Value': 'awssec-gen-lambda'}, {'Key': 'permutation_id', 'Value': 'perm03'}, {'Key': 'object_number', 'Value': '3'}]}, type: <class 'dict'>, valid types: <class 'str'>"
+  },
+  {
+    "object_key": "test-objects/perm04_vpceA-vpceB_gen_lambda_3.txt",
+    "error": "Unexpected error uploading test-objects/perm04_vpceA-vpceB_gen_lambda_3.txt: Parameter validation failed:\nInvalid type for parameter Tagging, value: {'TagSet': [{'Key': 'env', 'Value': 'lab'}, {'Key': 'lab_name', 'Value': 's3-labs-2'}, {'Key': 'access_flag_vpce_a', 'Value': 'true'}, {'Key': 'access_flag_vpce_b', 'Value': 'true'}, {'Key': 'access_flag_no_vpce', 'Value': 'false'}, {'Key': 'access_flag_bucket', 'Value': 'false'}, {'Key': 'object_user_primary', 'Value': 'awssec-gen-lambda'}, {'Key': 'permutation_id', 'Value': 'perm04'}, {'Key': 'object_number', 'Value': '3'}]}, type: <class 'dict'>, valid types: <class 'str'>"
+  },
+  {
+    "object_key": "test-objects/perm03_vpceA-vpceB-bucket_b_lambda_1.txt",
+    "error": "Unexpected error uploading test-objects/perm03_vpceA-vpceB-bucket_b_lambda_1.txt: Parameter validation failed:\nInvalid type for parameter Tagging, value: {'TagSet': [{'Key': 'env', 'Value': 'lab'}, {'Key': 'lab_name', 'Value': 's3-labs-2'}, {'Key': 'access_flag_vpce_a', 'Value': 'true'}, {'Key': 'access_flag_vpce_b', 'Value': 'true'}, {'Key': 'access_flag_no_vpce', 'Value': 'false'}, {'Key': 'access_flag_bucket', 'Value': 'true'}, {'Key': 'object_user_primary', 'Value': 'awssec-b-lambda'}, {'Key': 'permutation_id', 'Value': 'perm03'}, {'Key': 'object_number', 'Value': '1'}]}, type: <class 'dict'>, valid types: <class 'str'>"
+  },
+  {
+    "object_key": "test-objects/perm03_vpceA-vpceB-bucket_gen_lambda_1.txt",
+    "error": "Unexpected error uploading test-objects/perm03_vpceA-vpceB-bucket_gen_lambda_1.txt: Parameter validation failed:\nInvalid type for parameter Tagging, value: {'TagSet': [{'Key': 'env', 'Value': 'lab'}, {'Key': 'lab_name', 'Value': 's3-labs-2'}, {'Key': 'access_flag_vpce_a', 'Value': 'true'}, {'Key': 'access_flag_vpce_b', 'Value': 'true'}, {'Key': 'access_flag_no_vpce', 'Value': 'false'}, {'Key': 'access_flag_bucket', 'Value': 'true'}, {'Key': 'object_user_primary', 'Value': 'awssec-gen-lambda'}, {'Key': 'permutation_id', 'Value': 'perm03'}, {'Key': 'object_number', 'Value': '1'}]}, type: <class 'dict'>, valid types: <class 'str'>"
+  },
+  {
+    "object_key": "test-objects/perm05_vpceA-noVpce-bucket_gen_user_1_1.txt",
+    "error": "Unexpected error uploading test-objects/perm05_vpceA-noVpce-bucket_gen_user_1_1.txt: Parameter validation failed:\nInvalid type for parameter Tagging, value: {'TagSet': [{'Key': 'env', 'Value': 'lab'}, {'Key': 'lab_name', 'Value': 's3-labs-2'}, {'Key': 'access_flag_vpce_a', 'Value': 'true'}, {'Key': 'access_flag_vpce_b', 'Value': 'false'}, {'Key': 'access_flag_no_vpce', 'Value': 'true'}, {'Key': 'access_flag_bucket', 'Value': 'true'}, {'Key': 'object_user_primary', 'Value': 'awssec-gen-user-1'}, {'Key': 'permutation_id', 'Value': 'perm05'}, {'Key': 'object_number', 'Value': '1'}]}, type: <class 'dict'>, valid types: <class 'str'>"
+  },
+  {
+    "object_key": "test-objects/perm04_vpceA-vpceB_b_user_1_3.txt",
+    "error": "Unexpected error uploading test-objects/perm04_vpceA-vpceB_b_user_1_3.txt: Parameter validation failed:\nInvalid type for parameter Tagging, value: {'TagSet': [{'Key': 'env', 'Value': 'lab'}, {'Key': 'lab_name', 'Value': 's3-labs-2'}, {'Key': 'access_flag_vpce_a', 'Value': 'true'}, {'Key': 'access_flag_vpce_b', 'Value': 'true'}, {'Key': 'access_flag_no_vpce', 'Value': 'false'}, {'Key': 'access_flag_bucket', 'Value': 'false'}, {'Key': 'object_user_primary', 'Value': 'awssec-b-user-1'}, {'Key': 'permutation_id', 'Value': 'perm04'}, {'Key': 'object_number', 'Value': '3'}]}, type: <class 'dict'>, valid types: <class 'str'>"
+  },
+  {
+    "object_key": "test-objects/perm04_vpceA-vpceB_b_lambda_2.txt",
+    "error": "Unexpected error uploading test-objects/perm04_vpceA-vpceB_b_lambda_2.txt: Parameter validation failed:\nInvalid type for parameter Tagging, value: {'TagSet': [{'Key': 'env', 'Value': 'lab'}, {'Key': 'lab_name', 'Value': 's3-labs-2'}, {'Key': 'access_flag_vpce_a', 'Value': 'true'}, {'Key': 'access_flag_vpce_b', 'Value': 'true'}, {'Key': 'access_flag_no_vpce', 'Value': 'false'}, {'Key': 'access_flag_bucket', 'Value': 'false'}, {'Key': 'object_user_primary', 'Value': 'awssec-b-lambda'}, {'Key': 'permutation_id', 'Value': 'perm04'}, {'Key': 'object_number', 'Value': '2'}]}, type: <class 'dict'>, valid types: <class 'str'>"
+  },
+  {
+    "object_key": "test-objects/perm05_vpceA-noVpce-bucket_gen_user_1_2.txt",
+    "error": "Unexpected error uploading test-objects/perm05_vpceA-noVpce-bucket_gen_user_1_2.txt: Parameter validation failed:\nInvalid type for parameter Tagging, value: {'TagSet': [{'Key': 'env', 'Value': 'lab'}, {'Key': 'lab_name', 'Value': 's3-labs-2'}, {'Key': 'access_flag_vpce_a', 'Value': 'true'}, {'Key': 'access_flag_vpce_b', 'Value': 'false'}, {'Key': 'access_flag_no_vpce', 'Value': 'true'}, {'Key': 'access_flag_bucket', 'Value': 'true'}, {'Key': 'object_user_primary', 'Value': 'awssec-gen-user-1'}, {'Key': 'permutation_id', 'Value': 'perm05'}, {'Key': 'object_number', 'Value': '2'}]}, type: <class 'dict'>, valid types: <class 'str'>"
+  },
+  {
+    "object_key": "test-objects/perm05_vpceA-noVpce-bucket_gen_lambda_1.txt",
+    "error": "Unexpected error uploading test-objects/perm05_vpceA-noVpce-bucket_gen_lambda_1.txt: Parameter validation failed:\nInvalid type for parameter Tagging, value: {'TagSet': [{'Key': 'env', 'Value': 'lab'}, {'Key': 'lab_name', 'Value': 's3-labs-2'}, {'Key': 'access_flag_vpce_a', 'Value': 'true'}, {'Key': 'access_flag_vpce_b', 'Value': 'false'}, {'Key': 'access_flag_no_vpce', 'Value': 'true'}, {'Key': 'access_flag_bucket', 'Value': 'true'}, {'Key': 'object_user_primary', 'Value': 'awssec-gen-lambda'}, {'Key': 'permutation_id', 'Value': 'perm05'}, {'Key': 'object_number', 'Value': '1'}]}, type: <class 'dict'>, valid types: <class 'str'>"
+  },
+  {
+    "object_key": "test-objects/perm04_vpceA-vpceB_b_user_1_1.txt",
+    "error": "Unexpected error uploading test-objects/perm04_vpceA-vpceB_b_user_1_1.txt: Parameter validation failed:\nInvalid type for parameter Tagging, value: {'TagSet': [{'Key': 'env', 'Value': 'lab'}, {'Key': 'lab_name', 'Value': 's3-labs-2'}, {'Key': 'access_flag_vpce_a', 'Value': 'true'}, {'Key': 'access_flag_vpce_b', 'Value': 'true'}, {'Key': 'access_flag_no_vpce', 'Value': 'false'}, {'Key': 'access_flag_bucket', 'Value': 'false'}, {'Key': 'object_user_primary', 'Value': 'awssec-b-user-1'}, {'Key': 'permutation_id', 'Value': 'perm04'}, {'Key': 'object_number', 'Value': '1'}]}, type: <class 'dict'>, valid types: <class 'str'>"
+  },
+  {
+    "object_key": "test-objects/perm05_vpceA-noVpce-bucket_gen_user_1_3.txt",
+    "error": "Unexpected error uploading test-objects/perm05_vpceA-noVpce-bucket_gen_user_1_3.txt: Parameter validation failed:\nInvalid type for parameter Tagging, value: {'TagSet': [{'Key': 'env', 'Value': 'lab'}, {'Key': 'lab_name', 'Value': 's3-labs-2'}, {'Key': 'access_flag_vpce_a', 'Value': 'true'}, {'Key': 'access_flag_vpce_b', 'Value': 'false'}, {'Key': 'access_flag_no_vpce', 'Value': 'true'}, {'Key': 'access_flag_bucket', 'Value': 'true'}, {'Key': 'object_user_primary', 'Value': 'awssec-gen-user-1'}, {'Key': 'permutation_id', 'Value': 'perm05'}, {'Key': 'object_number', 'Value': '3'}]}, type: <class 'dict'>, valid types: <class 'str'>"
+  },
+  {
+    "object_key": "test-objects/perm04_vpceA-vpceB_b_lambda_3.txt",
+    "error": "Unexpected error uploading test-objects/perm04_vpceA-vpceB_b_lambda_3.txt: Parameter validation failed:\nInvalid type for parameter Tagging, value: {'TagSet': [{'Key': 'env', 'Value': 'lab'}, {'Key': 'lab_name', 'Value': 's3-labs-2'}, {'Key': 'access_flag_vpce_a', 'Value': 'true'}, {'Key': 'access_flag_vpce_b', 'Value': 'true'}, {'Key': 'access_flag_no_vpce', 'Value': 'false'}, {'Key': 'access_flag_bucket', 'Value': 'false'}, {'Key': 'object_user_primary', 'Value': 'awssec-b-lambda'}, {'Key': 'permutation_id', 'Value': 'perm04'}, {'Key': 'object_number', 'Value': '3'}]}, type: <class 'dict'>, valid types: <class 'str'>"
+  },
+  {
+    "object_key": "test-objects/perm04_vpceA-vpceB_gen_user_1_2.txt",
+    "error": "Unexpected error uploading test-objects/perm04_vpceA-vpceB_gen_user_1_2.txt: Parameter validation failed:\nInvalid type for parameter Tagging, value: {'TagSet': [{'Key': 'env', 'Value': 'lab'}, {'Key': 'lab_name', 'Value': 's3-labs-2'}, {'Key': 'access_flag_vpce_a', 'Value': 'true'}, {'Key': 'access_flag_vpce_b', 'Value': 'true'}, {'Key': 'access_flag_no_vpce', 'Value': 'false'}, {'Key': 'access_flag_bucket', 'Value': 'false'}, {'Key': 'object_user_primary', 'Value': 'awssec-gen-user-1'}, {'Key': 'permutation_id', 'Value': 'perm04'}, {'Key': 'object_number', 'Value': '2'}]}, type: <class 'dict'>, valid types: <class 'str'>"
+  },
+  {
+    "object_key": "test-objects/perm05_vpceA-noVpce-bucket_gen_lambda_3.txt",
+    "error": "Unexpected error uploading test-objects/perm05_vpceA-noVpce-bucket_gen_lambda_3.txt: Parameter validation failed:\nInvalid type for parameter Tagging, value: {'TagSet': [{'Key': 'env', 'Value': 'lab'}, {'Key': 'lab_name', 'Value': 's3-labs-2'}, {'Key': 'access_flag_vpce_a', 'Value': 'true'}, {'Key': 'access_flag_vpce_b', 'Value': 'false'}, {'Key': 'access_flag_no_vpce', 'Value': 'true'}, {'Key': 'access_flag_bucket', 'Value': 'true'}, {'Key': 'object_user_primary', 'Value': 'awssec-gen-lambda'}, {'Key': 'permutation_id', 'Value': 'perm05'}, {'Key': 'object_number', 'Value': '3'}]}, type: <class 'dict'>, valid types: <class 'str'>"
+  },
+  {
+    "object_key": "test-objects/perm05_vpceA-noVpce-bucket_b_lambda_1.txt",
+    "error": "Unexpected error uploading test-objects/perm05_vpceA-noVpce-bucket_b_lambda_1.txt: Parameter validation failed:\nInvalid type for parameter Tagging, value: {'TagSet': [{'Key': 'env', 'Value': 'lab'}, {'Key': 'lab_name', 'Value': 's3-labs-2'}, {'Key': 'access_flag_vpce_a', 'Value': 'true'}, {'Key': 'access_flag_vpce_b', 'Value': 'false'}, {'Key': 'access_flag_no_vpce', 'Value': 'true'}, {'Key': 'access_flag_bucket', 'Value': 'true'}, {'Key': 'object_user_primary', 'Value': 'awssec-b-lambda'}, {'Key': 'permutation_id', 'Value': 'perm05'}, {'Key': 'object_number', 'Value': '1'}]}, type: <class 'dict'>, valid types: <class 'str'>"
+  },
+  {
+    "object_key": "test-objects/perm04_vpceA-vpceB_b_user_1_2.txt",
+    "error": "Unexpected error uploading test-objects/perm04_vpceA-vpceB_b_user_1_2.txt: Parameter validation failed:\nInvalid type for parameter Tagging, value: {'TagSet': [{'Key': 'env', 'Value': 'lab'}, {'Key': 'lab_name', 'Value': 's3-labs-2'}, {'Key': 'access_flag_vpce_a', 'Value': 'true'}, {'Key': 'access_flag_vpce_b', 'Value': 'true'}, {'Key': 'access_flag_no_vpce', 'Value': 'false'}, {'Key': 'access_flag_bucket', 'Value': 'false'}, {'Key': 'object_user_primary', 'Value': 'awssec-b-user-1'}, {'Key': 'permutation_id', 'Value': 'perm04'}, {'Key': 'object_number', 'Value': '2'}]}, type: <class 'dict'>, valid types: <class 'str'>"
+  },
+  {
+    "object_key": "test-objects/perm05_vpceA-noVpce-bucket_b_user_1_1.txt",
+    "error": "Unexpected error uploading test-objects/perm05_vpceA-noVpce-bucket_b_user_1_1.txt: Parameter validation failed:\nInvalid type for parameter Tagging, value: {'TagSet': [{'Key': 'env', 'Value': 'lab'}, {'Key': 'lab_name', 'Value': 's3-labs-2'}, {'Key': 'access_flag_vpce_a', 'Value': 'true'}, {'Key': 'access_flag_vpce_b', 'Value': 'false'}, {'Key': 'access_flag_no_vpce', 'Value': 'true'}, {'Key': 'access_flag_bucket', 'Value': 'true'}, {'Key': 'object_user_primary', 'Value': 'awssec-b-user-1'}, {'Key': 'permutation_id', 'Value': 'perm05'}, {'Key': 'object_number', 'Value': '1'}]}, type: <class 'dict'>, valid types: <class 'str'>"
+  },
+  {
+    "object_key": "test-objects/perm05_vpceA-noVpce-bucket_b_lambda_3.txt",
+    "error": "Unexpected error uploading test-objects/perm05_vpceA-noVpce-bucket_b_lambda_3.txt: Parameter validation failed:\nInvalid type for parameter Tagging, value: {'TagSet': [{'Key': 'env', 'Value': 'lab'}, {'Key': 'lab_name', 'Value': 's3-labs-2'}, {'Key': 'access_flag_vpce_a', 'Value': 'true'}, {'Key': 'access_flag_vpce_b', 'Value': 'false'}, {'Key': 'access_flag_no_vpce', 'Value': 'true'}, {'Key': 'access_flag_bucket', 'Value': 'true'}, {'Key': 'object_user_primary', 'Value': 'awssec-b-lambda'}, {'Key': 'permutation_id', 'Value': 'perm05'}, {'Key': 'object_number', 'Value': '3'}]}, type: <class 'dict'>, valid types: <class 'str'>"
+  },
+  {
+    "object_key": "test-objects/perm05_vpceA-noVpce-bucket_gen_lambda_2.txt",
+    "error": "Unexpected error uploading test-objects/perm05_vpceA-noVpce-bucket_gen_lambda_2.txt: Parameter validation failed:\nInvalid type for parameter Tagging, value: {'TagSet': [{'Key': 'env', 'Value': 'lab'}, {'Key': 'lab_name', 'Value': 's3-labs-2'}, {'Key': 'access_flag_vpce_a', 'Value': 'true'}, {'Key': 'access_flag_vpce_b', 'Value': 'false'}, {'Key': 'access_flag_no_vpce', 'Value': 'true'}, {'Key': 'access_flag_bucket', 'Value': 'true'}, {'Key': 'object_user_primary', 'Value': 'awssec-gen-lambda'}, {'Key': 'permutation_id', 'Value': 'perm05'}, {'Key': 'object_number', 'Value': '2'}]}, type: <class 'dict'>, valid types: <class 'str'>"
+  },
+  {
+    "object_key": "test-objects/perm05_vpceA-noVpce-bucket_b_user_1_2.txt",
+    "error": "Unexpected error uploading test-objects/perm05_vpceA-noVpce-bucket_b_user_1_2.txt: Parameter validation failed:\nInvalid type for parameter Tagging, value: {'TagSet': [{'Key': 'env', 'Value': 'lab'}, {'Key': 'lab_name', 'Value': 's3-labs-2'}, {'Key': 'access_flag_vpce_a', 'Value': 'true'}, {'Key': 'access_flag_vpce_b', 'Value': 'false'}, {'Key': 'access_flag_no_vpce', 'Value': 'true'}, {'Key': 'access_flag_bucket', 'Value': 'true'}, {'Key': 'object_user_primary', 'Value': 'awssec-b-user-1'}, {'Key': 'permutation_id', 'Value': 'perm05'}, {'Key': 'object_number', 'Value': '2'}]}, type: <class 'dict'>, valid types: <class 'str'>"
+  },
+  {
+    "object_key": "test-objects/perm06_vpceA-noVpce_gen_user_1_1.txt",
+    "error": "Unexpected error uploading test-objects/perm06_vpceA-noVpce_gen_user_1_1.txt: Parameter validation failed:\nInvalid type for parameter Tagging, value: {'TagSet': [{'Key': 'env', 'Value': 'lab'}, {'Key': 'lab_name', 'Value': 's3-labs-2'}, {'Key': 'access_flag_vpce_a', 'Value': 'true'}, {'Key': 'access_flag_vpce_b', 'Value': 'false'}, {'Key': 'access_flag_no_vpce', 'Value': 'true'}, {'Key': 'access_flag_bucket', 'Value': 'false'}, {'Key': 'object_user_primary', 'Value': 'awssec-gen-user-1'}, {'Key': 'permutation_id', 'Value': 'perm06'}, {'Key': 'object_number', 'Value': '1'}]}, type: <class 'dict'>, valid types: <class 'str'>"
+  },
+  {
+    "object_key": "test-objects/perm05_vpceA-noVpce-bucket_b_user_1_3.txt",
+    "error": "Unexpected error uploading test-objects/perm05_vpceA-noVpce-bucket_b_user_1_3.txt: Parameter validation failed:\nInvalid type for parameter Tagging, value: {'TagSet': [{'Key': 'env', 'Value': 'lab'}, {'Key': 'lab_name', 'Value': 's3-labs-2'}, {'Key': 'access_flag_vpce_a', 'Value': 'true'}, {'Key': 'access_flag_vpce_b', 'Value': 'false'}, {'Key': 'access_flag_no_vpce', 'Value': 'true'}, {'Key': 'access_flag_bucket', 'Value': 'true'}, {'Key': 'object_user_primary', 'Value': 'awssec-b-user-1'}, {'Key': 'permutation_id', 'Value': 'perm05'}, {'Key': 'object_number', 'Value': '3'}]}, type: <class 'dict'>, valid types: <class 'str'>"
+  },
+  {
+    "object_key": "test-objects/perm04_vpceA-vpceB_b_lambda_1.txt",
+    "error": "Unexpected error uploading test-objects/perm04_vpceA-vpceB_b_lambda_1.txt: Parameter validation failed:\nInvalid type for parameter Tagging, value: {'TagSet': [{'Key': 'env', 'Value': 'lab'}, {'Key': 'lab_name', 'Value': 's3-labs-2'}, {'Key': 'access_flag_vpce_a', 'Value': 'true'}, {'Key': 'access_flag_vpce_b', 'Value': 'true'}, {'Key': 'access_flag_no_vpce', 'Value': 'false'}, {'Key': 'access_flag_bucket', 'Value': 'false'}, {'Key': 'object_user_primary', 'Value': 'awssec-b-lambda'}, {'Key': 'permutation_id', 'Value': 'perm04'}, {'Key': 'object_number', 'Value': '1'}]}, type: <class 'dict'>, valid types: <class 'str'>"
+  },
+  {
+    "object_key": "test-objects/perm05_vpceA-noVpce-bucket_b_lambda_2.txt",
+    "error": "Unexpected error uploading test-objects/perm05_vpceA-noVpce-bucket_b_lambda_2.txt: Parameter validation failed:\nInvalid type for parameter Tagging, value: {'TagSet': [{'Key': 'env', 'Value': 'lab'}, {'Key': 'lab_name', 'Value': 's3-labs-2'}, {'Key': 'access_flag_vpce_a', 'Value': 'true'}, {'Key': 'access_flag_vpce_b', 'Value': 'false'}, {'Key': 'access_flag_no_vpce', 'Value': 'true'}, {'Key': 'access_flag_bucket', 'Value': 'true'}, {'Key': 'object_user_primary', 'Value': 'awssec-b-lambda'}, {'Key': 'permutation_id', 'Value': 'perm05'}, {'Key': 'object_number', 'Value': '2'}]}, type: <class 'dict'>, valid types: <class 'str'>"
+  },
+  {
+    "object_key": "test-objects/perm06_vpceA-noVpce_b_user_1_1.txt",
+    "error": "Unexpected error uploading test-objects/perm06_vpceA-noVpce_b_user_1_1.txt: Parameter validation failed:\nInvalid type for parameter Tagging, value: {'TagSet': [{'Key': 'env', 'Value': 'lab'}, {'Key': 'lab_name', 'Value': 's3-labs-2'}, {'Key': 'access_flag_vpce_a', 'Value': 'true'}, {'Key': 'access_flag_vpce_b', 'Value': 'false'}, {'Key': 'access_flag_no_vpce', 'Value': 'true'}, {'Key': 'access_flag_bucket', 'Value': 'false'}, {'Key': 'object_user_primary', 'Value': 'awssec-b-user-1'}, {'Key': 'permutation_id', 'Value': 'perm06'}, {'Key': 'object_number', 'Value': '1'}]}, type: <class 'dict'>, valid types: <class 'str'>"
+  },
+  {
+    "object_key": "test-objects/perm06_vpceA-noVpce_gen_lambda_2.txt",
+    "error": "Unexpected error uploading test-objects/perm06_vpceA-noVpce_gen_lambda_2.txt: Parameter validation failed:\nInvalid type for parameter Tagging, value: {'TagSet': [{'Key': 'env', 'Value': 'lab'}, {'Key': 'lab_name', 'Value': 's3-labs-2'}, {'Key': 'access_flag_vpce_a', 'Value': 'true'}, {'Key': 'access_flag_vpce_b', 'Value': 'false'}, {'Key': 'access_flag_no_vpce', 'Value': 'true'}, {'Key': 'access_flag_bucket', 'Value': 'false'}, {'Key': 'object_user_primary', 'Value': 'awssec-gen-lambda'}, {'Key': 'permutation_id', 'Value': 'perm06'}, {'Key': 'object_number', 'Value': '2'}]}, type: <class 'dict'>, valid types: <class 'str'>"
+  },
+  {
+    "object_key": "test-objects/perm06_vpceA-noVpce_b_lambda_2.txt",
+    "error": "Unexpected error uploading test-objects/perm06_vpceA-noVpce_b_lambda_2.txt: Parameter validation failed:\nInvalid type for parameter Tagging, value: {'TagSet': [{'Key': 'env', 'Value': 'lab'}, {'Key': 'lab_name', 'Value': 's3-labs-2'}, {'Key': 'access_flag_vpce_a', 'Value': 'true'}, {'Key': 'access_flag_vpce_b', 'Value': 'false'}, {'Key': 'access_flag_no_vpce', 'Value': 'true'}, {'Key': 'access_flag_bucket', 'Value': 'false'}, {'Key': 'object_user_primary', 'Value': 'awssec-b-lambda'}, {'Key': 'permutation_id', 'Value': 'perm06'}, {'Key': 'object_number', 'Value': '2'}]}, type: <class 'dict'>, valid types: <class 'str'>"
+  },
+  {
+    "object_key": "test-objects/perm06_vpceA-noVpce_b_user_1_3.txt",
+    "error": "Unexpected error uploading test-objects/perm06_vpceA-noVpce_b_user_1_3.txt: Parameter validation failed:\nInvalid type for parameter Tagging, value: {'TagSet': [{'Key': 'env', 'Value': 'lab'}, {'Key': 'lab_name', 'Value': 's3-labs-2'}, {'Key': 'access_flag_vpce_a', 'Value': 'true'}, {'Key': 'access_flag_vpce_b', 'Value': 'false'}, {'Key': 'access_flag_no_vpce', 'Value': 'true'}, {'Key': 'access_flag_bucket', 'Value': 'false'}, {'Key': 'object_user_primary', 'Value': 'awssec-b-user-1'}, {'Key': 'permutation_id', 'Value': 'perm06'}, {'Key': 'object_number', 'Value': '3'}]}, type: <class 'dict'>, valid types: <class 'str'>"
+  },
+  {
+    "object_key": "test-objects/perm07_vpceA-bucket_gen_user_1_2.txt",
+    "error": "Unexpected error uploading test-objects/perm07_vpceA-bucket_gen_user_1_2.txt: Parameter validation failed:\nInvalid type for parameter Tagging, value: {'TagSet': [{'Key': 'env', 'Value': 'lab'}, {'Key': 'lab_name', 'Value': 's3-labs-2'}, {'Key': 'access_flag_vpce_a', 'Value': 'true'}, {'Key': 'access_flag_vpce_b', 'Value': 'false'}, {'Key': 'access_flag_no_vpce', 'Value': 'false'}, {'Key': 'access_flag_bucket', 'Value': 'true'}, {'Key': 'object_user_primary', 'Value': 'awssec-gen-user-1'}, {'Key': 'permutation_id', 'Value': 'perm07'}, {'Key': 'object_number', 'Value': '2'}]}, type: <class 'dict'>, valid types: <class 'str'>"
+  },
+  {
+    "object_key": "test-objects/perm06_vpceA-noVpce_b_user_1_2.txt",
+    "error": "Unexpected error uploading test-objects/perm06_vpceA-noVpce_b_user_1_2.txt: Parameter validation failed:\nInvalid type for parameter Tagging, value: {'TagSet': [{'Key': 'env', 'Value': 'lab'}, {'Key': 'lab_name', 'Value': 's3-labs-2'}, {'Key': 'access_flag_vpce_a', 'Value': 'true'}, {'Key': 'access_flag_vpce_b', 'Value': 'false'}, {'Key': 'access_flag_no_vpce', 'Value': 'true'}, {'Key': 'access_flag_bucket', 'Value': 'false'}, {'Key': 'object_user_primary', 'Value': 'awssec-b-user-1'}, {'Key': 'permutation_id', 'Value': 'perm06'}, {'Key': 'object_number', 'Value': '2'}]}, type: <class 'dict'>, valid types: <class 'str'>"
+  },
+  {
+    "object_key": "test-objects/perm07_vpceA-bucket_gen_user_1_1.txt",
+    "error": "Unexpected error uploading test-objects/perm07_vpceA-bucket_gen_user_1_1.txt: Parameter validation failed:\nInvalid type for parameter Tagging, value: {'TagSet': [{'Key': 'env', 'Value': 'lab'}, {'Key': 'lab_name', 'Value': 's3-labs-2'}, {'Key': 'access_flag_vpce_a', 'Value': 'true'}, {'Key': 'access_flag_vpce_b', 'Value': 'false'}, {'Key': 'access_flag_no_vpce', 'Value': 'false'}, {'Key': 'access_flag_bucket', 'Value': 'true'}, {'Key': 'object_user_primary', 'Value': 'awssec-gen-user-1'}, {'Key': 'permutation_id', 'Value': 'perm07'}, {'Key': 'object_number', 'Value': '1'}]}, type: <class 'dict'>, valid types: <class 'str'>"
+  },
+  {
+    "object_key": "test-objects/perm07_vpceA-bucket_gen_user_1_3.txt",
+    "error": "Unexpected error uploading test-objects/perm07_vpceA-bucket_gen_user_1_3.txt: Parameter validation failed:\nInvalid type for parameter Tagging, value: {'TagSet': [{'Key': 'env', 'Value': 'lab'}, {'Key': 'lab_name', 'Value': 's3-labs-2'}, {'Key': 'access_flag_vpce_a', 'Value': 'true'}, {'Key': 'access_flag_vpce_b', 'Value': 'false'}, {'Key': 'access_flag_no_vpce', 'Value': 'false'}, {'Key': 'access_flag_bucket', 'Value': 'true'}, {'Key': 'object_user_primary', 'Value': 'awssec-gen-user-1'}, {'Key': 'permutation_id', 'Value': 'perm07'}, {'Key': 'object_number', 'Value': '3'}]}, type: <class 'dict'>, valid types: <class 'str'>"
+  },
+  {
+    "object_key": "test-objects/perm07_vpceA-bucket_gen_lambda_1.txt",
+    "error": "Unexpected error uploading test-objects/perm07_vpceA-bucket_gen_lambda_1.txt: Parameter validation failed:\nInvalid type for parameter Tagging, value: {'TagSet': [{'Key': 'env', 'Value': 'lab'}, {'Key': 'lab_name', 'Value': 's3-labs-2'}, {'Key': 'access_flag_vpce_a', 'Value': 'true'}, {'Key': 'access_flag_vpce_b', 'Value': 'false'}, {'Key': 'access_flag_no_vpce', 'Value': 'false'}, {'Key': 'access_flag_bucket', 'Value': 'true'}, {'Key': 'object_user_primary', 'Value': 'awssec-gen-lambda'}, {'Key': 'permutation_id', 'Value': 'perm07'}, {'Key': 'object_number', 'Value': '1'}]}, type: <class 'dict'>, valid types: <class 'str'>"
+  },
+  {
+    "object_key": "test-objects/perm06_vpceA-noVpce_gen_lambda_3.txt",
+    "error": "Unexpected error uploading test-objects/perm06_vpceA-noVpce_gen_lambda_3.txt: Parameter validation failed:\nInvalid type for parameter Tagging, value: {'TagSet': [{'Key': 'env', 'Value': 'lab'}, {'Key': 'lab_name', 'Value': 's3-labs-2'}, {'Key': 'access_flag_vpce_a', 'Value': 'true'}, {'Key': 'access_flag_vpce_b', 'Value': 'false'}, {'Key': 'access_flag_no_vpce', 'Value': 'true'}, {'Key': 'access_flag_bucket', 'Value': 'false'}, {'Key': 'object_user_primary', 'Value': 'awssec-gen-lambda'}, {'Key': 'permutation_id', 'Value': 'perm06'}, {'Key': 'object_number', 'Value': '3'}]}, type: <class 'dict'>, valid types: <class 'str'>"
+  },
+  {
+    "object_key": "test-objects/perm06_vpceA-noVpce_b_lambda_1.txt",
+    "error": "Unexpected error uploading test-objects/perm06_vpceA-noVpce_b_lambda_1.txt: Parameter validation failed:\nInvalid type for parameter Tagging, value: {'TagSet': [{'Key': 'env', 'Value': 'lab'}, {'Key': 'lab_name', 'Value': 's3-labs-2'}, {'Key': 'access_flag_vpce_a', 'Value': 'true'}, {'Key': 'access_flag_vpce_b', 'Value': 'false'}, {'Key': 'access_flag_no_vpce', 'Value': 'true'}, {'Key': 'access_flag_bucket', 'Value': 'false'}, {'Key': 'object_user_primary', 'Value': 'awssec-b-lambda'}, {'Key': 'permutation_id', 'Value': 'perm06'}, {'Key': 'object_number', 'Value': '1'}]}, type: <class 'dict'>, valid types: <class 'str'>"
+  },
+  {
+    "object_key": "test-objects/perm07_vpceA-bucket_gen_lambda_2.txt",
+    "error": "Unexpected error uploading test-objects/perm07_vpceA-bucket_gen_lambda_2.txt: Parameter validation failed:\nInvalid type for parameter Tagging, value: {'TagSet': [{'Key': 'env', 'Value': 'lab'}, {'Key': 'lab_name', 'Value': 's3-labs-2'}, {'Key': 'access_flag_vpce_a', 'Value': 'true'}, {'Key': 'access_flag_vpce_b', 'Value': 'false'}, {'Key': 'access_flag_no_vpce', 'Value': 'false'}, {'Key': 'access_flag_bucket', 'Value': 'true'}, {'Key': 'object_user_primary', 'Value': 'awssec-gen-lambda'}, {'Key': 'permutation_id', 'Value': 'perm07'}, {'Key': 'object_number', 'Value': '2'}]}, type: <class 'dict'>, valid types: <class 'str'>"
+  },
+  {
+    "object_key": "test-objects/perm06_vpceA-noVpce_gen_lambda_1.txt",
+    "error": "Unexpected error uploading test-objects/perm06_vpceA-noVpce_gen_lambda_1.txt: Parameter validation failed:\nInvalid type for parameter Tagging, value: {'TagSet': [{'Key': 'env', 'Value': 'lab'}, {'Key': 'lab_name', 'Value': 's3-labs-2'}, {'Key': 'access_flag_vpce_a', 'Value': 'true'}, {'Key': 'access_flag_vpce_b', 'Value': 'false'}, {'Key': 'access_flag_no_vpce', 'Value': 'true'}, {'Key': 'access_flag_bucket', 'Value': 'false'}, {'Key': 'object_user_primary', 'Value': 'awssec-gen-lambda'}, {'Key': 'permutation_id', 'Value': 'perm06'}, {'Key': 'object_number', 'Value': '1'}]}, type: <class 'dict'>, valid types: <class 'str'>"
+  },
+  {
+    "object_key": "test-objects/perm07_vpceA-bucket_gen_lambda_3.txt",
+    "error": "Unexpected error uploading test-objects/perm07_vpceA-bucket_gen_lambda_3.txt: Parameter validation failed:\nInvalid type for parameter Tagging, value: {'TagSet': [{'Key': 'env', 'Value': 'lab'}, {'Key': 'lab_name', 'Value': 's3-labs-2'}, {'Key': 'access_flag_vpce_a', 'Value': 'true'}, {'Key': 'access_flag_vpce_b', 'Value': 'false'}, {'Key': 'access_flag_no_vpce', 'Value': 'false'}, {'Key': 'access_flag_bucket', 'Value': 'true'}, {'Key': 'object_user_primary', 'Value': 'awssec-gen-lambda'}, {'Key': 'permutation_id', 'Value': 'perm07'}, {'Key': 'object_number', 'Value': '3'}]}, type: <class 'dict'>, valid types: <class 'str'>"
+  },
+  {
+    "object_key": "test-objects/perm07_vpceA-bucket_b_user_1_2.txt",
+    "error": "Unexpected error uploading test-objects/perm07_vpceA-bucket_b_user_1_2.txt: Parameter validation failed:\nInvalid type for parameter Tagging, value: {'TagSet': [{'Key': 'env', 'Value': 'lab'}, {'Key': 'lab_name', 'Value': 's3-labs-2'}, {'Key': 'access_flag_vpce_a', 'Value': 'true'}, {'Key': 'access_flag_vpce_b', 'Value': 'false'}, {'Key': 'access_flag_no_vpce', 'Value': 'false'}, {'Key': 'access_flag_bucket', 'Value': 'true'}, {'Key': 'object_user_primary', 'Value': 'awssec-b-user-1'}, {'Key': 'permutation_id', 'Value': 'perm07'}, {'Key': 'object_number', 'Value': '2'}]}, type: <class 'dict'>, valid types: <class 'str'>"
+  },
+  {
+    "object_key": "test-objects/perm07_vpceA-bucket_b_lambda_2.txt",
+    "error": "Unexpected error uploading test-objects/perm07_vpceA-bucket_b_lambda_2.txt: Parameter validation failed:\nInvalid type for parameter Tagging, value: {'TagSet': [{'Key': 'env', 'Value': 'lab'}, {'Key': 'lab_name', 'Value': 's3-labs-2'}, {'Key': 'access_flag_vpce_a', 'Value': 'true'}, {'Key': 'access_flag_vpce_b', 'Value': 'false'}, {'Key': 'access_flag_no_vpce', 'Value': 'false'}, {'Key': 'access_flag_bucket', 'Value': 'true'}, {'Key': 'object_user_primary', 'Value': 'awssec-b-lambda'}, {'Key': 'permutation_id', 'Value': 'perm07'}, {'Key': 'object_number', 'Value': '2'}]}, type: <class 'dict'>, valid types: <class 'str'>"
+  },
+  {
+    "object_key": "test-objects/perm06_vpceA-noVpce_gen_user_1_3.txt",
+    "error": "Unexpected error uploading test-objects/perm06_vpceA-noVpce_gen_user_1_3.txt: Parameter validation failed:\nInvalid type for parameter Tagging, value: {'TagSet': [{'Key': 'env', 'Value': 'lab'}, {'Key': 'lab_name', 'Value': 's3-labs-2'}, {'Key': 'access_flag_vpce_a', 'Value': 'true'}, {'Key': 'access_flag_vpce_b', 'Value': 'false'}, {'Key': 'access_flag_no_vpce', 'Value': 'true'}, {'Key': 'access_flag_bucket', 'Value': 'false'}, {'Key': 'object_user_primary', 'Value': 'awssec-gen-user-1'}, {'Key': 'permutation_id', 'Value': 'perm06'}, {'Key': 'object_number', 'Value': '3'}]}, type: <class 'dict'>, valid types: <class 'str'>"
+  },
+  {
+    "object_key": "test-objects/perm07_vpceA-bucket_b_lambda_1.txt",
+    "error": "Unexpected error uploading test-objects/perm07_vpceA-bucket_b_lambda_1.txt: Parameter validation failed:\nInvalid type for parameter Tagging, value: {'TagSet': [{'Key': 'env', 'Value': 'lab'}, {'Key': 'lab_name', 'Value': 's3-labs-2'}, {'Key': 'access_flag_vpce_a', 'Value': 'true'}, {'Key': 'access_flag_vpce_b', 'Value': 'false'}, {'Key': 'access_flag_no_vpce', 'Value': 'false'}, {'Key': 'access_flag_bucket', 'Value': 'true'}, {'Key': 'object_user_primary', 'Value': 'awssec-b-lambda'}, {'Key': 'permutation_id', 'Value': 'perm07'}, {'Key': 'object_number', 'Value': '1'}]}, type: <class 'dict'>, valid types: <class 'str'>"
+  },
+  {
+    "object_key": "test-objects/perm06_vpceA-noVpce_gen_user_1_2.txt",
+    "error": "Unexpected error uploading test-objects/perm06_vpceA-noVpce_gen_user_1_2.txt: Parameter validation failed:\nInvalid type for parameter Tagging, value: {'TagSet': [{'Key': 'env', 'Value': 'lab'}, {'Key': 'lab_name', 'Value': 's3-labs-2'}, {'Key': 'access_flag_vpce_a', 'Value': 'true'}, {'Key': 'access_flag_vpce_b', 'Value': 'false'}, {'Key': 'access_flag_no_vpce', 'Value': 'true'}, {'Key': 'access_flag_bucket', 'Value': 'false'}, {'Key': 'object_user_primary', 'Value': 'awssec-gen-user-1'}, {'Key': 'permutation_id', 'Value': 'perm06'}, {'Key': 'object_number', 'Value': '2'}]}, type: <class 'dict'>, valid types: <class 'str'>"
+  },
+  {
+    "object_key": "test-objects/perm06_vpceA-noVpce_b_lambda_3.txt",
+    "error": "Unexpected error uploading test-objects/perm06_vpceA-noVpce_b_lambda_3.txt: Parameter validation failed:\nInvalid type for parameter Tagging, value: {'TagSet': [{'Key': 'env', 'Value': 'lab'}, {'Key': 'lab_name', 'Value': 's3-labs-2'}, {'Key': 'access_flag_vpce_a', 'Value': 'true'}, {'Key': 'access_flag_vpce_b', 'Value': 'false'}, {'Key': 'access_flag_no_vpce', 'Value': 'true'}, {'Key': 'access_flag_bucket', 'Value': 'false'}, {'Key': 'object_user_primary', 'Value': 'awssec-b-lambda'}, {'Key': 'permutation_id', 'Value': 'perm06'}, {'Key': 'object_number', 'Value': '3'}]}, type: <class 'dict'>, valid types: <class 'str'>"
+  },
+  {
+    "object_key": "test-objects/perm08_vpceA_gen_user_1_1.txt",
+    "error": "Unexpected error uploading test-objects/perm08_vpceA_gen_user_1_1.txt: Parameter validation failed:\nInvalid type for parameter Tagging, value: {'TagSet': [{'Key': 'env', 'Value': 'lab'}, {'Key': 'lab_name', 'Value': 's3-labs-2'}, {'Key': 'access_flag_vpce_a', 'Value': 'true'}, {'Key': 'access_flag_vpce_b', 'Value': 'false'}, {'Key': 'access_flag_no_vpce', 'Value': 'false'}, {'Key': 'access_flag_bucket', 'Value': 'false'}, {'Key': 'object_user_primary', 'Value': 'awssec-gen-user-1'}, {'Key': 'permutation_id', 'Value': 'perm08'}, {'Key': 'object_number', 'Value': '1'}]}, type: <class 'dict'>, valid types: <class 'str'>"
+  },
+  {
+    "object_key": "test-objects/perm07_vpceA-bucket_b_user_1_1.txt",
+    "error": "Unexpected error uploading test-objects/perm07_vpceA-bucket_b_user_1_1.txt: Parameter validation failed:\nInvalid type for parameter Tagging, value: {'TagSet': [{'Key': 'env', 'Value': 'lab'}, {'Key': 'lab_name', 'Value': 's3-labs-2'}, {'Key': 'access_flag_vpce_a', 'Value': 'true'}, {'Key': 'access_flag_vpce_b', 'Value': 'false'}, {'Key': 'access_flag_no_vpce', 'Value': 'false'}, {'Key': 'access_flag_bucket', 'Value': 'true'}, {'Key': 'object_user_primary', 'Value': 'awssec-b-user-1'}, {'Key': 'permutation_id', 'Value': 'perm07'}, {'Key': 'object_number', 'Value': '1'}]}, type: <class 'dict'>, valid types: <class 'str'>"
+  },
+  {
+    "object_key": "test-objects/perm08_vpceA_gen_lambda_2.txt",
+    "error": "Unexpected error uploading test-objects/perm08_vpceA_gen_lambda_2.txt: Parameter validation failed:\nInvalid type for parameter Tagging, value: {'TagSet': [{'Key': 'env', 'Value': 'lab'}, {'Key': 'lab_name', 'Value': 's3-labs-2'}, {'Key': 'access_flag_vpce_a', 'Value': 'true'}, {'Key': 'access_flag_vpce_b', 'Value': 'false'}, {'Key': 'access_flag_no_vpce', 'Value': 'false'}, {'Key': 'access_flag_bucket', 'Value': 'false'}, {'Key': 'object_user_primary', 'Value': 'awssec-gen-lambda'}, {'Key': 'permutation_id', 'Value': 'perm08'}, {'Key': 'object_number', 'Value': '2'}]}, type: <class 'dict'>, valid types: <class 'str'>"
+  },
+  {
+    "object_key": "test-objects/perm08_vpceA_b_user_1_1.txt",
+    "error": "Unexpected error uploading test-objects/perm08_vpceA_b_user_1_1.txt: Parameter validation failed:\nInvalid type for parameter Tagging, value: {'TagSet': [{'Key': 'env', 'Value': 'lab'}, {'Key': 'lab_name', 'Value': 's3-labs-2'}, {'Key': 'access_flag_vpce_a', 'Value': 'true'}, {'Key': 'access_flag_vpce_b', 'Value': 'false'}, {'Key': 'access_flag_no_vpce', 'Value': 'false'}, {'Key': 'access_flag_bucket', 'Value': 'false'}, {'Key': 'object_user_primary', 'Value': 'awssec-b-user-1'}, {'Key': 'permutation_id', 'Value': 'perm08'}, {'Key': 'object_number', 'Value': '1'}]}, type: <class 'dict'>, valid types: <class 'str'>"
+  },
+  {
+    "object_key": "test-objects/perm08_vpceA_b_user_1_3.txt",
+    "error": "Unexpected error uploading test-objects/perm08_vpceA_b_user_1_3.txt: Parameter validation failed:\nInvalid type for parameter Tagging, value: {'TagSet': [{'Key': 'env', 'Value': 'lab'}, {'Key': 'lab_name', 'Value': 's3-labs-2'}, {'Key': 'access_flag_vpce_a', 'Value': 'true'}, {'Key': 'access_flag_vpce_b', 'Value': 'false'}, {'Key': 'access_flag_no_vpce', 'Value': 'false'}, {'Key': 'access_flag_bucket', 'Value': 'false'}, {'Key': 'object_user_primary', 'Value': 'awssec-b-user-1'}, {'Key': 'permutation_id', 'Value': 'perm08'}, {'Key': 'object_number', 'Value': '3'}]}, type: <class 'dict'>, valid types: <class 'str'>"
+  },
+  {
+    "object_key": "test-objects/perm08_vpceA_gen_user_1_3.txt",
+    "error": "Unexpected error uploading test-objects/perm08_vpceA_gen_user_1_3.txt: Parameter validation failed:\nInvalid type for parameter Tagging, value: {'TagSet': [{'Key': 'env', 'Value': 'lab'}, {'Key': 'lab_name', 'Value': 's3-labs-2'}, {'Key': 'access_flag_vpce_a', 'Value': 'true'}, {'Key': 'access_flag_vpce_b', 'Value': 'false'}, {'Key': 'access_flag_no_vpce', 'Value': 'false'}, {'Key': 'access_flag_bucket', 'Value': 'false'}, {'Key': 'object_user_primary', 'Value': 'awssec-gen-user-1'}, {'Key': 'permutation_id', 'Value': 'perm08'}, {'Key': 'object_number', 'Value': '3'}]}, type: <class 'dict'>, valid types: <class 'str'>"
+  },
+  {
+    "object_key": "test-objects/perm07_vpceA-bucket_b_lambda_3.txt",
+    "error": "Unexpected error uploading test-objects/perm07_vpceA-bucket_b_lambda_3.txt: Parameter validation failed:\nInvalid type for parameter Tagging, value: {'TagSet': [{'Key': 'env', 'Value': 'lab'}, {'Key': 'lab_name', 'Value': 's3-labs-2'}, {'Key': 'access_flag_vpce_a', 'Value': 'true'}, {'Key': 'access_flag_vpce_b', 'Value': 'false'}, {'Key': 'access_flag_no_vpce', 'Value': 'false'}, {'Key': 'access_flag_bucket', 'Value': 'true'}, {'Key': 'object_user_primary', 'Value': 'awssec-b-lambda'}, {'Key': 'permutation_id', 'Value': 'perm07'}, {'Key': 'object_number', 'Value': '3'}]}, type: <class 'dict'>, valid types: <class 'str'>"
+  },
+  {
+    "object_key": "test-objects/perm08_vpceA_b_lambda_1.txt",
+    "error": "Unexpected error uploading test-objects/perm08_vpceA_b_lambda_1.txt: Parameter validation failed:\nInvalid type for parameter Tagging, value: {'TagSet': [{'Key': 'env', 'Value': 'lab'}, {'Key': 'lab_name', 'Value': 's3-labs-2'}, {'Key': 'access_flag_vpce_a', 'Value': 'true'}, {'Key': 'access_flag_vpce_b', 'Value': 'false'}, {'Key': 'access_flag_no_vpce', 'Value': 'false'}, {'Key': 'access_flag_bucket', 'Value': 'false'}, {'Key': 'object_user_primary', 'Value': 'awssec-b-lambda'}, {'Key': 'permutation_id', 'Value': 'perm08'}, {'Key': 'object_number', 'Value': '1'}]}, type: <class 'dict'>, valid types: <class 'str'>"
+  },
+  {
+    "object_key": "test-objects/perm08_vpceA_b_lambda_3.txt",
+    "error": "Unexpected error uploading test-objects/perm08_vpceA_b_lambda_3.txt: Parameter validation failed:\nInvalid type for parameter Tagging, value: {'TagSet': [{'Key': 'env', 'Value': 'lab'}, {'Key': 'lab_name', 'Value': 's3-labs-2'}, {'Key': 'access_flag_vpce_a', 'Value': 'true'}, {'Key': 'access_flag_vpce_b', 'Value': 'false'}, {'Key': 'access_flag_no_vpce', 'Value': 'false'}, {'Key': 'access_flag_bucket', 'Value': 'false'}, {'Key': 'object_user_primary', 'Value': 'awssec-b-lambda'}, {'Key': 'permutation_id', 'Value': 'perm08'}, {'Key': 'object_number', 'Value': '3'}]}, type: <class 'dict'>, valid types: <class 'str'>"
+  },
+  {
+    "object_key": "test-objects/perm08_vpceA_b_lambda_2.txt",
+    "error": "Unexpected error uploading test-objects/perm08_vpceA_b_lambda_2.txt: Parameter validation failed:\nInvalid type for parameter Tagging, value: {'TagSet': [{'Key': 'env', 'Value': 'lab'}, {'Key': 'lab_name', 'Value': 's3-labs-2'}, {'Key': 'access_flag_vpce_a', 'Value': 'true'}, {'Key': 'access_flag_vpce_b', 'Value': 'false'}, {'Key': 'access_flag_no_vpce', 'Value': 'false'}, {'Key': 'access_flag_bucket', 'Value': 'false'}, {'Key': 'object_user_primary', 'Value': 'awssec-b-lambda'}, {'Key': 'permutation_id', 'Value': 'perm08'}, {'Key': 'object_number', 'Value': '2'}]}, type: <class 'dict'>, valid types: <class 'str'>"
+  },
+  {
+    "object_key": "test-objects/perm07_vpceA-bucket_b_user_1_3.txt",
+    "error": "Unexpected error uploading test-objects/perm07_vpceA-bucket_b_user_1_3.txt: Parameter validation failed:\nInvalid type for parameter Tagging, value: {'TagSet': [{'Key': 'env', 'Value': 'lab'}, {'Key': 'lab_name', 'Value': 's3-labs-2'}, {'Key': 'access_flag_vpce_a', 'Value': 'true'}, {'Key': 'access_flag_vpce_b', 'Value': 'false'}, {'Key': 'access_flag_no_vpce', 'Value': 'false'}, {'Key': 'access_flag_bucket', 'Value': 'true'}, {'Key': 'object_user_primary', 'Value': 'awssec-b-user-1'}, {'Key': 'permutation_id', 'Value': 'perm07'}, {'Key': 'object_number', 'Value': '3'}]}, type: <class 'dict'>, valid types: <class 'str'>"
+  },
+  {
+    "object_key": "test-objects/perm08_vpceA_gen_lambda_1.txt",
+    "error": "Unexpected error uploading test-objects/perm08_vpceA_gen_lambda_1.txt: Parameter validation failed:\nInvalid type for parameter Tagging, value: {'TagSet': [{'Key': 'env', 'Value': 'lab'}, {'Key': 'lab_name', 'Value': 's3-labs-2'}, {'Key': 'access_flag_vpce_a', 'Value': 'true'}, {'Key': 'access_flag_vpce_b', 'Value': 'false'}, {'Key': 'access_flag_no_vpce', 'Value': 'false'}, {'Key': 'access_flag_bucket', 'Value': 'false'}, {'Key': 'object_user_primary', 'Value': 'awssec-gen-lambda'}, {'Key': 'permutation_id', 'Value': 'perm08'}, {'Key': 'object_number', 'Value': '1'}]}, type: <class 'dict'>, valid types: <class 'str'>"
+  },
+  {
+    "object_key": "test-objects/perm08_vpceA_gen_lambda_3.txt",
+    "error": "Unexpected error uploading test-objects/perm08_vpceA_gen_lambda_3.txt: Parameter validation failed:\nInvalid type for parameter Tagging, value: {'TagSet': [{'Key': 'env', 'Value': 'lab'}, {'Key': 'lab_name', 'Value': 's3-labs-2'}, {'Key': 'access_flag_vpce_a', 'Value': 'true'}, {'Key': 'access_flag_vpce_b', 'Value': 'false'}, {'Key': 'access_flag_no_vpce', 'Value': 'false'}, {'Key': 'access_flag_bucket', 'Value': 'false'}, {'Key': 'object_user_primary', 'Value': 'awssec-gen-lambda'}, {'Key': 'permutation_id', 'Value': 'perm08'}, {'Key': 'object_number', 'Value': '3'}]}, type: <class 'dict'>, valid types: <class 'str'>"
+  },
+  {
+    "object_key": "test-objects/perm08_vpceA_b_user_1_2.txt",
+    "error": "Unexpected error uploading test-objects/perm08_vpceA_b_user_1_2.txt: Parameter validation failed:\nInvalid type for parameter Tagging, value: {'TagSet': [{'Key': 'env', 'Value': 'lab'}, {'Key': 'lab_name', 'Value': 's3-labs-2'}, {'Key': 'access_flag_vpce_a', 'Value': 'true'}, {'Key': 'access_flag_vpce_b', 'Value': 'false'}, {'Key': 'access_flag_no_vpce', 'Value': 'false'}, {'Key': 'access_flag_bucket', 'Value': 'false'}, {'Key': 'object_user_primary', 'Value': 'awssec-b-user-1'}, {'Key': 'permutation_id', 'Value': 'perm08'}, {'Key': 'object_number', 'Value': '2'}]}, type: <class 'dict'>, valid types: <class 'str'>"
+  },
+  {
+    "object_key": "test-objects/perm09_vpceB-noVpce-bucket_b_user_1_1.txt",
+    "error": "Unexpected error uploading test-objects/perm09_vpceB-noVpce-bucket_b_user_1_1.txt: Parameter validation failed:\nInvalid type for parameter Tagging, value: {'TagSet': [{'Key': 'env', 'Value': 'lab'}, {'Key': 'lab_name', 'Value': 's3-labs-2'}, {'Key': 'access_flag_vpce_a', 'Value': 'false'}, {'Key': 'access_flag_vpce_b', 'Value': 'true'}, {'Key': 'access_flag_no_vpce', 'Value': 'true'}, {'Key': 'access_flag_bucket', 'Value': 'true'}, {'Key': 'object_user_primary', 'Value': 'awssec-b-user-1'}, {'Key': 'permutation_id', 'Value': 'perm09'}, {'Key': 'object_number', 'Value': '1'}]}, type: <class 'dict'>, valid types: <class 'str'>"
+  },
+  {
+    "object_key": "test-objects/perm09_vpceB-noVpce-bucket_gen_lambda_1.txt",
+    "error": "Unexpected error uploading test-objects/perm09_vpceB-noVpce-bucket_gen_lambda_1.txt: Parameter validation failed:\nInvalid type for parameter Tagging, value: {'TagSet': [{'Key': 'env', 'Value': 'lab'}, {'Key': 'lab_name', 'Value': 's3-labs-2'}, {'Key': 'access_flag_vpce_a', 'Value': 'false'}, {'Key': 'access_flag_vpce_b', 'Value': 'true'}, {'Key': 'access_flag_no_vpce', 'Value': 'true'}, {'Key': 'access_flag_bucket', 'Value': 'true'}, {'Key': 'object_user_primary', 'Value': 'awssec-gen-lambda'}, {'Key': 'permutation_id', 'Value': 'perm09'}, {'Key': 'object_number', 'Value': '1'}]}, type: <class 'dict'>, valid types: <class 'str'>"
+  },
+  {
+    "object_key": "test-objects/perm09_vpceB-noVpce-bucket_gen_lambda_3.txt",
+    "error": "Unexpected error uploading test-objects/perm09_vpceB-noVpce-bucket_gen_lambda_3.txt: Parameter validation failed:\nInvalid type for parameter Tagging, value: {'TagSet': [{'Key': 'env', 'Value': 'lab'}, {'Key': 'lab_name', 'Value': 's3-labs-2'}, {'Key': 'access_flag_vpce_a', 'Value': 'false'}, {'Key': 'access_flag_vpce_b', 'Value': 'true'}, {'Key': 'access_flag_no_vpce', 'Value': 'true'}, {'Key': 'access_flag_bucket', 'Value': 'true'}, {'Key': 'object_user_primary', 'Value': 'awssec-gen-lambda'}, {'Key': 'permutation_id', 'Value': 'perm09'}, {'Key': 'object_number', 'Value': '3'}]}, type: <class 'dict'>, valid types: <class 'str'>"
+  },
+  {
+    "object_key": "test-objects/perm09_vpceB-noVpce-bucket_b_user_1_2.txt",
+    "error": "Unexpected error uploading test-objects/perm09_vpceB-noVpce-bucket_b_user_1_2.txt: Parameter validation failed:\nInvalid type for parameter Tagging, value: {'TagSet': [{'Key': 'env', 'Value': 'lab'}, {'Key': 'lab_name', 'Value': 's3-labs-2'}, {'Key': 'access_flag_vpce_a', 'Value': 'false'}, {'Key': 'access_flag_vpce_b', 'Value': 'true'}, {'Key': 'access_flag_no_vpce', 'Value': 'true'}, {'Key': 'access_flag_bucket', 'Value': 'true'}, {'Key': 'object_user_primary', 'Value': 'awssec-b-user-1'}, {'Key': 'permutation_id', 'Value': 'perm09'}, {'Key': 'object_number', 'Value': '2'}]}, type: <class 'dict'>, valid types: <class 'str'>"
+  },
+  {
+    "object_key": "test-objects/perm09_vpceB-noVpce-bucket_gen_user_1_1.txt",
+    "error": "Unexpected error uploading test-objects/perm09_vpceB-noVpce-bucket_gen_user_1_1.txt: Parameter validation failed:\nInvalid type for parameter Tagging, value: {'TagSet': [{'Key': 'env', 'Value': 'lab'}, {'Key': 'lab_name', 'Value': 's3-labs-2'}, {'Key': 'access_flag_vpce_a', 'Value': 'false'}, {'Key': 'access_flag_vpce_b', 'Value': 'true'}, {'Key': 'access_flag_no_vpce', 'Value': 'true'}, {'Key': 'access_flag_bucket', 'Value': 'true'}, {'Key': 'object_user_primary', 'Value': 'awssec-gen-user-1'}, {'Key': 'permutation_id', 'Value': 'perm09'}, {'Key': 'object_number', 'Value': '1'}]}, type: <class 'dict'>, valid types: <class 'str'>"
+  },
+  {
+    "object_key": "test-objects/perm09_vpceB-noVpce-bucket_b_lambda_3.txt",
+    "error": "Unexpected error uploading test-objects/perm09_vpceB-noVpce-bucket_b_lambda_3.txt: Parameter validation failed:\nInvalid type for parameter Tagging, value: {'TagSet': [{'Key': 'env', 'Value': 'lab'}, {'Key': 'lab_name', 'Value': 's3-labs-2'}, {'Key': 'access_flag_vpce_a', 'Value': 'false'}, {'Key': 'access_flag_vpce_b', 'Value': 'true'}, {'Key': 'access_flag_no_vpce', 'Value': 'true'}, {'Key': 'access_flag_bucket', 'Value': 'true'}, {'Key': 'object_user_primary', 'Value': 'awssec-b-lambda'}, {'Key': 'permutation_id', 'Value': 'perm09'}, {'Key': 'object_number', 'Value': '3'}]}, type: <class 'dict'>, valid types: <class 'str'>"
+  },
+  {
+    "object_key": "test-objects/perm09_vpceB-noVpce-bucket_gen_user_1_2.txt",
+    "error": "Unexpected error uploading test-objects/perm09_vpceB-noVpce-bucket_gen_user_1_2.txt: Parameter validation failed:\nInvalid type for parameter Tagging, value: {'TagSet': [{'Key': 'env', 'Value': 'lab'}, {'Key': 'lab_name', 'Value': 's3-labs-2'}, {'Key': 'access_flag_vpce_a', 'Value': 'false'}, {'Key': 'access_flag_vpce_b', 'Value': 'true'}, {'Key': 'access_flag_no_vpce', 'Value': 'true'}, {'Key': 'access_flag_bucket', 'Value': 'true'}, {'Key': 'object_user_primary', 'Value': 'awssec-gen-user-1'}, {'Key': 'permutation_id', 'Value': 'perm09'}, {'Key': 'object_number', 'Value': '2'}]}, type: <class 'dict'>, valid types: <class 'str'>"
+  },
+  {
+    "object_key": "test-objects/perm09_vpceB-noVpce-bucket_gen_lambda_2.txt",
+    "error": "Unexpected error uploading test-objects/perm09_vpceB-noVpce-bucket_gen_lambda_2.txt: Parameter validation failed:\nInvalid type for parameter Tagging, value: {'TagSet': [{'Key': 'env', 'Value': 'lab'}, {'Key': 'lab_name', 'Value': 's3-labs-2'}, {'Key': 'access_flag_vpce_a', 'Value': 'false'}, {'Key': 'access_flag_vpce_b', 'Value': 'true'}, {'Key': 'access_flag_no_vpce', 'Value': 'true'}, {'Key': 'access_flag_bucket', 'Value': 'true'}, {'Key': 'object_user_primary', 'Value': 'awssec-gen-lambda'}, {'Key': 'permutation_id', 'Value': 'perm09'}, {'Key': 'object_number', 'Value': '2'}]}, type: <class 'dict'>, valid types: <class 'str'>"
+  },
+  {
+    "object_key": "test-objects/perm09_vpceB-noVpce-bucket_b_lambda_1.txt",
+    "error": "Unexpected error uploading test-objects/perm09_vpceB-noVpce-bucket_b_lambda_1.txt: Parameter validation failed:\nInvalid type for parameter Tagging, value: {'TagSet': [{'Key': 'env', 'Value': 'lab'}, {'Key': 'lab_name', 'Value': 's3-labs-2'}, {'Key': 'access_flag_vpce_a', 'Value': 'false'}, {'Key': 'access_flag_vpce_b', 'Value': 'true'}, {'Key': 'access_flag_no_vpce', 'Value': 'true'}, {'Key': 'access_flag_bucket', 'Value': 'true'}, {'Key': 'object_user_primary', 'Value': 'awssec-b-lambda'}, {'Key': 'permutation_id', 'Value': 'perm09'}, {'Key': 'object_number', 'Value': '1'}]}, type: <class 'dict'>, valid types: <class 'str'>"
+  },
+  {
+    "object_key": "test-objects/perm09_vpceB-noVpce-bucket_b_lambda_2.txt",
+    "error": "Unexpected error uploading test-objects/perm09_vpceB-noVpce-bucket_b_lambda_2.txt: Parameter validation failed:\nInvalid type for parameter Tagging, value: {'TagSet': [{'Key': 'env', 'Value': 'lab'}, {'Key': 'lab_name', 'Value': 's3-labs-2'}, {'Key': 'access_flag_vpce_a', 'Value': 'false'}, {'Key': 'access_flag_vpce_b', 'Value': 'true'}, {'Key': 'access_flag_no_vpce', 'Value': 'true'}, {'Key': 'access_flag_bucket', 'Value': 'true'}, {'Key': 'object_user_primary', 'Value': 'awssec-b-lambda'}, {'Key': 'permutation_id', 'Value': 'perm09'}, {'Key': 'object_number', 'Value': '2'}]}, type: <class 'dict'>, valid types: <class 'str'>"
+  },
+  {
+    "object_key": "test-objects/perm08_vpceA_gen_user_1_2.txt",
+    "error": "Unexpected error uploading test-objects/perm08_vpceA_gen_user_1_2.txt: Parameter validation failed:\nInvalid type for parameter Tagging, value: {'TagSet': [{'Key': 'env', 'Value': 'lab'}, {'Key': 'lab_name', 'Value': 's3-labs-2'}, {'Key': 'access_flag_vpce_a', 'Value': 'true'}, {'Key': 'access_flag_vpce_b', 'Value': 'false'}, {'Key': 'access_flag_no_vpce', 'Value': 'false'}, {'Key': 'access_flag_bucket', 'Value': 'false'}, {'Key': 'object_user_primary', 'Value': 'awssec-gen-user-1'}, {'Key': 'permutation_id', 'Value': 'perm08'}, {'Key': 'object_number', 'Value': '2'}]}, type: <class 'dict'>, valid types: <class 'str'>"
+  },
+  {
+    "object_key": "test-objects/perm10_vpceB-noVpce_gen_lambda_3.txt",
+    "error": "Unexpected error uploading test-objects/perm10_vpceB-noVpce_gen_lambda_3.txt: Parameter validation failed:\nInvalid type for parameter Tagging, value: {'TagSet': [{'Key': 'env', 'Value': 'lab'}, {'Key': 'lab_name', 'Value': 's3-labs-2'}, {'Key': 'access_flag_vpce_a', 'Value': 'false'}, {'Key': 'access_flag_vpce_b', 'Value': 'true'}, {'Key': 'access_flag_no_vpce', 'Value': 'true'}, {'Key': 'access_flag_bucket', 'Value': 'false'}, {'Key': 'object_user_primary', 'Value': 'awssec-gen-lambda'}, {'Key': 'permutation_id', 'Value': 'perm10'}, {'Key': 'object_number', 'Value': '3'}]}, type: <class 'dict'>, valid types: <class 'str'>"
+  },
+  {
+    "object_key": "test-objects/perm09_vpceB-noVpce-bucket_gen_user_1_3.txt",
+    "error": "Unexpected error uploading test-objects/perm09_vpceB-noVpce-bucket_gen_user_1_3.txt: Parameter validation failed:\nInvalid type for parameter Tagging, value: {'TagSet': [{'Key': 'env', 'Value': 'lab'}, {'Key': 'lab_name', 'Value': 's3-labs-2'}, {'Key': 'access_flag_vpce_a', 'Value': 'false'}, {'Key': 'access_flag_vpce_b', 'Value': 'true'}, {'Key': 'access_flag_no_vpce', 'Value': 'true'}, {'Key': 'access_flag_bucket', 'Value': 'true'}, {'Key': 'object_user_primary', 'Value': 'awssec-gen-user-1'}, {'Key': 'permutation_id', 'Value': 'perm09'}, {'Key': 'object_number', 'Value': '3'}]}, type: <class 'dict'>, valid types: <class 'str'>"
+  },
+  {
+    "object_key": "test-objects/perm10_vpceB-noVpce_b_user_1_2.txt",
+    "error": "Unexpected error uploading test-objects/perm10_vpceB-noVpce_b_user_1_2.txt: Parameter validation failed:\nInvalid type for parameter Tagging, value: {'TagSet': [{'Key': 'env', 'Value': 'lab'}, {'Key': 'lab_name', 'Value': 's3-labs-2'}, {'Key': 'access_flag_vpce_a', 'Value': 'false'}, {'Key': 'access_flag_vpce_b', 'Value': 'true'}, {'Key': 'access_flag_no_vpce', 'Value': 'true'}, {'Key': 'access_flag_bucket', 'Value': 'false'}, {'Key': 'object_user_primary', 'Value': 'awssec-b-user-1'}, {'Key': 'permutation_id', 'Value': 'perm10'}, {'Key': 'object_number', 'Value': '2'}]}, type: <class 'dict'>, valid types: <class 'str'>"
+  },
+  {
+    "object_key": "test-objects/perm10_vpceB-noVpce_b_user_1_1.txt",
+    "error": "Unexpected error uploading test-objects/perm10_vpceB-noVpce_b_user_1_1.txt: Parameter validation failed:\nInvalid type for parameter Tagging, value: {'TagSet': [{'Key': 'env', 'Value': 'lab'}, {'Key': 'lab_name', 'Value': 's3-labs-2'}, {'Key': 'access_flag_vpce_a', 'Value': 'false'}, {'Key': 'access_flag_vpce_b', 'Value': 'true'}, {'Key': 'access_flag_no_vpce', 'Value': 'true'}, {'Key': 'access_flag_bucket', 'Value': 'false'}, {'Key': 'object_user_primary', 'Value': 'awssec-b-user-1'}, {'Key': 'permutation_id', 'Value': 'perm10'}, {'Key': 'object_number', 'Value': '1'}]}, type: <class 'dict'>, valid types: <class 'str'>"
+  },
+  {
+    "object_key": "test-objects/perm10_vpceB-noVpce_gen_user_1_3.txt",
+    "error": "Unexpected error uploading test-objects/perm10_vpceB-noVpce_gen_user_1_3.txt: Parameter validation failed:\nInvalid type for parameter Tagging, value: {'TagSet': [{'Key': 'env', 'Value': 'lab'}, {'Key': 'lab_name', 'Value': 's3-labs-2'}, {'Key': 'access_flag_vpce_a', 'Value': 'false'}, {'Key': 'access_flag_vpce_b', 'Value': 'true'}, {'Key': 'access_flag_no_vpce', 'Value': 'true'}, {'Key': 'access_flag_bucket', 'Value': 'false'}, {'Key': 'object_user_primary', 'Value': 'awssec-gen-user-1'}, {'Key': 'permutation_id', 'Value': 'perm10'}, {'Key': 'object_number', 'Value': '3'}]}, type: <class 'dict'>, valid types: <class 'str'>"
+  },
+  {
+    "object_key": "test-objects/perm10_vpceB-noVpce_b_user_1_3.txt",
+    "error": "Unexpected error uploading test-objects/perm10_vpceB-noVpce_b_user_1_3.txt: Parameter validation failed:\nInvalid type for parameter Tagging, value: {'TagSet': [{'Key': 'env', 'Value': 'lab'}, {'Key': 'lab_name', 'Value': 's3-labs-2'}, {'Key': 'access_flag_vpce_a', 'Value': 'false'}, {'Key': 'access_flag_vpce_b', 'Value': 'true'}, {'Key': 'access_flag_no_vpce', 'Value': 'true'}, {'Key': 'access_flag_bucket', 'Value': 'false'}, {'Key': 'object_user_primary', 'Value': 'awssec-b-user-1'}, {'Key': 'permutation_id', 'Value': 'perm10'}, {'Key': 'object_number', 'Value': '3'}]}, type: <class 'dict'>, valid types: <class 'str'>"
+  },
+  {
+    "object_key": "test-objects/perm10_vpceB-noVpce_gen_user_1_1.txt",
+    "error": "Unexpected error uploading test-objects/perm10_vpceB-noVpce_gen_user_1_1.txt: Parameter validation failed:\nInvalid type for parameter Tagging, value: {'TagSet': [{'Key': 'env', 'Value': 'lab'}, {'Key': 'lab_name', 'Value': 's3-labs-2'}, {'Key': 'access_flag_vpce_a', 'Value': 'false'}, {'Key': 'access_flag_vpce_b', 'Value': 'true'}, {'Key': 'access_flag_no_vpce', 'Value': 'true'}, {'Key': 'access_flag_bucket', 'Value': 'false'}, {'Key': 'object_user_primary', 'Value': 'awssec-gen-user-1'}, {'Key': 'permutation_id', 'Value': 'perm10'}, {'Key': 'object_number', 'Value': '1'}]}, type: <class 'dict'>, valid types: <class 'str'>"
+  },
+  {
+    "object_key": "test-objects/perm10_vpceB-noVpce_b_lambda_1.txt",
+    "error": "Unexpected error uploading test-objects/perm10_vpceB-noVpce_b_lambda_1.txt: Parameter validation failed:\nInvalid type for parameter Tagging, value: {'TagSet': [{'Key': 'env', 'Value': 'lab'}, {'Key': 'lab_name', 'Value': 's3-labs-2'}, {'Key': 'access_flag_vpce_a', 'Value': 'false'}, {'Key': 'access_flag_vpce_b', 'Value': 'true'}, {'Key': 'access_flag_no_vpce', 'Value': 'true'}, {'Key': 'access_flag_bucket', 'Value': 'false'}, {'Key': 'object_user_primary', 'Value': 'awssec-b-lambda'}, {'Key': 'permutation_id', 'Value': 'perm10'}, {'Key': 'object_number', 'Value': '1'}]}, type: <class 'dict'>, valid types: <class 'str'>"
+  },
+  {
+    "object_key": "test-objects/perm10_vpceB-noVpce_gen_lambda_2.txt",
+    "error": "Unexpected error uploading test-objects/perm10_vpceB-noVpce_gen_lambda_2.txt: Parameter validation failed:\nInvalid type for parameter Tagging, value: {'TagSet': [{'Key': 'env', 'Value': 'lab'}, {'Key': 'lab_name', 'Value': 's3-labs-2'}, {'Key': 'access_flag_vpce_a', 'Value': 'false'}, {'Key': 'access_flag_vpce_b', 'Value': 'true'}, {'Key': 'access_flag_no_vpce', 'Value': 'true'}, {'Key': 'access_flag_bucket', 'Value': 'false'}, {'Key': 'object_user_primary', 'Value': 'awssec-gen-lambda'}, {'Key': 'permutation_id', 'Value': 'perm10'}, {'Key': 'object_number', 'Value': '2'}]}, type: <class 'dict'>, valid types: <class 'str'>"
+  },
+  {
+    "object_key": "test-objects/perm09_vpceB-noVpce-bucket_b_user_1_3.txt",
+    "error": "Unexpected error uploading test-objects/perm09_vpceB-noVpce-bucket_b_user_1_3.txt: Parameter validation failed:\nInvalid type for parameter Tagging, value: {'TagSet': [{'Key': 'env', 'Value': 'lab'}, {'Key': 'lab_name', 'Value': 's3-labs-2'}, {'Key': 'access_flag_vpce_a', 'Value': 'false'}, {'Key': 'access_flag_vpce_b', 'Value': 'true'}, {'Key': 'access_flag_no_vpce', 'Value': 'true'}, {'Key': 'access_flag_bucket', 'Value': 'true'}, {'Key': 'object_user_primary', 'Value': 'awssec-b-user-1'}, {'Key': 'permutation_id', 'Value': 'perm09'}, {'Key': 'object_number', 'Value': '3'}]}, type: <class 'dict'>, valid types: <class 'str'>"
+  },
+  {
+    "object_key": "test-objects/perm11_vpceB-bucket_gen_user_1_3.txt",
+    "error": "Unexpected error uploading test-objects/perm11_vpceB-bucket_gen_user_1_3.txt: Parameter validation failed:\nInvalid type for parameter Tagging, value: {'TagSet': [{'Key': 'env', 'Value': 'lab'}, {'Key': 'lab_name', 'Value': 's3-labs-2'}, {'Key': 'access_flag_vpce_a', 'Value': 'false'}, {'Key': 'access_flag_vpce_b', 'Value': 'true'}, {'Key': 'access_flag_no_vpce', 'Value': 'false'}, {'Key': 'access_flag_bucket', 'Value': 'true'}, {'Key': 'object_user_primary', 'Value': 'awssec-gen-user-1'}, {'Key': 'permutation_id', 'Value': 'perm11'}, {'Key': 'object_number', 'Value': '3'}]}, type: <class 'dict'>, valid types: <class 'str'>"
+  },
+  {
+    "object_key": "test-objects/perm11_vpceB-bucket_gen_user_1_1.txt",
+    "error": "Unexpected error uploading test-objects/perm11_vpceB-bucket_gen_user_1_1.txt: Parameter validation failed:\nInvalid type for parameter Tagging, value: {'TagSet': [{'Key': 'env', 'Value': 'lab'}, {'Key': 'lab_name', 'Value': 's3-labs-2'}, {'Key': 'access_flag_vpce_a', 'Value': 'false'}, {'Key': 'access_flag_vpce_b', 'Value': 'true'}, {'Key': 'access_flag_no_vpce', 'Value': 'false'}, {'Key': 'access_flag_bucket', 'Value': 'true'}, {'Key': 'object_user_primary', 'Value': 'awssec-gen-user-1'}, {'Key': 'permutation_id', 'Value': 'perm11'}, {'Key': 'object_number', 'Value': '1'}]}, type: <class 'dict'>, valid types: <class 'str'>"
+  },
+  {
+    "object_key": "test-objects/perm10_vpceB-noVpce_b_lambda_2.txt",
+    "error": "Unexpected error uploading test-objects/perm10_vpceB-noVpce_b_lambda_2.txt: Parameter validation failed:\nInvalid type for parameter Tagging, value: {'TagSet': [{'Key': 'env', 'Value': 'lab'}, {'Key': 'lab_name', 'Value': 's3-labs-2'}, {'Key': 'access_flag_vpce_a', 'Value': 'false'}, {'Key': 'access_flag_vpce_b', 'Value': 'true'}, {'Key': 'access_flag_no_vpce', 'Value': 'true'}, {'Key': 'access_flag_bucket', 'Value': 'false'}, {'Key': 'object_user_primary', 'Value': 'awssec-b-lambda'}, {'Key': 'permutation_id', 'Value': 'perm10'}, {'Key': 'object_number', 'Value': '2'}]}, type: <class 'dict'>, valid types: <class 'str'>"
+  },
+  {
+    "object_key": "test-objects/perm11_vpceB-bucket_gen_user_1_2.txt",
+    "error": "Unexpected error uploading test-objects/perm11_vpceB-bucket_gen_user_1_2.txt: Parameter validation failed:\nInvalid type for parameter Tagging, value: {'TagSet': [{'Key': 'env', 'Value': 'lab'}, {'Key': 'lab_name', 'Value': 's3-labs-2'}, {'Key': 'access_flag_vpce_a', 'Value': 'false'}, {'Key': 'access_flag_vpce_b', 'Value': 'true'}, {'Key': 'access_flag_no_vpce', 'Value': 'false'}, {'Key': 'access_flag_bucket', 'Value': 'true'}, {'Key': 'object_user_primary', 'Value': 'awssec-gen-user-1'}, {'Key': 'permutation_id', 'Value': 'perm11'}, {'Key': 'object_number', 'Value': '2'}]}, type: <class 'dict'>, valid types: <class 'str'>"
+  },
+  {
+    "object_key": "test-objects/perm10_vpceB-noVpce_gen_lambda_1.txt",
+    "error": "Unexpected error uploading test-objects/perm10_vpceB-noVpce_gen_lambda_1.txt: Parameter validation failed:\nInvalid type for parameter Tagging, value: {'TagSet': [{'Key': 'env', 'Value': 'lab'}, {'Key': 'lab_name', 'Value': 's3-labs-2'}, {'Key': 'access_flag_vpce_a', 'Value': 'false'}, {'Key': 'access_flag_vpce_b', 'Value': 'true'}, {'Key': 'access_flag_no_vpce', 'Value': 'true'}, {'Key': 'access_flag_bucket', 'Value': 'false'}, {'Key': 'object_user_primary', 'Value': 'awssec-gen-lambda'}, {'Key': 'permutation_id', 'Value': 'perm10'}, {'Key': 'object_number', 'Value': '1'}]}, type: <class 'dict'>, valid types: <class 'str'>"
+  },
+  {
+    "object_key": "test-objects/perm10_vpceB-noVpce_gen_user_1_2.txt",
+    "error": "Unexpected error uploading test-objects/perm10_vpceB-noVpce_gen_user_1_2.txt: Parameter validation failed:\nInvalid type for parameter Tagging, value: {'TagSet': [{'Key': 'env', 'Value': 'lab'}, {'Key': 'lab_name', 'Value': 's3-labs-2'}, {'Key': 'access_flag_vpce_a', 'Value': 'false'}, {'Key': 'access_flag_vpce_b', 'Value': 'true'}, {'Key': 'access_flag_no_vpce', 'Value': 'true'}, {'Key': 'access_flag_bucket', 'Value': 'false'}, {'Key': 'object_user_primary', 'Value': 'awssec-gen-user-1'}, {'Key': 'permutation_id', 'Value': 'perm10'}, {'Key': 'object_number', 'Value': '2'}]}, type: <class 'dict'>, valid types: <class 'str'>"
+  },
+  {
+    "object_key": "test-objects/perm10_vpceB-noVpce_b_lambda_3.txt",
+    "error": "Unexpected error uploading test-objects/perm10_vpceB-noVpce_b_lambda_3.txt: Parameter validation failed:\nInvalid type for parameter Tagging, value: {'TagSet': [{'Key': 'env', 'Value': 'lab'}, {'Key': 'lab_name', 'Value': 's3-labs-2'}, {'Key': 'access_flag_vpce_a', 'Value': 'false'}, {'Key': 'access_flag_vpce_b', 'Value': 'true'}, {'Key': 'access_flag_no_vpce', 'Value': 'true'}, {'Key': 'access_flag_bucket', 'Value': 'false'}, {'Key': 'object_user_primary', 'Value': 'awssec-b-lambda'}, {'Key': 'permutation_id', 'Value': 'perm10'}, {'Key': 'object_number', 'Value': '3'}]}, type: <class 'dict'>, valid types: <class 'str'>"
+  },
+  {
+    "object_key": "test-objects/perm11_vpceB-bucket_gen_lambda_3.txt",
+    "error": "Unexpected error uploading test-objects/perm11_vpceB-bucket_gen_lambda_3.txt: Parameter validation failed:\nInvalid type for parameter Tagging, value: {'TagSet': [{'Key': 'env', 'Value': 'lab'}, {'Key': 'lab_name', 'Value': 's3-labs-2'}, {'Key': 'access_flag_vpce_a', 'Value': 'false'}, {'Key': 'access_flag_vpce_b', 'Value': 'true'}, {'Key': 'access_flag_no_vpce', 'Value': 'false'}, {'Key': 'access_flag_bucket', 'Value': 'true'}, {'Key': 'object_user_primary', 'Value': 'awssec-gen-lambda'}, {'Key': 'permutation_id', 'Value': 'perm11'}, {'Key': 'object_number', 'Value': '3'}]}, type: <class 'dict'>, valid types: <class 'str'>"
+  },
+  {
+    "object_key": "test-objects/perm11_vpceB-bucket_gen_lambda_1.txt",
+    "error": "Unexpected error uploading test-objects/perm11_vpceB-bucket_gen_lambda_1.txt: Parameter validation failed:\nInvalid type for parameter Tagging, value: {'TagSet': [{'Key': 'env', 'Value': 'lab'}, {'Key': 'lab_name', 'Value': 's3-labs-2'}, {'Key': 'access_flag_vpce_a', 'Value': 'false'}, {'Key': 'access_flag_vpce_b', 'Value': 'true'}, {'Key': 'access_flag_no_vpce', 'Value': 'false'}, {'Key': 'access_flag_bucket', 'Value': 'true'}, {'Key': 'object_user_primary', 'Value': 'awssec-gen-lambda'}, {'Key': 'permutation_id', 'Value': 'perm11'}, {'Key': 'object_number', 'Value': '1'}]}, type: <class 'dict'>, valid types: <class 'str'>"
+  },
+  {
+    "object_key": "test-objects/perm11_vpceB-bucket_gen_lambda_2.txt",
+    "error": "Unexpected error uploading test-objects/perm11_vpceB-bucket_gen_lambda_2.txt: Parameter validation failed:\nInvalid type for parameter Tagging, value: {'TagSet': [{'Key': 'env', 'Value': 'lab'}, {'Key': 'lab_name', 'Value': 's3-labs-2'}, {'Key': 'access_flag_vpce_a', 'Value': 'false'}, {'Key': 'access_flag_vpce_b', 'Value': 'true'}, {'Key': 'access_flag_no_vpce', 'Value': 'false'}, {'Key': 'access_flag_bucket', 'Value': 'true'}, {'Key': 'object_user_primary', 'Value': 'awssec-gen-lambda'}, {'Key': 'permutation_id', 'Value': 'perm11'}, {'Key': 'object_number', 'Value': '2'}]}, type: <class 'dict'>, valid types: <class 'str'>"
+  },
+  {
+    "object_key": "test-objects/perm11_vpceB-bucket_b_user_1_1.txt",
+    "error": "Unexpected error uploading test-objects/perm11_vpceB-bucket_b_user_1_1.txt: Parameter validation failed:\nInvalid type for parameter Tagging, value: {'TagSet': [{'Key': 'env', 'Value': 'lab'}, {'Key': 'lab_name', 'Value': 's3-labs-2'}, {'Key': 'access_flag_vpce_a', 'Value': 'false'}, {'Key': 'access_flag_vpce_b', 'Value': 'true'}, {'Key': 'access_flag_no_vpce', 'Value': 'false'}, {'Key': 'access_flag_bucket', 'Value': 'true'}, {'Key': 'object_user_primary', 'Value': 'awssec-b-user-1'}, {'Key': 'permutation_id', 'Value': 'perm11'}, {'Key': 'object_number', 'Value': '1'}]}, type: <class 'dict'>, valid types: <class 'str'>"
+  },
+  {
+    "object_key": "test-objects/perm11_vpceB-bucket_b_lambda_3.txt",
+    "error": "Unexpected error uploading test-objects/perm11_vpceB-bucket_b_lambda_3.txt: Parameter validation failed:\nInvalid type for parameter Tagging, value: {'TagSet': [{'Key': 'env', 'Value': 'lab'}, {'Key': 'lab_name', 'Value': 's3-labs-2'}, {'Key': 'access_flag_vpce_a', 'Value': 'false'}, {'Key': 'access_flag_vpce_b', 'Value': 'true'}, {'Key': 'access_flag_no_vpce', 'Value': 'false'}, {'Key': 'access_flag_bucket', 'Value': 'true'}, {'Key': 'object_user_primary', 'Value': 'awssec-b-lambda'}, {'Key': 'permutation_id', 'Value': 'perm11'}, {'Key': 'object_number', 'Value': '3'}]}, type: <class 'dict'>, valid types: <class 'str'>"
+  },
+  {
+    "object_key": "test-objects/perm11_vpceB-bucket_b_lambda_1.txt",
+    "error": "Unexpected error uploading test-objects/perm11_vpceB-bucket_b_lambda_1.txt: Parameter validation failed:\nInvalid type for parameter Tagging, value: {'TagSet': [{'Key': 'env', 'Value': 'lab'}, {'Key': 'lab_name', 'Value': 's3-labs-2'}, {'Key': 'access_flag_vpce_a', 'Value': 'false'}, {'Key': 'access_flag_vpce_b', 'Value': 'true'}, {'Key': 'access_flag_no_vpce', 'Value': 'false'}, {'Key': 'access_flag_bucket', 'Value': 'true'}, {'Key': 'object_user_primary', 'Value': 'awssec-b-lambda'}, {'Key': 'permutation_id', 'Value': 'perm11'}, {'Key': 'object_number', 'Value': '1'}]}, type: <class 'dict'>, valid types: <class 'str'>"
+  },
+  {
+    "object_key": "test-objects/perm12_vpceB_gen_lambda_1.txt",
+    "error": "Unexpected error uploading test-objects/perm12_vpceB_gen_lambda_1.txt: Parameter validation failed:\nInvalid type for parameter Tagging, value: {'TagSet': [{'Key': 'env', 'Value': 'lab'}, {'Key': 'lab_name', 'Value': 's3-labs-2'}, {'Key': 'access_flag_vpce_a', 'Value': 'false'}, {'Key': 'access_flag_vpce_b', 'Value': 'true'}, {'Key': 'access_flag_no_vpce', 'Value': 'false'}, {'Key': 'access_flag_bucket', 'Value': 'false'}, {'Key': 'object_user_primary', 'Value': 'awssec-gen-lambda'}, {'Key': 'permutation_id', 'Value': 'perm12'}, {'Key': 'object_number', 'Value': '1'}]}, type: <class 'dict'>, valid types: <class 'str'>"
+  },
+  {
+    "object_key": "test-objects/perm12_vpceB_gen_lambda_3.txt",
+    "error": "Unexpected error uploading test-objects/perm12_vpceB_gen_lambda_3.txt: Parameter validation failed:\nInvalid type for parameter Tagging, value: {'TagSet': [{'Key': 'env', 'Value': 'lab'}, {'Key': 'lab_name', 'Value': 's3-labs-2'}, {'Key': 'access_flag_vpce_a', 'Value': 'false'}, {'Key': 'access_flag_vpce_b', 'Value': 'true'}, {'Key': 'access_flag_no_vpce', 'Value': 'false'}, {'Key': 'access_flag_bucket', 'Value': 'false'}, {'Key': 'object_user_primary', 'Value': 'awssec-gen-lambda'}, {'Key': 'permutation_id', 'Value': 'perm12'}, {'Key': 'object_number', 'Value': '3'}]}, type: <class 'dict'>, valid types: <class 'str'>"
+  },
+  {
+    "object_key": "test-objects/perm11_vpceB-bucket_b_lambda_2.txt",
+    "error": "Unexpected error uploading test-objects/perm11_vpceB-bucket_b_lambda_2.txt: Parameter validation failed:\nInvalid type for parameter Tagging, value: {'TagSet': [{'Key': 'env', 'Value': 'lab'}, {'Key': 'lab_name', 'Value': 's3-labs-2'}, {'Key': 'access_flag_vpce_a', 'Value': 'false'}, {'Key': 'access_flag_vpce_b', 'Value': 'true'}, {'Key': 'access_flag_no_vpce', 'Value': 'false'}, {'Key': 'access_flag_bucket', 'Value': 'true'}, {'Key': 'object_user_primary', 'Value': 'awssec-b-lambda'}, {'Key': 'permutation_id', 'Value': 'perm11'}, {'Key': 'object_number', 'Value': '2'}]}, type: <class 'dict'>, valid types: <class 'str'>"
+  },
+  {
+    "object_key": "test-objects/perm12_vpceB_b_user_1_1.txt",
+    "error": "Unexpected error uploading test-objects/perm12_vpceB_b_user_1_1.txt: Parameter validation failed:\nInvalid type for parameter Tagging, value: {'TagSet': [{'Key': 'env', 'Value': 'lab'}, {'Key': 'lab_name', 'Value': 's3-labs-2'}, {'Key': 'access_flag_vpce_a', 'Value': 'false'}, {'Key': 'access_flag_vpce_b', 'Value': 'true'}, {'Key': 'access_flag_no_vpce', 'Value': 'false'}, {'Key': 'access_flag_bucket', 'Value': 'false'}, {'Key': 'object_user_primary', 'Value': 'awssec-b-user-1'}, {'Key': 'permutation_id', 'Value': 'perm12'}, {'Key': 'object_number', 'Value': '1'}]}, type: <class 'dict'>, valid types: <class 'str'>"
+  },
+  {
+    "object_key": "test-objects/perm12_vpceB_gen_user_1_1.txt",
+    "error": "Unexpected error uploading test-objects/perm12_vpceB_gen_user_1_1.txt: Parameter validation failed:\nInvalid type for parameter Tagging, value: {'TagSet': [{'Key': 'env', 'Value': 'lab'}, {'Key': 'lab_name', 'Value': 's3-labs-2'}, {'Key': 'access_flag_vpce_a', 'Value': 'false'}, {'Key': 'access_flag_vpce_b', 'Value': 'true'}, {'Key': 'access_flag_no_vpce', 'Value': 'false'}, {'Key': 'access_flag_bucket', 'Value': 'false'}, {'Key': 'object_user_primary', 'Value': 'awssec-gen-user-1'}, {'Key': 'permutation_id', 'Value': 'perm12'}, {'Key': 'object_number', 'Value': '1'}]}, type: <class 'dict'>, valid types: <class 'str'>"
+  },
+  {
+    "object_key": "test-objects/perm11_vpceB-bucket_b_user_1_2.txt",
+    "error": "Unexpected error uploading test-objects/perm11_vpceB-bucket_b_user_1_2.txt: Parameter validation failed:\nInvalid type for parameter Tagging, value: {'TagSet': [{'Key': 'env', 'Value': 'lab'}, {'Key': 'lab_name', 'Value': 's3-labs-2'}, {'Key': 'access_flag_vpce_a', 'Value': 'false'}, {'Key': 'access_flag_vpce_b', 'Value': 'true'}, {'Key': 'access_flag_no_vpce', 'Value': 'false'}, {'Key': 'access_flag_bucket', 'Value': 'true'}, {'Key': 'object_user_primary', 'Value': 'awssec-b-user-1'}, {'Key': 'permutation_id', 'Value': 'perm11'}, {'Key': 'object_number', 'Value': '2'}]}, type: <class 'dict'>, valid types: <class 'str'>"
+  },
+  {
+    "object_key": "test-objects/perm12_vpceB_b_user_1_2.txt",
+    "error": "Unexpected error uploading test-objects/perm12_vpceB_b_user_1_2.txt: Parameter validation failed:\nInvalid type for parameter Tagging, value: {'TagSet': [{'Key': 'env', 'Value': 'lab'}, {'Key': 'lab_name', 'Value': 's3-labs-2'}, {'Key': 'access_flag_vpce_a', 'Value': 'false'}, {'Key': 'access_flag_vpce_b', 'Value': 'true'}, {'Key': 'access_flag_no_vpce', 'Value': 'false'}, {'Key': 'access_flag_bucket', 'Value': 'false'}, {'Key': 'object_user_primary', 'Value': 'awssec-b-user-1'}, {'Key': 'permutation_id', 'Value': 'perm12'}, {'Key': 'object_number', 'Value': '2'}]}, type: <class 'dict'>, valid types: <class 'str'>"
+  },
+  {
+    "object_key": "test-objects/perm12_vpceB_gen_user_1_2.txt",
+    "error": "Unexpected error uploading test-objects/perm12_vpceB_gen_user_1_2.txt: Parameter validation failed:\nInvalid type for parameter Tagging, value: {'TagSet': [{'Key': 'env', 'Value': 'lab'}, {'Key': 'lab_name', 'Value': 's3-labs-2'}, {'Key': 'access_flag_vpce_a', 'Value': 'false'}, {'Key': 'access_flag_vpce_b', 'Value': 'true'}, {'Key': 'access_flag_no_vpce', 'Value': 'false'}, {'Key': 'access_flag_bucket', 'Value': 'false'}, {'Key': 'object_user_primary', 'Value': 'awssec-gen-user-1'}, {'Key': 'permutation_id', 'Value': 'perm12'}, {'Key': 'object_number', 'Value': '2'}]}, type: <class 'dict'>, valid types: <class 'str'>"
+  },
+  {
+    "object_key": "test-objects/perm12_vpceB_gen_lambda_2.txt",
+    "error": "Unexpected error uploading test-objects/perm12_vpceB_gen_lambda_2.txt: Parameter validation failed:\nInvalid type for parameter Tagging, value: {'TagSet': [{'Key': 'env', 'Value': 'lab'}, {'Key': 'lab_name', 'Value': 's3-labs-2'}, {'Key': 'access_flag_vpce_a', 'Value': 'false'}, {'Key': 'access_flag_vpce_b', 'Value': 'true'}, {'Key': 'access_flag_no_vpce', 'Value': 'false'}, {'Key': 'access_flag_bucket', 'Value': 'false'}, {'Key': 'object_user_primary', 'Value': 'awssec-gen-lambda'}, {'Key': 'permutation_id', 'Value': 'perm12'}, {'Key': 'object_number', 'Value': '2'}]}, type: <class 'dict'>, valid types: <class 'str'>"
+  },
+  {
+    "object_key": "test-objects/perm12_vpceB_gen_user_1_3.txt",
+    "error": "Unexpected error uploading test-objects/perm12_vpceB_gen_user_1_3.txt: Parameter validation failed:\nInvalid type for parameter Tagging, value: {'TagSet': [{'Key': 'env', 'Value': 'lab'}, {'Key': 'lab_name', 'Value': 's3-labs-2'}, {'Key': 'access_flag_vpce_a', 'Value': 'false'}, {'Key': 'access_flag_vpce_b', 'Value': 'true'}, {'Key': 'access_flag_no_vpce', 'Value': 'false'}, {'Key': 'access_flag_bucket', 'Value': 'false'}, {'Key': 'object_user_primary', 'Value': 'awssec-gen-user-1'}, {'Key': 'permutation_id', 'Value': 'perm12'}, {'Key': 'object_number', 'Value': '3'}]}, type: <class 'dict'>, valid types: <class 'str'>"
+  },
+  {
+    "object_key": "test-objects/perm12_vpceB_b_lambda_1.txt",
+    "error": "Unexpected error uploading test-objects/perm12_vpceB_b_lambda_1.txt: Parameter validation failed:\nInvalid type for parameter Tagging, value: {'TagSet': [{'Key': 'env', 'Value': 'lab'}, {'Key': 'lab_name', 'Value': 's3-labs-2'}, {'Key': 'access_flag_vpce_a', 'Value': 'false'}, {'Key': 'access_flag_vpce_b', 'Value': 'true'}, {'Key': 'access_flag_no_vpce', 'Value': 'false'}, {'Key': 'access_flag_bucket', 'Value': 'false'}, {'Key': 'object_user_primary', 'Value': 'awssec-b-lambda'}, {'Key': 'permutation_id', 'Value': 'perm12'}, {'Key': 'object_number', 'Value': '1'}]}, type: <class 'dict'>, valid types: <class 'str'>"
+  },
+  {
+    "object_key": "test-objects/perm12_vpceB_b_lambda_3.txt",
+    "error": "Unexpected error uploading test-objects/perm12_vpceB_b_lambda_3.txt: Parameter validation failed:\nInvalid type for parameter Tagging, value: {'TagSet': [{'Key': 'env', 'Value': 'lab'}, {'Key': 'lab_name', 'Value': 's3-labs-2'}, {'Key': 'access_flag_vpce_a', 'Value': 'false'}, {'Key': 'access_flag_vpce_b', 'Value': 'true'}, {'Key': 'access_flag_no_vpce', 'Value': 'false'}, {'Key': 'access_flag_bucket', 'Value': 'false'}, {'Key': 'object_user_primary', 'Value': 'awssec-b-lambda'}, {'Key': 'permutation_id', 'Value': 'perm12'}, {'Key': 'object_number', 'Value': '3'}]}, type: <class 'dict'>, valid types: <class 'str'>"
+  },
+  {
+    "object_key": "test-objects/perm13_noVpce-bucket_gen_user_1_1.txt",
+    "error": "Unexpected error uploading test-objects/perm13_noVpce-bucket_gen_user_1_1.txt: Parameter validation failed:\nInvalid type for parameter Tagging, value: {'TagSet': [{'Key': 'env', 'Value': 'lab'}, {'Key': 'lab_name', 'Value': 's3-labs-2'}, {'Key': 'access_flag_vpce_a', 'Value': 'false'}, {'Key': 'access_flag_vpce_b', 'Value': 'false'}, {'Key': 'access_flag_no_vpce', 'Value': 'true'}, {'Key': 'access_flag_bucket', 'Value': 'true'}, {'Key': 'object_user_primary', 'Value': 'awssec-gen-user-1'}, {'Key': 'permutation_id', 'Value': 'perm13'}, {'Key': 'object_number', 'Value': '1'}]}, type: <class 'dict'>, valid types: <class 'str'>"
+  },
+  {
+    "object_key": "test-objects/perm12_vpceB_b_user_1_3.txt",
+    "error": "Unexpected error uploading test-objects/perm12_vpceB_b_user_1_3.txt: Parameter validation failed:\nInvalid type for parameter Tagging, value: {'TagSet': [{'Key': 'env', 'Value': 'lab'}, {'Key': 'lab_name', 'Value': 's3-labs-2'}, {'Key': 'access_flag_vpce_a', 'Value': 'false'}, {'Key': 'access_flag_vpce_b', 'Value': 'true'}, {'Key': 'access_flag_no_vpce', 'Value': 'false'}, {'Key': 'access_flag_bucket', 'Value': 'false'}, {'Key': 'object_user_primary', 'Value': 'awssec-b-user-1'}, {'Key': 'permutation_id', 'Value': 'perm12'}, {'Key': 'object_number', 'Value': '3'}]}, type: <class 'dict'>, valid types: <class 'str'>"
+  },
+  {
+    "object_key": "test-objects/perm13_noVpce-bucket_gen_lambda_3.txt",
+    "error": "Unexpected error uploading test-objects/perm13_noVpce-bucket_gen_lambda_3.txt: Parameter validation failed:\nInvalid type for parameter Tagging, value: {'TagSet': [{'Key': 'env', 'Value': 'lab'}, {'Key': 'lab_name', 'Value': 's3-labs-2'}, {'Key': 'access_flag_vpce_a', 'Value': 'false'}, {'Key': 'access_flag_vpce_b', 'Value': 'false'}, {'Key': 'access_flag_no_vpce', 'Value': 'true'}, {'Key': 'access_flag_bucket', 'Value': 'true'}, {'Key': 'object_user_primary', 'Value': 'awssec-gen-lambda'}, {'Key': 'permutation_id', 'Value': 'perm13'}, {'Key': 'object_number', 'Value': '3'}]}, type: <class 'dict'>, valid types: <class 'str'>"
+  },
+  {
+    "object_key": "test-objects/perm11_vpceB-bucket_b_user_1_3.txt",
+    "error": "Unexpected error uploading test-objects/perm11_vpceB-bucket_b_user_1_3.txt: Parameter validation failed:\nInvalid type for parameter Tagging, value: {'TagSet': [{'Key': 'env', 'Value': 'lab'}, {'Key': 'lab_name', 'Value': 's3-labs-2'}, {'Key': 'access_flag_vpce_a', 'Value': 'false'}, {'Key': 'access_flag_vpce_b', 'Value': 'true'}, {'Key': 'access_flag_no_vpce', 'Value': 'false'}, {'Key': 'access_flag_bucket', 'Value': 'true'}, {'Key': 'object_user_primary', 'Value': 'awssec-b-user-1'}, {'Key': 'permutation_id', 'Value': 'perm11'}, {'Key': 'object_number', 'Value': '3'}]}, type: <class 'dict'>, valid types: <class 'str'>"
+  },
+  {
+    "object_key": "test-objects/perm13_noVpce-bucket_gen_lambda_1.txt",
+    "error": "Unexpected error uploading test-objects/perm13_noVpce-bucket_gen_lambda_1.txt: Parameter validation failed:\nInvalid type for parameter Tagging, value: {'TagSet': [{'Key': 'env', 'Value': 'lab'}, {'Key': 'lab_name', 'Value': 's3-labs-2'}, {'Key': 'access_flag_vpce_a', 'Value': 'false'}, {'Key': 'access_flag_vpce_b', 'Value': 'false'}, {'Key': 'access_flag_no_vpce', 'Value': 'true'}, {'Key': 'access_flag_bucket', 'Value': 'true'}, {'Key': 'object_user_primary', 'Value': 'awssec-gen-lambda'}, {'Key': 'permutation_id', 'Value': 'perm13'}, {'Key': 'object_number', 'Value': '1'}]}, type: <class 'dict'>, valid types: <class 'str'>"
+  },
+  {
+    "object_key": "test-objects/perm13_noVpce-bucket_b_lambda_2.txt",
+    "error": "Unexpected error uploading test-objects/perm13_noVpce-bucket_b_lambda_2.txt: Parameter validation failed:\nInvalid type for parameter Tagging, value: {'TagSet': [{'Key': 'env', 'Value': 'lab'}, {'Key': 'lab_name', 'Value': 's3-labs-2'}, {'Key': 'access_flag_vpce_a', 'Value': 'false'}, {'Key': 'access_flag_vpce_b', 'Value': 'false'}, {'Key': 'access_flag_no_vpce', 'Value': 'true'}, {'Key': 'access_flag_bucket', 'Value': 'true'}, {'Key': 'object_user_primary', 'Value': 'awssec-b-lambda'}, {'Key': 'permutation_id', 'Value': 'perm13'}, {'Key': 'object_number', 'Value': '2'}]}, type: <class 'dict'>, valid types: <class 'str'>"
+  },
+  {
+    "object_key": "test-objects/perm13_noVpce-bucket_b_user_1_1.txt",
+    "error": "Unexpected error uploading test-objects/perm13_noVpce-bucket_b_user_1_1.txt: Parameter validation failed:\nInvalid type for parameter Tagging, value: {'TagSet': [{'Key': 'env', 'Value': 'lab'}, {'Key': 'lab_name', 'Value': 's3-labs-2'}, {'Key': 'access_flag_vpce_a', 'Value': 'false'}, {'Key': 'access_flag_vpce_b', 'Value': 'false'}, {'Key': 'access_flag_no_vpce', 'Value': 'true'}, {'Key': 'access_flag_bucket', 'Value': 'true'}, {'Key': 'object_user_primary', 'Value': 'awssec-b-user-1'}, {'Key': 'permutation_id', 'Value': 'perm13'}, {'Key': 'object_number', 'Value': '1'}]}, type: <class 'dict'>, valid types: <class 'str'>"
+  },
+  {
+    "object_key": "test-objects/perm13_noVpce-bucket_gen_user_1_2.txt",
+    "error": "Unexpected error uploading test-objects/perm13_noVpce-bucket_gen_user_1_2.txt: Parameter validation failed:\nInvalid type for parameter Tagging, value: {'TagSet': [{'Key': 'env', 'Value': 'lab'}, {'Key': 'lab_name', 'Value': 's3-labs-2'}, {'Key': 'access_flag_vpce_a', 'Value': 'false'}, {'Key': 'access_flag_vpce_b', 'Value': 'false'}, {'Key': 'access_flag_no_vpce', 'Value': 'true'}, {'Key': 'access_flag_bucket', 'Value': 'true'}, {'Key': 'object_user_primary', 'Value': 'awssec-gen-user-1'}, {'Key': 'permutation_id', 'Value': 'perm13'}, {'Key': 'object_number', 'Value': '2'}]}, type: <class 'dict'>, valid types: <class 'str'>"
+  },
+  {
+    "object_key": "test-objects/perm13_noVpce-bucket_b_user_1_3.txt",
+    "error": "Unexpected error uploading test-objects/perm13_noVpce-bucket_b_user_1_3.txt: Parameter validation failed:\nInvalid type for parameter Tagging, value: {'TagSet': [{'Key': 'env', 'Value': 'lab'}, {'Key': 'lab_name', 'Value': 's3-labs-2'}, {'Key': 'access_flag_vpce_a', 'Value': 'false'}, {'Key': 'access_flag_vpce_b', 'Value': 'false'}, {'Key': 'access_flag_no_vpce', 'Value': 'true'}, {'Key': 'access_flag_bucket', 'Value': 'true'}, {'Key': 'object_user_primary', 'Value': 'awssec-b-user-1'}, {'Key': 'permutation_id', 'Value': 'perm13'}, {'Key': 'object_number', 'Value': '3'}]}, type: <class 'dict'>, valid types: <class 'str'>"
+  },
+  {
+    "object_key": "test-objects/perm13_noVpce-bucket_b_lambda_3.txt",
+    "error": "Unexpected error uploading test-objects/perm13_noVpce-bucket_b_lambda_3.txt: Parameter validation failed:\nInvalid type for parameter Tagging, value: {'TagSet': [{'Key': 'env', 'Value': 'lab'}, {'Key': 'lab_name', 'Value': 's3-labs-2'}, {'Key': 'access_flag_vpce_a', 'Value': 'false'}, {'Key': 'access_flag_vpce_b', 'Value': 'false'}, {'Key': 'access_flag_no_vpce', 'Value': 'true'}, {'Key': 'access_flag_bucket', 'Value': 'true'}, {'Key': 'object_user_primary', 'Value': 'awssec-b-lambda'}, {'Key': 'permutation_id', 'Value': 'perm13'}, {'Key': 'object_number', 'Value': '3'}]}, type: <class 'dict'>, valid types: <class 'str'>"
+  },
+  {
+    "object_key": "test-objects/perm12_vpceB_b_lambda_2.txt",
+    "error": "Unexpected error uploading test-objects/perm12_vpceB_b_lambda_2.txt: Parameter validation failed:\nInvalid type for parameter Tagging, value: {'TagSet': [{'Key': 'env', 'Value': 'lab'}, {'Key': 'lab_name', 'Value': 's3-labs-2'}, {'Key': 'access_flag_vpce_a', 'Value': 'false'}, {'Key': 'access_flag_vpce_b', 'Value': 'true'}, {'Key': 'access_flag_no_vpce', 'Value': 'false'}, {'Key': 'access_flag_bucket', 'Value': 'false'}, {'Key': 'object_user_primary', 'Value': 'awssec-b-lambda'}, {'Key': 'permutation_id', 'Value': 'perm12'}, {'Key': 'object_number', 'Value': '2'}]}, type: <class 'dict'>, valid types: <class 'str'>"
+  },
+  {
+    "object_key": "test-objects/perm14_noVpce_gen_user_1_3.txt",
+    "error": "Unexpected error uploading test-objects/perm14_noVpce_gen_user_1_3.txt: Parameter validation failed:\nInvalid type for parameter Tagging, value: {'TagSet': [{'Key': 'env', 'Value': 'lab'}, {'Key': 'lab_name', 'Value': 's3-labs-2'}, {'Key': 'access_flag_vpce_a', 'Value': 'false'}, {'Key': 'access_flag_vpce_b', 'Value': 'false'}, {'Key': 'access_flag_no_vpce', 'Value': 'true'}, {'Key': 'access_flag_bucket', 'Value': 'false'}, {'Key': 'object_user_primary', 'Value': 'awssec-gen-user-1'}, {'Key': 'permutation_id', 'Value': 'perm14'}, {'Key': 'object_number', 'Value': '3'}]}, type: <class 'dict'>, valid types: <class 'str'>"
+  },
+  {
+    "object_key": "test-objects/perm13_noVpce-bucket_gen_user_1_3.txt",
+    "error": "Unexpected error uploading test-objects/perm13_noVpce-bucket_gen_user_1_3.txt: Parameter validation failed:\nInvalid type for parameter Tagging, value: {'TagSet': [{'Key': 'env', 'Value': 'lab'}, {'Key': 'lab_name', 'Value': 's3-labs-2'}, {'Key': 'access_flag_vpce_a', 'Value': 'false'}, {'Key': 'access_flag_vpce_b', 'Value': 'false'}, {'Key': 'access_flag_no_vpce', 'Value': 'true'}, {'Key': 'access_flag_bucket', 'Value': 'true'}, {'Key': 'object_user_primary', 'Value': 'awssec-gen-user-1'}, {'Key': 'permutation_id', 'Value': 'perm13'}, {'Key': 'object_number', 'Value': '3'}]}, type: <class 'dict'>, valid types: <class 'str'>"
+  },
+  {
+    "object_key": "test-objects/perm13_noVpce-bucket_gen_lambda_2.txt",
+    "error": "Unexpected error uploading test-objects/perm13_noVpce-bucket_gen_lambda_2.txt: Parameter validation failed:\nInvalid type for parameter Tagging, value: {'TagSet': [{'Key': 'env', 'Value': 'lab'}, {'Key': 'lab_name', 'Value': 's3-labs-2'}, {'Key': 'access_flag_vpce_a', 'Value': 'false'}, {'Key': 'access_flag_vpce_b', 'Value': 'false'}, {'Key': 'access_flag_no_vpce', 'Value': 'true'}, {'Key': 'access_flag_bucket', 'Value': 'true'}, {'Key': 'object_user_primary', 'Value': 'awssec-gen-lambda'}, {'Key': 'permutation_id', 'Value': 'perm13'}, {'Key': 'object_number', 'Value': '2'}]}, type: <class 'dict'>, valid types: <class 'str'>"
+  },
+  {
+    "object_key": "test-objects/perm14_noVpce_gen_lambda_1.txt",
+    "error": "Unexpected error uploading test-objects/perm14_noVpce_gen_lambda_1.txt: Parameter validation failed:\nInvalid type for parameter Tagging, value: {'TagSet': [{'Key': 'env', 'Value': 'lab'}, {'Key': 'lab_name', 'Value': 's3-labs-2'}, {'Key': 'access_flag_vpce_a', 'Value': 'false'}, {'Key': 'access_flag_vpce_b', 'Value': 'false'}, {'Key': 'access_flag_no_vpce', 'Value': 'true'}, {'Key': 'access_flag_bucket', 'Value': 'false'}, {'Key': 'object_user_primary', 'Value': 'awssec-gen-lambda'}, {'Key': 'permutation_id', 'Value': 'perm14'}, {'Key': 'object_number', 'Value': '1'}]}, type: <class 'dict'>, valid types: <class 'str'>"
+  },
+  {
+    "object_key": "test-objects/perm13_noVpce-bucket_b_lambda_1.txt",
+    "error": "Unexpected error uploading test-objects/perm13_noVpce-bucket_b_lambda_1.txt: Parameter validation failed:\nInvalid type for parameter Tagging, value: {'TagSet': [{'Key': 'env', 'Value': 'lab'}, {'Key': 'lab_name', 'Value': 's3-labs-2'}, {'Key': 'access_flag_vpce_a', 'Value': 'false'}, {'Key': 'access_flag_vpce_b', 'Value': 'false'}, {'Key': 'access_flag_no_vpce', 'Value': 'true'}, {'Key': 'access_flag_bucket', 'Value': 'true'}, {'Key': 'object_user_primary', 'Value': 'awssec-b-lambda'}, {'Key': 'permutation_id', 'Value': 'perm13'}, {'Key': 'object_number', 'Value': '1'}]}, type: <class 'dict'>, valid types: <class 'str'>"
+  },
+  {
+    "object_key": "test-objects/perm14_noVpce_gen_lambda_2.txt",
+    "error": "Unexpected error uploading test-objects/perm14_noVpce_gen_lambda_2.txt: Parameter validation failed:\nInvalid type for parameter Tagging, value: {'TagSet': [{'Key': 'env', 'Value': 'lab'}, {'Key': 'lab_name', 'Value': 's3-labs-2'}, {'Key': 'access_flag_vpce_a', 'Value': 'false'}, {'Key': 'access_flag_vpce_b', 'Value': 'false'}, {'Key': 'access_flag_no_vpce', 'Value': 'true'}, {'Key': 'access_flag_bucket', 'Value': 'false'}, {'Key': 'object_user_primary', 'Value': 'awssec-gen-lambda'}, {'Key': 'permutation_id', 'Value': 'perm14'}, {'Key': 'object_number', 'Value': '2'}]}, type: <class 'dict'>, valid types: <class 'str'>"
+  },
+  {
+    "object_key": "test-objects/perm14_noVpce_b_user_1_3.txt",
+    "error": "Unexpected error uploading test-objects/perm14_noVpce_b_user_1_3.txt: Parameter validation failed:\nInvalid type for parameter Tagging, value: {'TagSet': [{'Key': 'env', 'Value': 'lab'}, {'Key': 'lab_name', 'Value': 's3-labs-2'}, {'Key': 'access_flag_vpce_a', 'Value': 'false'}, {'Key': 'access_flag_vpce_b', 'Value': 'false'}, {'Key': 'access_flag_no_vpce', 'Value': 'true'}, {'Key': 'access_flag_bucket', 'Value': 'false'}, {'Key': 'object_user_primary', 'Value': 'awssec-b-user-1'}, {'Key': 'permutation_id', 'Value': 'perm14'}, {'Key': 'object_number', 'Value': '3'}]}, type: <class 'dict'>, valid types: <class 'str'>"
+  },
+  {
+    "object_key": "test-objects/perm14_noVpce_gen_user_1_1.txt",
+    "error": "Unexpected error uploading test-objects/perm14_noVpce_gen_user_1_1.txt: Parameter validation failed:\nInvalid type for parameter Tagging, value: {'TagSet': [{'Key': 'env', 'Value': 'lab'}, {'Key': 'lab_name', 'Value': 's3-labs-2'}, {'Key': 'access_flag_vpce_a', 'Value': 'false'}, {'Key': 'access_flag_vpce_b', 'Value': 'false'}, {'Key': 'access_flag_no_vpce', 'Value': 'true'}, {'Key': 'access_flag_bucket', 'Value': 'false'}, {'Key': 'object_user_primary', 'Value': 'awssec-gen-user-1'}, {'Key': 'permutation_id', 'Value': 'perm14'}, {'Key': 'object_number', 'Value': '1'}]}, type: <class 'dict'>, valid types: <class 'str'>"
+  },
+  {
+    "object_key": "test-objects/perm14_noVpce_b_user_1_1.txt",
+    "error": "Unexpected error uploading test-objects/perm14_noVpce_b_user_1_1.txt: Parameter validation failed:\nInvalid type for parameter Tagging, value: {'TagSet': [{'Key': 'env', 'Value': 'lab'}, {'Key': 'lab_name', 'Value': 's3-labs-2'}, {'Key': 'access_flag_vpce_a', 'Value': 'false'}, {'Key': 'access_flag_vpce_b', 'Value': 'false'}, {'Key': 'access_flag_no_vpce', 'Value': 'true'}, {'Key': 'access_flag_bucket', 'Value': 'false'}, {'Key': 'object_user_primary', 'Value': 'awssec-b-user-1'}, {'Key': 'permutation_id', 'Value': 'perm14'}, {'Key': 'object_number', 'Value': '1'}]}, type: <class 'dict'>, valid types: <class 'str'>"
+  },
+  {
+    "object_key": "test-objects/perm13_noVpce-bucket_b_user_1_2.txt",
+    "error": "Unexpected error uploading test-objects/perm13_noVpce-bucket_b_user_1_2.txt: Parameter validation failed:\nInvalid type for parameter Tagging, value: {'TagSet': [{'Key': 'env', 'Value': 'lab'}, {'Key': 'lab_name', 'Value': 's3-labs-2'}, {'Key': 'access_flag_vpce_a', 'Value': 'false'}, {'Key': 'access_flag_vpce_b', 'Value': 'false'}, {'Key': 'access_flag_no_vpce', 'Value': 'true'}, {'Key': 'access_flag_bucket', 'Value': 'true'}, {'Key': 'object_user_primary', 'Value': 'awssec-b-user-1'}, {'Key': 'permutation_id', 'Value': 'perm13'}, {'Key': 'object_number', 'Value': '2'}]}, type: <class 'dict'>, valid types: <class 'str'>"
+  },
+  {
+    "object_key": "test-objects/perm14_noVpce_gen_lambda_3.txt",
+    "error": "Unexpected error uploading test-objects/perm14_noVpce_gen_lambda_3.txt: Parameter validation failed:\nInvalid type for parameter Tagging, value: {'TagSet': [{'Key': 'env', 'Value': 'lab'}, {'Key': 'lab_name', 'Value': 's3-labs-2'}, {'Key': 'access_flag_vpce_a', 'Value': 'false'}, {'Key': 'access_flag_vpce_b', 'Value': 'false'}, {'Key': 'access_flag_no_vpce', 'Value': 'true'}, {'Key': 'access_flag_bucket', 'Value': 'false'}, {'Key': 'object_user_primary', 'Value': 'awssec-gen-lambda'}, {'Key': 'permutation_id', 'Value': 'perm14'}, {'Key': 'object_number', 'Value': '3'}]}, type: <class 'dict'>, valid types: <class 'str'>"
+  },
+  {
+    "object_key": "test-objects/perm14_noVpce_b_lambda_2.txt",
+    "error": "Unexpected error uploading test-objects/perm14_noVpce_b_lambda_2.txt: Parameter validation failed:\nInvalid type for parameter Tagging, value: {'TagSet': [{'Key': 'env', 'Value': 'lab'}, {'Key': 'lab_name', 'Value': 's3-labs-2'}, {'Key': 'access_flag_vpce_a', 'Value': 'false'}, {'Key': 'access_flag_vpce_b', 'Value': 'false'}, {'Key': 'access_flag_no_vpce', 'Value': 'true'}, {'Key': 'access_flag_bucket', 'Value': 'false'}, {'Key': 'object_user_primary', 'Value': 'awssec-b-lambda'}, {'Key': 'permutation_id', 'Value': 'perm14'}, {'Key': 'object_number', 'Value': '2'}]}, type: <class 'dict'>, valid types: <class 'str'>"
+  },
+  {
+    "object_key": "test-objects/perm15_bucket_gen_user_1_1.txt",
+    "error": "Unexpected error uploading test-objects/perm15_bucket_gen_user_1_1.txt: Parameter validation failed:\nInvalid type for parameter Tagging, value: {'TagSet': [{'Key': 'env', 'Value': 'lab'}, {'Key': 'lab_name', 'Value': 's3-labs-2'}, {'Key': 'access_flag_vpce_a', 'Value': 'false'}, {'Key': 'access_flag_vpce_b', 'Value': 'false'}, {'Key': 'access_flag_no_vpce', 'Value': 'false'}, {'Key': 'access_flag_bucket', 'Value': 'true'}, {'Key': 'object_user_primary', 'Value': 'awssec-gen-user-1'}, {'Key': 'permutation_id', 'Value': 'perm15'}, {'Key': 'object_number', 'Value': '1'}]}, type: <class 'dict'>, valid types: <class 'str'>"
+  },
+  {
+    "object_key": "test-objects/perm15_bucket_gen_user_1_3.txt",
+    "error": "Unexpected error uploading test-objects/perm15_bucket_gen_user_1_3.txt: Parameter validation failed:\nInvalid type for parameter Tagging, value: {'TagSet': [{'Key': 'env', 'Value': 'lab'}, {'Key': 'lab_name', 'Value': 's3-labs-2'}, {'Key': 'access_flag_vpce_a', 'Value': 'false'}, {'Key': 'access_flag_vpce_b', 'Value': 'false'}, {'Key': 'access_flag_no_vpce', 'Value': 'false'}, {'Key': 'access_flag_bucket', 'Value': 'true'}, {'Key': 'object_user_primary', 'Value': 'awssec-gen-user-1'}, {'Key': 'permutation_id', 'Value': 'perm15'}, {'Key': 'object_number', 'Value': '3'}]}, type: <class 'dict'>, valid types: <class 'str'>"
+  },
+  {
+    "object_key": "test-objects/perm14_noVpce_b_user_1_2.txt",
+    "error": "Unexpected error uploading test-objects/perm14_noVpce_b_user_1_2.txt: Parameter validation failed:\nInvalid type for parameter Tagging, value: {'TagSet': [{'Key': 'env', 'Value': 'lab'}, {'Key': 'lab_name', 'Value': 's3-labs-2'}, {'Key': 'access_flag_vpce_a', 'Value': 'false'}, {'Key': 'access_flag_vpce_b', 'Value': 'false'}, {'Key': 'access_flag_no_vpce', 'Value': 'true'}, {'Key': 'access_flag_bucket', 'Value': 'false'}, {'Key': 'object_user_primary', 'Value': 'awssec-b-user-1'}, {'Key': 'permutation_id', 'Value': 'perm14'}, {'Key': 'object_number', 'Value': '2'}]}, type: <class 'dict'>, valid types: <class 'str'>"
+  },
+  {
+    "object_key": "test-objects/perm14_noVpce_b_lambda_3.txt",
+    "error": "Unexpected error uploading test-objects/perm14_noVpce_b_lambda_3.txt: Parameter validation failed:\nInvalid type for parameter Tagging, value: {'TagSet': [{'Key': 'env', 'Value': 'lab'}, {'Key': 'lab_name', 'Value': 's3-labs-2'}, {'Key': 'access_flag_vpce_a', 'Value': 'false'}, {'Key': 'access_flag_vpce_b', 'Value': 'false'}, {'Key': 'access_flag_no_vpce', 'Value': 'true'}, {'Key': 'access_flag_bucket', 'Value': 'false'}, {'Key': 'object_user_primary', 'Value': 'awssec-b-lambda'}, {'Key': 'permutation_id', 'Value': 'perm14'}, {'Key': 'object_number', 'Value': '3'}]}, type: <class 'dict'>, valid types: <class 'str'>"
+  },
+  {
+    "object_key": "test-objects/perm15_bucket_b_user_1_2.txt",
+    "error": "Unexpected error uploading test-objects/perm15_bucket_b_user_1_2.txt: Parameter validation failed:\nInvalid type for parameter Tagging, value: {'TagSet': [{'Key': 'env', 'Value': 'lab'}, {'Key': 'lab_name', 'Value': 's3-labs-2'}, {'Key': 'access_flag_vpce_a', 'Value': 'false'}, {'Key': 'access_flag_vpce_b', 'Value': 'false'}, {'Key': 'access_flag_no_vpce', 'Value': 'false'}, {'Key': 'access_flag_bucket', 'Value': 'true'}, {'Key': 'object_user_primary', 'Value': 'awssec-b-user-1'}, {'Key': 'permutation_id', 'Value': 'perm15'}, {'Key': 'object_number', 'Value': '2'}]}, type: <class 'dict'>, valid types: <class 'str'>"
+  },
+  {
+    "object_key": "test-objects/perm14_noVpce_gen_user_1_2.txt",
+    "error": "Unexpected error uploading test-objects/perm14_noVpce_gen_user_1_2.txt: Parameter validation failed:\nInvalid type for parameter Tagging, value: {'TagSet': [{'Key': 'env', 'Value': 'lab'}, {'Key': 'lab_name', 'Value': 's3-labs-2'}, {'Key': 'access_flag_vpce_a', 'Value': 'false'}, {'Key': 'access_flag_vpce_b', 'Value': 'false'}, {'Key': 'access_flag_no_vpce', 'Value': 'true'}, {'Key': 'access_flag_bucket', 'Value': 'false'}, {'Key': 'object_user_primary', 'Value': 'awssec-gen-user-1'}, {'Key': 'permutation_id', 'Value': 'perm14'}, {'Key': 'object_number', 'Value': '2'}]}, type: <class 'dict'>, valid types: <class 'str'>"
+  },
+  {
+    "object_key": "test-objects/perm14_noVpce_b_lambda_1.txt",
+    "error": "Unexpected error uploading test-objects/perm14_noVpce_b_lambda_1.txt: Parameter validation failed:\nInvalid type for parameter Tagging, value: {'TagSet': [{'Key': 'env', 'Value': 'lab'}, {'Key': 'lab_name', 'Value': 's3-labs-2'}, {'Key': 'access_flag_vpce_a', 'Value': 'false'}, {'Key': 'access_flag_vpce_b', 'Value': 'false'}, {'Key': 'access_flag_no_vpce', 'Value': 'true'}, {'Key': 'access_flag_bucket', 'Value': 'false'}, {'Key': 'object_user_primary', 'Value': 'awssec-b-lambda'}, {'Key': 'permutation_id', 'Value': 'perm14'}, {'Key': 'object_number', 'Value': '1'}]}, type: <class 'dict'>, valid types: <class 'str'>"
+  },
+  {
+    "object_key": "test-objects/perm15_bucket_b_lambda_1.txt",
+    "error": "Unexpected error uploading test-objects/perm15_bucket_b_lambda_1.txt: Parameter validation failed:\nInvalid type for parameter Tagging, value: {'TagSet': [{'Key': 'env', 'Value': 'lab'}, {'Key': 'lab_name', 'Value': 's3-labs-2'}, {'Key': 'access_flag_vpce_a', 'Value': 'false'}, {'Key': 'access_flag_vpce_b', 'Value': 'false'}, {'Key': 'access_flag_no_vpce', 'Value': 'false'}, {'Key': 'access_flag_bucket', 'Value': 'true'}, {'Key': 'object_user_primary', 'Value': 'awssec-b-lambda'}, {'Key': 'permutation_id', 'Value': 'perm15'}, {'Key': 'object_number', 'Value': '1'}]}, type: <class 'dict'>, valid types: <class 'str'>"
+  },
+  {
+    "object_key": "test-objects/perm15_bucket_gen_lambda_3.txt",
+    "error": "Unexpected error uploading test-objects/perm15_bucket_gen_lambda_3.txt: Parameter validation failed:\nInvalid type for parameter Tagging, value: {'TagSet': [{'Key': 'env', 'Value': 'lab'}, {'Key': 'lab_name', 'Value': 's3-labs-2'}, {'Key': 'access_flag_vpce_a', 'Value': 'false'}, {'Key': 'access_flag_vpce_b', 'Value': 'false'}, {'Key': 'access_flag_no_vpce', 'Value': 'false'}, {'Key': 'access_flag_bucket', 'Value': 'true'}, {'Key': 'object_user_primary', 'Value': 'awssec-gen-lambda'}, {'Key': 'permutation_id', 'Value': 'perm15'}, {'Key': 'object_number', 'Value': '3'}]}, type: <class 'dict'>, valid types: <class 'str'>"
+  },
+  {
+    "object_key": "test-objects/perm16_no-access_gen_user_1_2.txt",
+    "error": "Unexpected error uploading test-objects/perm16_no-access_gen_user_1_2.txt: Parameter validation failed:\nInvalid type for parameter Tagging, value: {'TagSet': [{'Key': 'env', 'Value': 'lab'}, {'Key': 'lab_name', 'Value': 's3-labs-2'}, {'Key': 'access_flag_vpce_a', 'Value': 'false'}, {'Key': 'access_flag_vpce_b', 'Value': 'false'}, {'Key': 'access_flag_no_vpce', 'Value': 'false'}, {'Key': 'access_flag_bucket', 'Value': 'false'}, {'Key': 'object_user_primary', 'Value': 'awssec-gen-user-1'}, {'Key': 'permutation_id', 'Value': 'perm16'}, {'Key': 'object_number', 'Value': '2'}]}, type: <class 'dict'>, valid types: <class 'str'>"
+  },
+  {
+    "object_key": "test-objects/perm15_bucket_gen_lambda_2.txt",
+    "error": "Unexpected error uploading test-objects/perm15_bucket_gen_lambda_2.txt: Parameter validation failed:\nInvalid type for parameter Tagging, value: {'TagSet': [{'Key': 'env', 'Value': 'lab'}, {'Key': 'lab_name', 'Value': 's3-labs-2'}, {'Key': 'access_flag_vpce_a', 'Value': 'false'}, {'Key': 'access_flag_vpce_b', 'Value': 'false'}, {'Key': 'access_flag_no_vpce', 'Value': 'false'}, {'Key': 'access_flag_bucket', 'Value': 'true'}, {'Key': 'object_user_primary', 'Value': 'awssec-gen-lambda'}, {'Key': 'permutation_id', 'Value': 'perm15'}, {'Key': 'object_number', 'Value': '2'}]}, type: <class 'dict'>, valid types: <class 'str'>"
+  },
+  {
+    "object_key": "test-objects/perm15_bucket_gen_lambda_1.txt",
+    "error": "Unexpected error uploading test-objects/perm15_bucket_gen_lambda_1.txt: Parameter validation failed:\nInvalid type for parameter Tagging, value: {'TagSet': [{'Key': 'env', 'Value': 'lab'}, {'Key': 'lab_name', 'Value': 's3-labs-2'}, {'Key': 'access_flag_vpce_a', 'Value': 'false'}, {'Key': 'access_flag_vpce_b', 'Value': 'false'}, {'Key': 'access_flag_no_vpce', 'Value': 'false'}, {'Key': 'access_flag_bucket', 'Value': 'true'}, {'Key': 'object_user_primary', 'Value': 'awssec-gen-lambda'}, {'Key': 'permutation_id', 'Value': 'perm15'}, {'Key': 'object_number', 'Value': '1'}]}, type: <class 'dict'>, valid types: <class 'str'>"
+  },
+  {
+    "object_key": "test-objects/perm16_no-access_gen_lambda_3.txt",
+    "error": "Unexpected error uploading test-objects/perm16_no-access_gen_lambda_3.txt: Parameter validation failed:\nInvalid type for parameter Tagging, value: {'TagSet': [{'Key': 'env', 'Value': 'lab'}, {'Key': 'lab_name', 'Value': 's3-labs-2'}, {'Key': 'access_flag_vpce_a', 'Value': 'false'}, {'Key': 'access_flag_vpce_b', 'Value': 'false'}, {'Key': 'access_flag_no_vpce', 'Value': 'false'}, {'Key': 'access_flag_bucket', 'Value': 'false'}, {'Key': 'object_user_primary', 'Value': 'awssec-gen-lambda'}, {'Key': 'permutation_id', 'Value': 'perm16'}, {'Key': 'object_number', 'Value': '3'}]}, type: <class 'dict'>, valid types: <class 'str'>"
+  },
+  {
+    "object_key": "test-objects/perm15_bucket_b_user_1_3.txt",
+    "error": "Unexpected error uploading test-objects/perm15_bucket_b_user_1_3.txt: Parameter validation failed:\nInvalid type for parameter Tagging, value: {'TagSet': [{'Key': 'env', 'Value': 'lab'}, {'Key': 'lab_name', 'Value': 's3-labs-2'}, {'Key': 'access_flag_vpce_a', 'Value': 'false'}, {'Key': 'access_flag_vpce_b', 'Value': 'false'}, {'Key': 'access_flag_no_vpce', 'Value': 'false'}, {'Key': 'access_flag_bucket', 'Value': 'true'}, {'Key': 'object_user_primary', 'Value': 'awssec-b-user-1'}, {'Key': 'permutation_id', 'Value': 'perm15'}, {'Key': 'object_number', 'Value': '3'}]}, type: <class 'dict'>, valid types: <class 'str'>"
+  },
+  {
+    "object_key": "test-objects/perm16_no-access_gen_lambda_1.txt",
+    "error": "Unexpected error uploading test-objects/perm16_no-access_gen_lambda_1.txt: Parameter validation failed:\nInvalid type for parameter Tagging, value: {'TagSet': [{'Key': 'env', 'Value': 'lab'}, {'Key': 'lab_name', 'Value': 's3-labs-2'}, {'Key': 'access_flag_vpce_a', 'Value': 'false'}, {'Key': 'access_flag_vpce_b', 'Value': 'false'}, {'Key': 'access_flag_no_vpce', 'Value': 'false'}, {'Key': 'access_flag_bucket', 'Value': 'false'}, {'Key': 'object_user_primary', 'Value': 'awssec-gen-lambda'}, {'Key': 'permutation_id', 'Value': 'perm16'}, {'Key': 'object_number', 'Value': '1'}]}, type: <class 'dict'>, valid types: <class 'str'>"
+  },
+  {
+    "object_key": "test-objects/perm15_bucket_b_user_1_1.txt",
+    "error": "Unexpected error uploading test-objects/perm15_bucket_b_user_1_1.txt: Parameter validation failed:\nInvalid type for parameter Tagging, value: {'TagSet': [{'Key': 'env', 'Value': 'lab'}, {'Key': 'lab_name', 'Value': 's3-labs-2'}, {'Key': 'access_flag_vpce_a', 'Value': 'false'}, {'Key': 'access_flag_vpce_b', 'Value': 'false'}, {'Key': 'access_flag_no_vpce', 'Value': 'false'}, {'Key': 'access_flag_bucket', 'Value': 'true'}, {'Key': 'object_user_primary', 'Value': 'awssec-b-user-1'}, {'Key': 'permutation_id', 'Value': 'perm15'}, {'Key': 'object_number', 'Value': '1'}]}, type: <class 'dict'>, valid types: <class 'str'>"
+  },
+  {
+    "object_key": "test-objects/perm16_no-access_gen_user_1_1.txt",
+    "error": "Unexpected error uploading test-objects/perm16_no-access_gen_user_1_1.txt: Parameter validation failed:\nInvalid type for parameter Tagging, value: {'TagSet': [{'Key': 'env', 'Value': 'lab'}, {'Key': 'lab_name', 'Value': 's3-labs-2'}, {'Key': 'access_flag_vpce_a', 'Value': 'false'}, {'Key': 'access_flag_vpce_b', 'Value': 'false'}, {'Key': 'access_flag_no_vpce', 'Value': 'false'}, {'Key': 'access_flag_bucket', 'Value': 'false'}, {'Key': 'object_user_primary', 'Value': 'awssec-gen-user-1'}, {'Key': 'permutation_id', 'Value': 'perm16'}, {'Key': 'object_number', 'Value': '1'}]}, type: <class 'dict'>, valid types: <class 'str'>"
+  },
+  {
+    "object_key": "test-objects/perm15_bucket_b_lambda_2.txt",
+    "error": "Unexpected error uploading test-objects/perm15_bucket_b_lambda_2.txt: Parameter validation failed:\nInvalid type for parameter Tagging, value: {'TagSet': [{'Key': 'env', 'Value': 'lab'}, {'Key': 'lab_name', 'Value': 's3-labs-2'}, {'Key': 'access_flag_vpce_a', 'Value': 'false'}, {'Key': 'access_flag_vpce_b', 'Value': 'false'}, {'Key': 'access_flag_no_vpce', 'Value': 'false'}, {'Key': 'access_flag_bucket', 'Value': 'true'}, {'Key': 'object_user_primary', 'Value': 'awssec-b-lambda'}, {'Key': 'permutation_id', 'Value': 'perm15'}, {'Key': 'object_number', 'Value': '2'}]}, type: <class 'dict'>, valid types: <class 'str'>"
+  },
+  {
+    "object_key": "test-objects/perm16_no-access_b_user_1_2.txt",
+    "error": "Unexpected error uploading test-objects/perm16_no-access_b_user_1_2.txt: Parameter validation failed:\nInvalid type for parameter Tagging, value: {'TagSet': [{'Key': 'env', 'Value': 'lab'}, {'Key': 'lab_name', 'Value': 's3-labs-2'}, {'Key': 'access_flag_vpce_a', 'Value': 'false'}, {'Key': 'access_flag_vpce_b', 'Value': 'false'}, {'Key': 'access_flag_no_vpce', 'Value': 'false'}, {'Key': 'access_flag_bucket', 'Value': 'false'}, {'Key': 'object_user_primary', 'Value': 'awssec-b-user-1'}, {'Key': 'permutation_id', 'Value': 'perm16'}, {'Key': 'object_number', 'Value': '2'}]}, type: <class 'dict'>, valid types: <class 'str'>"
+  },
+  {
+    "object_key": "test-objects/perm16_no-access_gen_user_1_3.txt",
+    "error": "Unexpected error uploading test-objects/perm16_no-access_gen_user_1_3.txt: Parameter validation failed:\nInvalid type for parameter Tagging, value: {'TagSet': [{'Key': 'env', 'Value': 'lab'}, {'Key': 'lab_name', 'Value': 's3-labs-2'}, {'Key': 'access_flag_vpce_a', 'Value': 'false'}, {'Key': 'access_flag_vpce_b', 'Value': 'false'}, {'Key': 'access_flag_no_vpce', 'Value': 'false'}, {'Key': 'access_flag_bucket', 'Value': 'false'}, {'Key': 'object_user_primary', 'Value': 'awssec-gen-user-1'}, {'Key': 'permutation_id', 'Value': 'perm16'}, {'Key': 'object_number', 'Value': '3'}]}, type: <class 'dict'>, valid types: <class 'str'>"
+  },
+  {
+    "object_key": "test-objects/perm16_no-access_b_user_1_1.txt",
+    "error": "Unexpected error uploading test-objects/perm16_no-access_b_user_1_1.txt: Parameter validation failed:\nInvalid type for parameter Tagging, value: {'TagSet': [{'Key': 'env', 'Value': 'lab'}, {'Key': 'lab_name', 'Value': 's3-labs-2'}, {'Key': 'access_flag_vpce_a', 'Value': 'false'}, {'Key': 'access_flag_vpce_b', 'Value': 'false'}, {'Key': 'access_flag_no_vpce', 'Value': 'false'}, {'Key': 'access_flag_bucket', 'Value': 'false'}, {'Key': 'object_user_primary', 'Value': 'awssec-b-user-1'}, {'Key': 'permutation_id', 'Value': 'perm16'}, {'Key': 'object_number', 'Value': '1'}]}, type: <class 'dict'>, valid types: <class 'str'>"
+  },
+  {
+    "object_key": "test-objects/perm16_no-access_b_lambda_1.txt",
+    "error": "Unexpected error uploading test-objects/perm16_no-access_b_lambda_1.txt: Parameter validation failed:\nInvalid type for parameter Tagging, value: {'TagSet': [{'Key': 'env', 'Value': 'lab'}, {'Key': 'lab_name', 'Value': 's3-labs-2'}, {'Key': 'access_flag_vpce_a', 'Value': 'false'}, {'Key': 'access_flag_vpce_b', 'Value': 'false'}, {'Key': 'access_flag_no_vpce', 'Value': 'false'}, {'Key': 'access_flag_bucket', 'Value': 'false'}, {'Key': 'object_user_primary', 'Value': 'awssec-b-lambda'}, {'Key': 'permutation_id', 'Value': 'perm16'}, {'Key': 'object_number', 'Value': '1'}]}, type: <class 'dict'>, valid types: <class 'str'>"
+  },
+  {
+    "object_key": "test-objects/perm15_bucket_gen_user_1_2.txt",
+    "error": "Unexpected error uploading test-objects/perm15_bucket_gen_user_1_2.txt: Parameter validation failed:\nInvalid type for parameter Tagging, value: {'TagSet': [{'Key': 'env', 'Value': 'lab'}, {'Key': 'lab_name', 'Value': 's3-labs-2'}, {'Key': 'access_flag_vpce_a', 'Value': 'false'}, {'Key': 'access_flag_vpce_b', 'Value': 'false'}, {'Key': 'access_flag_no_vpce', 'Value': 'false'}, {'Key': 'access_flag_bucket', 'Value': 'true'}, {'Key': 'object_user_primary', 'Value': 'awssec-gen-user-1'}, {'Key': 'permutation_id', 'Value': 'perm15'}, {'Key': 'object_number', 'Value': '2'}]}, type: <class 'dict'>, valid types: <class 'str'>"
+  },
+  {
+    "object_key": "test-objects/perm15_bucket_b_lambda_3.txt",
+    "error": "Unexpected error uploading test-objects/perm15_bucket_b_lambda_3.txt: Parameter validation failed:\nInvalid type for parameter Tagging, value: {'TagSet': [{'Key': 'env', 'Value': 'lab'}, {'Key': 'lab_name', 'Value': 's3-labs-2'}, {'Key': 'access_flag_vpce_a', 'Value': 'false'}, {'Key': 'access_flag_vpce_b', 'Value': 'false'}, {'Key': 'access_flag_no_vpce', 'Value': 'false'}, {'Key': 'access_flag_bucket', 'Value': 'true'}, {'Key': 'object_user_primary', 'Value': 'awssec-b-lambda'}, {'Key': 'permutation_id', 'Value': 'perm15'}, {'Key': 'object_number', 'Value': '3'}]}, type: <class 'dict'>, valid types: <class 'str'>"
+  },
+  {
+    "object_key": "test-objects/perm16_no-access_b_lambda_2.txt",
+    "error": "Unexpected error uploading test-objects/perm16_no-access_b_lambda_2.txt: Parameter validation failed:\nInvalid type for parameter Tagging, value: {'TagSet': [{'Key': 'env', 'Value': 'lab'}, {'Key': 'lab_name', 'Value': 's3-labs-2'}, {'Key': 'access_flag_vpce_a', 'Value': 'false'}, {'Key': 'access_flag_vpce_b', 'Value': 'false'}, {'Key': 'access_flag_no_vpce', 'Value': 'false'}, {'Key': 'access_flag_bucket', 'Value': 'false'}, {'Key': 'object_user_primary', 'Value': 'awssec-b-lambda'}, {'Key': 'permutation_id', 'Value': 'perm16'}, {'Key': 'object_number', 'Value': '2'}]}, type: <class 'dict'>, valid types: <class 'str'>"
+  },
+  {
+    "object_key": "test-objects/perm16_no-access_b_lambda_3.txt",
+    "error": "Unexpected error uploading test-objects/perm16_no-access_b_lambda_3.txt: Parameter validation failed:\nInvalid type for parameter Tagging, value: {'TagSet': [{'Key': 'env', 'Value': 'lab'}, {'Key': 'lab_name', 'Value': 's3-labs-2'}, {'Key': 'access_flag_vpce_a', 'Value': 'false'}, {'Key': 'access_flag_vpce_b', 'Value': 'false'}, {'Key': 'access_flag_no_vpce', 'Value': 'false'}, {'Key': 'access_flag_bucket', 'Value': 'false'}, {'Key': 'object_user_primary', 'Value': 'awssec-b-lambda'}, {'Key': 'permutation_id', 'Value': 'perm16'}, {'Key': 'object_number', 'Value': '3'}]}, type: <class 'dict'>, valid types: <class 'str'>"
+  },
+  {
+    "object_key": "test-objects/perm16_no-access_gen_lambda_2.txt",
+    "error": "Unexpected error uploading test-objects/perm16_no-access_gen_lambda_2.txt: Parameter validation failed:\nInvalid type for parameter Tagging, value: {'TagSet': [{'Key': 'env', 'Value': 'lab'}, {'Key': 'lab_name', 'Value': 's3-labs-2'}, {'Key': 'access_flag_vpce_a', 'Value': 'false'}, {'Key': 'access_flag_vpce_b', 'Value': 'false'}, {'Key': 'access_flag_no_vpce', 'Value': 'false'}, {'Key': 'access_flag_bucket', 'Value': 'false'}, {'Key': 'object_user_primary', 'Value': 'awssec-gen-lambda'}, {'Key': 'permutation_id', 'Value': 'perm16'}, {'Key': 'object_number', 'Value': '2'}]}, type: <class 'dict'>, valid types: <class 'str'>"
+  },
+  {
+    "object_key": "test-objects/perm16_no-access_b_user_1_3.txt",
+    "error": "Unexpected error uploading test-objects/perm16_no-access_b_user_1_3.txt: Parameter validation failed:\nInvalid type for parameter Tagging, value: {'TagSet': [{'Key': 'env', 'Value': 'lab'}, {'Key': 'lab_name', 'Value': 's3-labs-2'}, {'Key': 'access_flag_vpce_a', 'Value': 'false'}, {'Key': 'access_flag_vpce_b', 'Value': 'false'}, {'Key': 'access_flag_no_vpce', 'Value': 'false'}, {'Key': 'access_flag_bucket', 'Value': 'false'}, {'Key': 'object_user_primary', 'Value': 'awssec-b-user-1'}, {'Key': 'permutation_id', 'Value': 'perm16'}, {'Key': 'object_number', 'Value': '3'}]}, type: <class 'dict'>, valid types: <class 'str'>"
+  }
+]

@@ -1,0 +1,15 @@
+Test Object Information
+======================
+Generated: 2025-07-23T15:39:52.796288
+Filename: perm15_bucket_gen_lambda_1.txt
+User: awssec-gen-lambda
+Permutation ID: perm15
+Object Number: 1
+
+Access Flags:
+- VPCE A: false
+- VPCE B: false
+- No VPCE: false
+- Bucket: true
+
+This is test data for S3 access control testing.
